@@ -1,0 +1,89 @@
+{
+  "debug": "g2018i",
+  "deltaPercentage": 0.0,
+  "echoToken": "1573647294121",
+  "hotelReservations": {
+    "hotelReservation": [
+      {
+        "roomStays": {
+          "roomStay": [
+            {
+              "cancelPenalties": null,
+              "guestCounts": null,
+              "marketCode": null,
+              "resGuestRPHs": null,
+              "roomRates": {
+                "roomRate": {
+                  "availabilityStatus": null,
+                  "bookingCode": "01EBh3smymXEm7aecrJnuv6XobHbgow9/ITpZWPmi991WaepX9cXzaHvf70oXxzT/9N57GpDjDs6vjpPB9tOQmLEVu8lNLVmMaaxFORgS9GJlql/qcoqlDbZkyznzq9XKB1tlowgX6aTI5AbyX0ME6g+ybSlE8TGAc9tDuVliU59M/tAmui5+VYQpJQGIfyiZypU/emPN+Qlc5EN7a64LQGuK9YodeuOJOCDsXg0EKhHqraiSLvPzuaSW4u+BcLhnuIU/sv2hqOZHOJ7a1BsIXAYMeGf3dCx5DRHSvQzRYPUU/dlQhCiWUbQrRq+VyHFKqSMha0GpoWOO9MgPgNXb80Q==",
+                  "directPayment": null,
+                  "invBlockCode": null,
+                  "openBookingCode": "1757932880690685|2.0|22|3670|42311|20251001|20251003|16983|DOBALVM|Doble balcon vista Mar|16500#241979337|Double room - Balcony - Sea View|0|1|1|20|2|0|3030||0|ES|ES|MP|288.0|288.0|EUR|EUR|0|1.0|173634|3.0||2~0|||0|1|1-22¬3670¬DOBALVM¬MP¬1¬jsgg|||",
+                  "roomTypeCode": null
+                }
+              },
+              "roomStayCandidateRPH": null
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "internalCondition": {
+    "callCondition": {
+      "echoToken": "1726725299429263",
+      "originTimeStamp": 1726725299429
+    },
+    "channels": {
+      "channel": [
+        {
+          "code": "B2COPEN",
+          "id": 1522
+        }
+      ]
+    },
+    "clientCondition": {
+      "code": "COI6VEJF",
+      "deltaMarkup": 0.0,
+      "markup": 0.0,
+      "supportNoRefund": false,
+      "type": "PACK"
+    },
+    "code": null,
+    "forced": null,
+    "id": null,
+    "name": null,
+    "providerCondition": {
+      "code": "22",
+      "password": null,
+      "timeOut": 60000,
+      "url": null,
+      "user": null
+    },
+    "rebook": false
+  },
+  "pos": {
+    "source": {
+      "bookingChannel": {
+        "code": "XML",
+        "id": 3,
+        "name": "Venta XML"
+      },
+      "requestorID": {
+        "companyName": {
+          "companyShortName": "GUEST INCOMING ",
+          "travelSector": null
+        },
+        "id": "produccion@guestincoming.com",
+        "messagePassword": "TST2019",
+        "type": "DSP"
+      }
+    }
+  },
+  "primaryLangID": "es",
+  "resStatus": "Book",
+  "rqType": "GIOTAHotelResRQ",
+  "version": "1.004",
+  "xmlns": "http://www.opentravel.org/OTA/2003/05",
+  "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+}

@@ -1,0 +1,245 @@
+{
+  "echoToken": "1762516789602278",
+  "giRoomStays": {
+    "giRoomStayGroup": [
+      {
+        "boardCode": "SA",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": { "cityName": "Figueretas (Ibiza)" },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "4*"
+              },
+              "hotelCityCode": "939",
+              "hotelCode": "63382",
+              "hotelName": "THB Los Molinos - Adults Only"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2026-05-11",
+                  "start": "2026-05-08",
+                  "amountPercent": { "percent": "25" }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                { "ageQualifyingCode": "10", "count": 2 },
+                { "ageQualifyingCode": "8", "count": 0 }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬63382¬D¬SA¬0¬zqca",
+                "openBookingCode": "1762516789602278|2.0|22|63382|11241|20260511|20260515|20|D|DOBLE STANDARD|21#498118|Habitación doble|0|1|1|20|2|0|3030||0|ES|ES|SA|706.00|706.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|0|1-22¬63382¬D¬SA¬0¬zqca|||",
+                "roomRateDescription": { "text": ["DOBLE STANDARD", "SA"] },
+                "roomTypeCode": "D",
+                "total": {
+                  "nonRefundable": "0",
+                  "taxes": { "amount": 706, "currencyCode": "EUR" }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "63382",
+        "key": "hc63382rcDbcSAnr0",
+        "nettPrice": 706,
+        "nonRefund": "0",
+        "price": 706,
+        "roomCode": "D",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "AD",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": { "cityName": "Figueretas (Ibiza)" },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "4*"
+              },
+              "hotelCityCode": "939",
+              "hotelCode": "63382",
+              "hotelName": "THB Los Molinos - Adults Only"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2026-05-11",
+                  "start": "2026-05-08",
+                  "amountPercent": { "percent": "25" }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                { "ageQualifyingCode": "10", "count": 2 },
+                { "ageQualifyingCode": "8", "count": 0 }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬63382¬D¬AD¬0¬p1aa",
+                "openBookingCode": "1762516789602278|2.0|22|63382|11241|20260511|20260515|20|D|DOBLE STANDARD|21#175946|Habitación doble|0|1|1|20|2|0|3030||0|ES|ES|AD|863.00|863.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|0|1-22¬63382¬D¬AD¬0¬p1aa|||",
+                "roomRateDescription": { "text": ["DOBLE STANDARD", "AD"] },
+                "roomTypeCode": "D",
+                "total": {
+                  "nonRefundable": "0",
+                  "taxes": { "amount": 863, "currencyCode": "EUR" }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "63382",
+        "key": "hc63382rcDbcADnr0",
+        "nettPrice": 863,
+        "nonRefund": "0",
+        "price": 863,
+        "roomCode": "D",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "SA",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": { "cityName": "Figueretas (Ibiza)" },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "4*"
+              },
+              "hotelCityCode": "939",
+              "hotelCode": "63382",
+              "hotelName": "THB Los Molinos - Adults Only"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2026-05-11",
+                  "start": "2026-05-08",
+                  "amountPercent": { "percent": "25" }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                { "ageQualifyingCode": "10", "count": 2 },
+                { "ageQualifyingCode": "8", "count": 0 }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬63382¬VMUN¬SA¬0¬r2lv",
+                "openBookingCode": "1762516789602278|2.0|22|63382|11241|20260511|20260515|1492|VMUN|VISTA MAR|22#498117|Habitación doble - Vista mar|0|1|1|20|2|0|3030||0|ES|ES|SA|767.00|767.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|0|1-22¬63382¬VMUN¬SA¬0¬r2lv|||",
+                "roomRateDescription": { "text": ["VISTA MAR", "SA"] },
+                "roomTypeCode": "VMUN",
+                "total": {
+                  "nonRefundable": "0",
+                  "taxes": { "amount": 767, "currencyCode": "EUR" }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "63382",
+        "key": "hc63382rcVMUNbcSAnr0",
+        "nettPrice": 767,
+        "nonRefund": "0",
+        "price": 767,
+        "roomCode": "VMUN",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "AD",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": { "cityName": "Figueretas (Ibiza)" },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "4*"
+              },
+              "hotelCityCode": "939",
+              "hotelCode": "63382",
+              "hotelName": "THB Los Molinos - Adults Only"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2026-05-11",
+                  "start": "2026-05-08",
+                  "amountPercent": { "percent": "25" }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                { "ageQualifyingCode": "10", "count": 2 },
+                { "ageQualifyingCode": "8", "count": 0 }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬63382¬VMUN¬AD¬0¬ad3n",
+                "openBookingCode": "1762516789602278|2.0|22|63382|11241|20260511|20260515|1492|VMUN|VISTA MAR|22#111748|Habitación doble - Vista mar|0|1|1|20|2|0|3030||0|ES|ES|AD|924.00|924.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|0|1-22¬63382¬VMUN¬AD¬0¬ad3n|||",
+                "roomRateDescription": { "text": ["VISTA MAR", "AD"] },
+                "roomTypeCode": "VMUN",
+                "total": {
+                  "nonRefundable": "0",
+                  "taxes": { "amount": 924, "currencyCode": "EUR" }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "63382",
+        "key": "hc63382rcVMUNbcADnr0",
+        "nettPrice": 924,
+        "nonRefund": "0",
+        "price": 924,
+        "roomCode": "VMUN",
+        "supplier": "22"
+      }
+    ]
+  },
+  "internalConditionRS": {
+    "rsList": {},
+    "status": "200",
+    "statusDescription": "OK"
+  },
+  "primaryLangID": "es",
+  "schemaLocation": "http://www.opentravel.org/OTA/2003/05 OTA_HotelAvailRS.xsd",
+  "success": "",
+  "version": "1.004",
+  "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+}

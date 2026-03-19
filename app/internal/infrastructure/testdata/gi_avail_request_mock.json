@@ -1,0 +1,111 @@
+{
+  "availRequestSegments": {
+    "availRequestSegment": {
+      "hotelSearchCriteria": {
+        "criterion": {
+          "hotelRef": [
+            {
+              "areaID": null,
+              "hotelCityCode": null,
+              "hotelCode": "3670"
+            }
+          ]
+        }
+      },
+      "roomStayCandidates": {
+        "roomStayCandidate": [
+          {
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "age": 30,
+                  "ageQualifyingCode": "10"
+                },
+                {
+                  "age": 30,
+                  "ageQualifyingCode": "10"
+                }
+              ]
+            },
+            "rph": "1"
+          }
+        ]
+      },
+      "stayDateRange": {
+        "end": "2025-10-03",
+        "start": "2025-10-01"
+      },
+      "tpa": {
+        "cancelPenalties": true,
+        "currency": "EUR",
+        "market": "ES",
+        "nationality": "ES",
+        "onRequest": false
+      },
+      "tpaExtension": {
+        "cancelPenalties": true,
+        "currency": "EUR",
+        "market": "ES",
+        "nationality": "ES",
+        "onRequest": false
+      }
+    }
+  },
+  "debug": "g2018i",
+  "internalCondition": {
+    "callCondition": {
+      "echoToken": "1726725299429263",
+      "originTimeStamp": 1726725299429
+    },
+    "channels": {
+      "channel": [
+        {
+          "code": "B2COPEN",
+          "id": 1522
+        }
+      ]
+    },
+    "clientCondition": {
+      "code": "COI6VEJF",
+      "deltaMarkup": 0.0,
+      "markup": 0.0,
+      "supportNoRefund": true,
+      "type": "PACK"
+    },
+    "code": null,
+    "forced": null,
+    "id": null,
+    "name": null,
+    "providerCondition": {
+      "code": "1102",
+      "password": null,
+      "timeOut": 0,
+      "url": null,
+      "user": null
+    },
+    "rebook": false
+  },
+  "pos": {
+    "source": {
+      "bookingChannel": {
+        "code": "XML",
+        "id": 3,
+        "name": "Venta XML"
+      },
+      "requestorID": {
+        "companyName": {
+          "companyShortName": "GUEST INCOMING ",
+          "travelSector": null
+        },
+        "id": "produccion@guestincoming.com",
+        "messagePassword": "TST2019",
+        "type": "DSP"
+      }
+    }
+  },
+  "primaryLangID": "es",
+  "rqType": "GIOTAHotelAvailRQ",
+  "timeout": 0,
+  "valuation": true,
+  "version": "1.004"
+}

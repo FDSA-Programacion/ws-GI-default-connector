@@ -1,0 +1,557 @@
+{
+  "echoToken": "1763630046625505",
+  "giRoomStays": {
+    "giRoomStayGroup": [
+      {
+        "boardCode": "SA",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Barcelona"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "20",
+                "rating": "4*"
+              },
+              "hotelCityCode": "12",
+              "hotelCode": "19311",
+              "hotelName": "Sercotel Caspe"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2026-06-01",
+                  "start": "2025-11-19",
+                  "amountPercent": {
+                    "currencyCode": "EUR",
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 1
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "01Okumq2EyU7i/8HMiZ4FtfVo4I39ogjCZrvmf8Ezy6YbiMqcauSxNFde+XF7OPMuqmkVM8oyLXzKRDIVg6kJEYPHTKCtaxzoP/YIF4Hy7txI3U4VQ14RWV5tj0Qqa53R0kacX+bsRGJowbdTpioeIhbIQJTgVmlxxVlwqGgru7rjCtm11okGkWAlk1oUTyyGPMn4GvGfDYvHoCdM9canaGIWK8KDMj8sZHS3z1PHFFB95Xgne9t8yNVyDiOXwX0XmSVcTX2IkfaznaHXj6yQcq8kBhNrU/n059lGFK5gYdhsl1cZTv3YCjha4qSqzOmzeFfxLc3WtJ5aAXgGxTHve6r1s1qNptQJflabW3tuz9PRn4cENJbWANreWbpJMRS61ljN3xQxdO7PD5sNVwNaU31FXi8uZ0WbEHKfoHlwNPX5T0x+YP/BXvMTwPEjvcdLRd1+y0+20tmOGWEMSS+6SdYcnppKemFPp1i9O7JxJRaoNdfZB23JvFofk8MioNO6yhwAPHksuaxetB5kSKfhrBOv7ijHaVO/s+RMdocC6zc83ks4RDiFZtlYGjcECRcoEVqSLeNlpm++bT/TAnE5bGBOb6n5VxLDI",
+                "directPayment": "False",
+                "invBlockCode": "1-104¬19311¬9¬0",
+                "openBookingCode": "011763630046625505|1.5.2|104|19311|8617|20260601|20260603|35609|2987_19311#TPL.ST-1|CLASSIC TRIPLE ROOM 2 ADULTS + 1 CHILD|19311#TPL.ST-1|CLASSIC TRIPLE ROOM 2 ADULTS + 1 CHILD|0|2|2|2021|4|1|30303030|05|0|ES|ES|SA|790.22|442.24|EUR|EUR|0|0.00|0|0.00||2~1|5||0|0|1-104¬19311¬9¬0|||20260601$~@20260603$~@W$~@102$~@8617$~@TPL.ST-1$~@EB RO$~@RO$~@$~@1~2~1$~@5$~@N@07~~2461fa~2067587223~N~~~NOR~~11A0A65340664FE176363032419505AWES000100000000052181ba",
+                "roomRateDescription": {
+                  "text": ["CLASSIC TRIPLE ROOM 2 ADULTS + 1 CHILD", "SA"]
+                },
+                "roomTypeCode": "2987_19311#TPL.ST-1",
+                "total": {
+                  "nonRefundable": "0",
+                  "taxes": {
+                    "amount": 442.24,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 2
+          },
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Barcelona"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "20",
+                "rating": "4*"
+              },
+              "hotelCityCode": "12",
+              "hotelCode": "19311",
+              "hotelName": "Sercotel Caspe"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2026-06-01",
+                  "start": "2025-11-19",
+                  "amountPercent": {
+                    "currencyCode": "EUR",
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "02gpMVmVL97x0zCw/Zni+5X6j/hsshWZouJITU15mRRDRhv3VziGQef1IlJSZkJqLoePxjTXSFiI2+WUSY8Oyp0wnHMpesWrwli1yHBpv3S0y4akIRTFL/gjqbPYGJ4HW/WDKFlvXOK/afO8yvo5Xb8PIpWnVeXjO79RVhOeMN6M3WHd7pQAnQsLHAtnhcOG/hUCT1sKbfaeBwo4qNlLFIJwVf429pCAQvG0lVxuw4/gq8PPdWHd8h5fuHSFYRLAjb5kcflnokbzeMLD6RIfNAzsePg8GfS9nc86+3YylaSRYiWfJSGEUnjCR4Wdx6O8zf1xvr0BezC0ckUv24uJW2umwebtwqGN9+OPpBbUreMrAMf06v4P3WKp52GtpdLRb1mU33oopLsm3bARog7PSfnOUG5yTeY1GBpeZxMg3Fv/rIw2EKbg+jH2h5fp2ZAc4AV8g+Ive6E9dVA9emvZPoI0DOJ+L6Zbqv",
+                "directPayment": "False",
+                "invBlockCode": "1-104¬19311¬9¬0",
+                "openBookingCode": "021763630046625505|1.5.2|104|19311|8617|20260601|20260603||||19311#DBL.Z1|BASIC ROOM|1|2|2|2021|4|1|30303030|05|0|ES|ES|SA|790.22|347.98|EUR|EUR|0|0.00|0|0.00||2~0|||0|0|1-104¬19311¬9¬0|||20260601$~@20260603$~@W$~@102$~@8617$~@DBL.Z1$~@EB RO$~@RO$~@$~@1~2~0$~@$~@N@07~~24618e~-25337046~N~~~NOR~~11A0A65340664FE176363032419505AWES0001000000000526215b",
+                "roomRateDescription": {
+                  "text": ["BASIC ROOM", "SA"]
+                },
+                "roomTypeCode": "19311#DBL.Z1",
+                "total": {
+                  "nonRefundable": "0",
+                  "taxes": {
+                    "amount": 347.98,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "19311",
+        "key": "hc19311rc2987_19311#TPL.ST-1bcSAnr0",
+        "nettPrice": 790.22,
+        "nonRefund": "0",
+        "price": 790.22,
+        "roomCode": "2987_19311#TPL.ST-1",
+        "supplier": "104"
+      },
+      {
+        "boardCode": "AD",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Barcelona"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "20",
+                "rating": "4*"
+              },
+              "hotelCityCode": "12",
+              "hotelCode": "19311",
+              "hotelName": "Sercotel Caspe"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2026-06-01",
+                  "start": "2025-11-19",
+                  "amountPercent": {
+                    "currencyCode": "EUR",
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 1
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "01Okumq2EyU7i/8HMiZ4FtfVo4I39ogjCZrvmf8Ezy6YbiMqcauSxNFde+XF7OPMuqmkVM8oyLXzKRDIVg6kJEYPHTKCtaxzoP/YIF4Hy7txI3U4VQ14RWV5tj0Qqa53R0kacX+bsRGJowbdTpioeIhbIQJTgVmlxxVlwqGgru7rjCtm11okGkWAlk1oUTyyGPMn4GvGfDYvHoCdM9canaGIWK8KDMj8sZHS3z1PHFFB95Xgne9t8yNVyDiOXwX0XmSVcTX2IkfaznaHXj6yQcqx7VRF60mDgR7Q8dkPoDdDbj9i7MRDwueQNNU3oJv8P4nGU8cZSJBZq/ODQN7bgl4Litwt4XNPmQzhgfZ0DWCK7+xre6ucSuRlnVH3gKFCzkv3+WhBPWxgSbkHnSW0bcI26S0lBy80CxsJkLp8jycejvZ3zoMvO3RcVn/U/UWskHoP+rBVgXNlHaZGT5Yzb8r1lIhbxlKDmtrWvBCBUTuFZihsA7MvtEkyMeBecBa1g2fPmJVCnCHMJh+hagFWSmTFBXpQYFzbG+6X/7o0Ju8zMdNFZOUq8+HBmSOeB0XG1UJBbktvCOfTo2vb25NWgMm04d2hvYp5P9",
+                "directPayment": "False",
+                "invBlockCode": "1-104¬19311¬6¬1",
+                "openBookingCode": "011763630046625505|1.5.2|104|19311|8617|20260601|20260603|35609|2987_19311#TPL.ST-1|CLASSIC TRIPLE ROOM 2 ADULTS + 1 CHILD|19311#TPL.ST-1|CLASSIC TRIPLE ROOM 2 ADULTS + 1 CHILD|0|2|2|2021|4|1|30303030|05|0|ES|ES|AD|824.32|465.89|EUR|EUR|0|0.00|0|0.00||2~1|5||0|1|1-104¬19311¬6¬1|||20260601$~@20260603$~@W$~@102$~@8617$~@TPL.ST-1$~@EB OP BB$~@BB$~@$~@1~2~1$~@5$~@P@07~~2591d1~-2013507842~N~~~NRF~~11A0A65340664FE176363032419505AWES000100000000052591d1",
+                "roomRateDescription": {
+                  "text": ["CLASSIC TRIPLE ROOM 2 ADULTS + 1 CHILD", "AD"]
+                },
+                "roomTypeCode": "2987_19311#TPL.ST-1",
+                "total": {
+                  "nonRefundable": "1",
+                  "taxes": {
+                    "amount": 465.89,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 2
+          },
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Barcelona"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "20",
+                "rating": "4*"
+              },
+              "hotelCityCode": "12",
+              "hotelCode": "19311",
+              "hotelName": "Sercotel Caspe"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2026-06-01",
+                  "start": "2025-11-19",
+                  "amountPercent": {
+                    "currencyCode": "EUR",
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "02gpMVmVL97x0zCw/Zni+5X6j/hsshWZouJITU15mRRDRhv3VziGQef1IlJSZkJqLoePxjTXSFiI2+WUSY8Oyp0wnHMpesWrwli1yHBpv3S0y4akIRTFL/gjqbPYGJ4HW/WDKFlvXOK/afO8yvo5Xb8PIpWnVeXjO75ryiUAhbVWuERs2l0znRrOfTrbVRTWvADulUH7HtA9ZBRTQ9nC74xMzO1IWlmPaioqP5bZxjNFB11XXElnfTanEyy5TcOwVxc0CHP52RW/fhhsO1wazHlRWSxLJpce8bCXf0xhStYXPRYDYF8D9qNh8oAU13FUO1nYodKtj4KEuXUBXLImQ3y+yqk283DIPtC4pEhoEQ59BoeM6BIBeoh20XmGxeXSVG/cHUBM+T2czYUDjRjOyRNtYn/oXkaYYNJWsyUFuwZCSQxCkvT6z+KCUQauAy8n9zXxWEJhSxmjTSiVNIKJORTGKOJXxfe5H3",
+                "directPayment": "False",
+                "invBlockCode": "1-104¬19311¬6¬1",
+                "openBookingCode": "021763630046625505|1.5.2|104|19311|8617|20260601|20260603||||19311#DBL.Z1|BASIC ROOM|1|2|2|2021|4|1|30303030|05|0|ES|ES|AD|824.32|358.43|EUR|EUR|0|0.00|0|0.00||2~0|||0|1|1-104¬19311¬6¬1|||20260601$~@20260603$~@W$~@102$~@8617$~@DBL.Z1$~@EB OP BB$~@BB$~@$~@1~2~0$~@$~@P@07~~22b166~1666025964~N~~~NRF~~11A0A65340664FE176363032419505AWES0001000000000522b166",
+                "roomRateDescription": {
+                  "text": ["BASIC ROOM", "AD"]
+                },
+                "roomTypeCode": "19311#DBL.Z1",
+                "total": {
+                  "nonRefundable": "1",
+                  "taxes": {
+                    "amount": 358.43,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "19311",
+        "key": "hc19311rc2987_19311#TPL.ST-1bcADnr1",
+        "nettPrice": 824.3199999999999,
+        "nonRefund": "1",
+        "price": 824.3199999999999,
+        "roomCode": "2987_19311#TPL.ST-1",
+        "supplier": "104"
+      },
+      {
+        "boardCode": "AD",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Barcelona"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "20",
+                "rating": "4*"
+              },
+              "hotelCityCode": "12",
+              "hotelCode": "19311",
+              "hotelName": "Sercotel Caspe"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2026-06-01",
+                  "start": "2025-11-19",
+                  "amountPercent": {
+                    "currencyCode": "EUR",
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 1
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "01Okumq2EyU7i/8HMiZ4FtfVo4I39ogjCZrvmf8Ezy6YbiMqcauSxNFde+XF7OPMuqmkVM8oyLXzKRDIVg6kJEYPHTKCtaxzoP/YIF4Hy7txI3U4VQ14RWV5tj0Qqa53R0kacX+bsRGJowbdTpioeIhbIQJTgVmlxxVlwqGgru7rjCtm11okGkWAlk1oUTyyGPMn4GvGfDYvHoCdM9canaGIWK8KDMj8sZHS3z1PHFFB95Xgne9t8yNVyDiOXwX0XmSVcTX2IkfaznaHXj6yQcq5Pp2H+FWs2kEUiEjiXrFL8fZN7oAD6717s7VTulogmbmN4o/OqjJPhAj5tF3jbqa+tOGwMLDtrc528ch/wrV+9MZ1yy86QM/jJkm6AKK0hsfykZl+2GIk5Szb1MnLObbSATI3qEYNSdq+222yWwVJ4R8eB/jnY9ueGZlcMek40PTMiAEpAgwkGB8w4ifSn/Cbl2ecQmJo9O2gCQtCyv7j083VZeQHfUKIt4LCm/n76drjSRXDFu5khDp+8WlsWFZSJt6nYkPAn08d8a+Q2h9CZJcqMOHhWpkFrojx+4dxz7VdB1DGG4av1Zf0gwANoLQYsNW7YrSWk5",
+                "directPayment": "False",
+                "invBlockCode": "1-104¬19311¬6¬0",
+                "openBookingCode": "011763630046625505|1.5.2|104|19311|8617|20260601|20260603|35609|2987_19311#TPL.ST-1|CLASSIC TRIPLE ROOM 2 ADULTS + 1 CHILD|19311#TPL.ST-1|CLASSIC TRIPLE ROOM 2 ADULTS + 1 CHILD|0|2|2|2021|4|1|30303030|05|0|ES|ES|AD|915.93|517.67|EUR|EUR|0|0.00|0|0.00||2~1|5||0|0|1-104¬19311¬6¬0|||20260601$~@20260603$~@W$~@102$~@8617$~@TPL.ST-1$~@EB BB$~@BB$~@$~@1~2~1$~@5$~@N@07~~20a251~845405299~N~~~NOR~~11A0A65340664FE176363032419505AWES00010000000005243205",
+                "roomRateDescription": {
+                  "text": ["CLASSIC TRIPLE ROOM 2 ADULTS + 1 CHILD", "AD"]
+                },
+                "roomTypeCode": "2987_19311#TPL.ST-1",
+                "total": {
+                  "nonRefundable": "0",
+                  "taxes": {
+                    "amount": 517.67,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 2
+          },
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Barcelona"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "20",
+                "rating": "4*"
+              },
+              "hotelCityCode": "12",
+              "hotelCode": "19311",
+              "hotelName": "Sercotel Caspe"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2026-06-01",
+                  "start": "2025-11-19",
+                  "amountPercent": {
+                    "currencyCode": "EUR",
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "02gpMVmVL97x0zCw/Zni+5X6j/hsshWZouJITU15mRRDRhv3VziGQef1IlJSZkJqLoePxjTXSFiI2+WUSY8Oyp0wnHMpesWrwli1yHBpv3S0y4akIRTFL/gjqbPYGJ4HW/WDKFlvXOK/afO8yvo5Xb8PIpWnVeXjO76XBo45L6ET16InbCpm7dH/UEI3N0X6+mlHKlXLP+qdFDMd5xZHMeYnkZyrk/5XtNAkGMETG8g8/SX+O9R+jK9Z6BGhKb/7qVBEPkv2vp0Q4evQLuE+BviTyl5Ao8L/1RN7SKZwq4TqY2PdZOtDs7egITJy9ad0ZHuUI9P3UJOWp2l4AgxTAM7PqmiPvjhWFaF1/b13mhIdTJkM2CymT9iVQOYIOIfF0FUrZTKJBrEEXZ9qolhr1DjRQgX0OBUqQv6KHA5cpY6WdnN3odT0lgvskn8je8/Y2kqcJXfJtiebmojaInKrvbLAanSzGDwwBn",
+                "directPayment": "False",
+                "invBlockCode": "1-104¬19311¬6¬0",
+                "openBookingCode": "021763630046625505|1.5.2|104|19311|8617|20260601|20260603||||19311#DBL.Z1|BASIC ROOM|1|2|2|2021|4|1|30303030|05|0|ES|ES|AD|915.93|398.26|EUR|EUR|0|0.00|0|0.00||2~0|||0|0|1-104¬19311¬6¬0|||20260601$~@20260603$~@W$~@102$~@8617$~@DBL.Z1$~@EB BB$~@BB$~@$~@1~2~0$~@$~@N@07~~21e1c8~-463969440~N~~~NOR~~11A0A65340664FE176363032419505AWES0001000000000521a18e",
+                "roomRateDescription": {
+                  "text": ["BASIC ROOM", "AD"]
+                },
+                "roomTypeCode": "19311#DBL.Z1",
+                "total": {
+                  "nonRefundable": "0",
+                  "taxes": {
+                    "amount": 398.26,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "19311",
+        "key": "hc19311rc2987_19311#TPL.ST-1bcADnr0",
+        "nettPrice": 915.93,
+        "nonRefund": "0",
+        "price": 915.93,
+        "roomCode": "2987_19311#TPL.ST-1",
+        "supplier": "104"
+      },
+      {
+        "boardCode": "SA",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Barcelona"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "20",
+                "rating": "4*"
+              },
+              "hotelCityCode": "12",
+              "hotelCode": "19311",
+              "hotelName": "Sercotel Caspe"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2026-06-01",
+                  "start": "2025-11-19",
+                  "amountPercent": {
+                    "currencyCode": "EUR",
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "01Okumq2EyU7i/8HMiZ4FtfVo4I39ogjCZrvmf8Ezy6YbiMqcauSxNFde+XF7OPMuqmkVM8oyLXzJ6+sUG2omuUHjkuCulwVrGm3ttgmimWqH9SI4rojvH9Ud1npmGPP6csNb0sJGB7Okg3wUT/Kl9Ps8RWHbsHnK2CCq4owjGZ3N36J/00j8XGAu5hU2QHNtuM5U3R/3wUhJfiizkbzB+j9WdgJFy8f9r0ycRCK9TIlABkk3gsMP7xx3I8/mpcRdMHYNqRa0MEU4bcOAejBwDyQ4uPxvP6UncFIK0VKEBltizhxTdYLnxYltdC8YZcBiYFqFQ4UkmChrjccuJ2PY4aTZkBdVSx8ecSQ+/30jihOo41w2nhxZ4qrcdEjpnNxcDTyywP7DgxIBAauhkZyESxxbYNfpgoKCQ/xJDeanABhYwqKF4lLzElGKLrJiLmhfGkVTfM+4z0peukU08fmMK9GjEBu8yN4L5",
+                "directPayment": "False",
+                "invBlockCode": "1-104¬19311¬9¬1",
+                "openBookingCode": "011763630046625505|1.5.2|104|19311|8617|20260601|20260603||||19311#DBL.Z1|BASIC ROOM|1|2|2|2021|4|1|30303030|05|0|ES|ES|SA|711.20|313.18|EUR|EUR|0|0.00|0|0.00||2~0|||0|1|1-104¬19311¬9¬1|||20260601$~@20260603$~@W$~@102$~@8617$~@DBL.Z1$~@EB OP RO$~@RO$~@$~@1~2~0$~@$~@P@07~~212139~-1833339028~N~~~NRF~~11A0A65340664FE176363032419505AWES00010000000005212139",
+                "roomRateDescription": {
+                  "text": ["BASIC ROOM", "SA"]
+                },
+                "roomTypeCode": "19311#DBL.Z1",
+                "total": {
+                  "nonRefundable": "1",
+                  "taxes": {
+                    "amount": 313.18,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          },
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Barcelona"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "20",
+                "rating": "4*"
+              },
+              "hotelCityCode": "12",
+              "hotelCode": "19311",
+              "hotelName": "Sercotel Caspe"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2026-06-01",
+                  "start": "2025-11-19",
+                  "amountPercent": {
+                    "currencyCode": "EUR",
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 1
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "02gpMVmVL97x0zCw/Zni+5X6j/hsshWZouJITU15mRRDRhv3VziGQef1IlJSZkJqLoePxjTXSFiI1nUHt2R/sEhOUbraBj4QI6Ykw8VUwr9/oDAiRLAPj7ZqQ3umOtZCk84jNjg0lQX9eJB/SsXLiQxXhem2rtfflJRoQPvGC0UmDk4iveus00aXQTln3+2mZIr/0LNRL35WtNHlflJiioSRyODOr7dBJaaDkMeOIKLDLVzRlE6eiMIoxK8tI9TUg3LH7jqzlsmVASQEI0Rar15MLt6yxBrJENo/ZGOyTB1dL2dv9pV9qgk4UEQBxH9HKXEsE1XeGF0cSpLVSolGX3tlazi/O6c0PgAo5hgnkUQJyob4eCyAqdw1a4N8BgfH0z6tngNGu1z6ucRsa5fCSrlGczXcTmo4rpv14HTqeolnKZIV09DhaKzpP3JhsN7wjt8bYuTq5znnxyFUv0ei8Pa0FQ+yjUy7pOE/PDDfaUAO49mmc0/sxGcTpm6OitNEJFCizvaRA5SkyICA6OyNMtnUDCw57sBsMIBCPmn1neuq9dNNpZG9ezp55oGY0jyQD3hj7S+nBleP4FRPXcHCO5v44AVJksJZ25",
+                "directPayment": "False",
+                "invBlockCode": "1-104¬19311¬9¬1",
+                "openBookingCode": "021763630046625505|1.5.2|104|19311|8617|20260601|20260603|35609|2987_19311#TPL.ST-1|CLASSIC TRIPLE ROOM 2 ADULTS + 1 CHILD|19311#TPL.ST-1|CLASSIC TRIPLE ROOM 2 ADULTS + 1 CHILD|0|2|2|2021|4|1|30303030|05|0|ES|ES|SA|711.20|398.02|EUR|EUR|0|0.00|0|0.00||2~1|5||0|1|1-104¬19311¬9¬1|||20260601$~@20260603$~@W$~@102$~@8617$~@TPL.ST-1$~@EB OP RO$~@RO$~@$~@1~2~1$~@5$~@P@07~~20218e~808097886~N~~~NRF~~11A0A65340664FE176363032419505AWES0001000000000520218e",
+                "roomRateDescription": {
+                  "text": ["CLASSIC TRIPLE ROOM 2 ADULTS + 1 CHILD", "SA"]
+                },
+                "roomTypeCode": "2987_19311#TPL.ST-1",
+                "total": {
+                  "nonRefundable": "1",
+                  "taxes": {
+                    "amount": 398.02,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 2
+          }
+        ],
+        "hotelCode": "19311",
+        "key": "hc19311rcbcSAnr1",
+        "nettPrice": 711.2,
+        "nonRefund": "1",
+        "price": 711.2,
+        "roomCode": "19311#DBL.Z1",
+        "supplier": "104"
+      }
+    ]
+  },
+  "internalConditionRS": {
+    "rsList": {
+      "availList": "8617,",
+      "noAvailList": "",
+      "noMapping": ""
+    },
+    "status": "200",
+    "statusDescription": "OK"
+  },
+  "primaryLangID": "es",
+  "schemaLocation": "http://www.opentravel.org/OTA/2003/05 OTA_HotelAvailRS.xsd",
+  "success": "",
+  "version": "1.004",
+  "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+}

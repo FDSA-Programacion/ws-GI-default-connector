@@ -1,0 +1,36 @@
+serverPort: 8080
+logLevel: debug
+logPath: { path }
+providerName: Hotel Trader
+providerCode: PROV_CODE
+defaultEmail: integrations@guestincoming.com
+defaultPhone: +34937626496
+
+cacheRefreshActive: false
+cacheRefreshHours: 1
+adminUsername: USER
+adminPassword: PASS
+availTO: 3000
+internalBookingCodeVersion: 1.0.0
+codifyRoomName: true
+
+channels:
+  - id: ID
+    code: CODE
+
+database:
+  driver: godror
+  username: USER
+  password: PASS
+  host: HOSTS
+  port: 1521
+  SID: ora11g
+  fetchRowCount: 1000
+
+provider:
+  searchURL: { path }
+  quoteURL: { path }
+  bookURL: { path }
+  cancelURL: { path }
+  maxRoomsPerOccupancy: 4
+  timeoutMs: 30000

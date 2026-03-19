@@ -1,0 +1,1295 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <AvailResponse xmlns="http://schemas.xmltravelgate.com/hub/2012/06">
+            <AvailResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+                <hubStatus i:nil="true" />
+                <providerRSs>
+                    <ProviderRS>
+                        <hubProviderStatus i:nil="true" />
+                        <refId>1726725299429263</refId>
+                        <rs i:nil="true" />
+                        <rsXML>
+                            <AvailRS xmlns="">
+                                <operationImplemented>true</operationImplemented>
+                                <Hotels>
+                                    <Hotel code="3906" name="Monarque Torreblanca Hotel">
+                                        <MealPlans>
+                                            <MealPlan code="TI">
+                                                <Options>
+                                                    <Option type="Hotel" paymentType="MerchantPay"
+                                                        status="OK" supplierCode="INT">
+                                                        <CancelPenalties nonRefundable="false">
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-11T00:00:00Z</Deadline>
+                                                                <HoursBefore>192</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">102.97</Penalty>
+                                                            </CancelPenalty>
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-18T00:00:00Z</Deadline>
+                                                                <HoursBefore>24</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">308.91</Penalty>
+                                                            </CancelPenalty>
+                                                        </CancelPenalties>
+                                                        <Parameters>
+                                                            <Parameter key="session"
+                                                                value="9452867355BB49B6BCCCF80252ACD861"></Parameter>
+                                                            <Parameter key="option1"
+                                                                value="UFJFU1RJR0VQVVNIQEBOelU1TXpKQUpFQXhRQ1JBU0c5MFpXeEFKRUJOWlhKamFHRnVkRkJoZVVBa1FFQWtRREY4TXpCOE56VTVNeko4TWpBeU5pMHdOaTB4T1h3emZEY3pPVEV4T1ROOE5qTTNNVFV4TjN3eGZEQjhNRUFrUURjMU9UTXlYek01UUNSQVNXNWthWFpwWkhWaGJFQWtRREZBSkVCR1lXeHpaVUFrUURCQUpFQXpNVFV1TWpGQUpFQXdRQ1JBTUVBa1FFWmhiSE5sUUNSQU1Yd3hmREY4TVVBcUtrQXhmRE13ZkRjMU9UTXlmREl3TWpZdE1EWXRNVGw4TTN3M016a3hNVGt6ZkRZek56RTFNVGQ4TVh3d2ZEQkFYMTlBTW53eGZEQjhNVUFxS2tCRlUwQmZYMEEzTUROOE1Id3hmREJBS2lwQU1TTWpRRjlmUUdOZlluSkFLaXBBUTJobFlYQmxja0Z0YjNWdWRFQmZYMEJqWDIxaFFDb3FRRVZUUUY5ZlFHTmZZM1ZBS2lwQVJWVlNRRjlmUURjd09Id3dmREI4TUVBcUtrQXlZakUyTURFeVppMDFOR1l3TFRSak5XVXRPVFF5WXkxak9UQmhaRFl5TlRZNE1XRkFYMTlBTnpBMWZEQjhNSHd3UUNvcVFERWpRRjlmUURjd09Yd3dmREI4TUVBcUtrQmxjMEJmWDBCQUpFQkFKRUJBSkVCUFJrVkNWRWt6TVM4d00wQWtRRTltWlhKMFlTQkZZWEpzZVNCQ2IyOXJhVzVuSURNeEx6QXo="></Parameter>
+                                                        </Parameters>
+                                                        <Rooms>
+                                                            <Room id="1" roomCandidateRefId="1"
+                                                                code="IND#STD"
+                                                                description="INDIVIDUAL"
+                                                                nonRefundable="false"
+                                                                numberOfUnits="10">
+                                                                <Price currency="EUR"
+                                                                    amount="308.91" binding="false"
+                                                                    commission="0"
+                                                                    minimumSellingPrice="-1"></Price>
+                                                                <DailyRatePlans>
+                                                                    <DailyRatePlan
+                                                                        name="Oferta Early Booking 31/03"
+                                                                        cod="OFEBTI31/03" id="1"></DailyRatePlan>
+                                                                </DailyRatePlans>
+                                                            </Room>
+                                                        </Rooms>
+                                                        <DailyRatePlans>
+                                                            <DailyRatePlan
+                                                                name="Oferta Early Booking 31/03"
+                                                                cod="OFEBTI31/03" id="1"></DailyRatePlan>
+                                                        </DailyRatePlans>
+                                                        <Fees></Fees>
+                                                        <Price currency="EUR" amount="308.91"
+                                                            binding="false" commission="0"
+                                                            minimumSellingPrice="-1"></Price>
+                                                        <Offers></Offers>
+                                                        <Remarks></Remarks>
+                                                    </Option>
+                                                    <Option type="Hotel" paymentType="MerchantPay"
+                                                        status="OK" supplierCode="INT">
+                                                        <CancelPenalties nonRefundable="false">
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-11T00:00:00Z</Deadline>
+                                                                <HoursBefore>192</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">117.01</Penalty>
+                                                            </CancelPenalty>
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-18T00:00:00Z</Deadline>
+                                                                <HoursBefore>24</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">351.04</Penalty>
+                                                            </CancelPenalty>
+                                                        </CancelPenalties>
+                                                        <Parameters>
+                                                            <Parameter key="session"
+                                                                value="9452867355BB49B6BCCCF80252ACD861"></Parameter>
+                                                            <Parameter key="option1"
+                                                                value="UFJFU1RJR0VQVVNIQEBOelU1TXpKQUpFQXhRQ1JBU0c5MFpXeEFKRUJOWlhKamFHRnVkRkJoZVVBa1FFQWtRREY4TXpCOE56VTVNeko4TWpBeU5pMHdOaTB4T1h3emZEWXpOekUwT1RaOE5qTTNNVFV4TjN3eGZEQjhNRUFrUURjMU9UTXlYek01UUNSQVNXNWthWFpwWkhWaGJFQWtRREZBSkVCR1lXeHpaVUFrUURCQUpFQXpOVGd1TWtBa1FEQkFKRUF3UUNSQVJtRnNjMlZBSkVBeGZERjhNWHd4UUNvcVFERjhNekI4TnpVNU16SjhNakF5Tmkwd05pMHhPWHd6ZkRZek56RTBPVFo4TmpNM01UVXhOM3d4ZkRCOE1FQmZYMEF5ZkRGOE1Id3hRQ29xUUVWVFFGOWZRRGN3TTN3d2ZERjhNRUFxS2tBeEl5TkFYMTlBWTE5aWNrQXFLa0JEYUdWaGNHVnlRVzF2ZFc1MFFGOWZRR05mYldGQUtpcEFSVk5BWDE5QVkxOWpkVUFxS2tCRlZWSkFYMTlBTnpBNGZEQjhNSHd3UUNvcVFESmlNVFl3TVRKbUxUVTBaakF0TkdNMVpTMDVOREpqTFdNNU1HRmtOakkxTmpneFlVQmZYMEEzTURWOE1Id3dmREJBS2lwQU1TTkFYMTlBTnpBNWZEQjhNSHd3UUNvcVFHVnpRRjlmUUVBa1FFQWtRRUFrUUZSQlVsTlVSRlJKUUNSQVZHRnlhV1poSUVWemRHRnVaR0Z5"></Parameter>
+                                                        </Parameters>
+                                                        <Rooms>
+                                                            <Room id="2" roomCandidateRefId="1"
+                                                                code="IND#STD"
+                                                                description="INDIVIDUAL"
+                                                                nonRefundable="false"
+                                                                numberOfUnits="10">
+                                                                <Price currency="EUR"
+                                                                    amount="351.04" binding="false"
+                                                                    commission="0"
+                                                                    minimumSellingPrice="-1"></Price>
+                                                                <DailyRatePlans>
+                                                                    <DailyRatePlan
+                                                                        name="Tarifa Estandar"
+                                                                        cod="TARSTDTI" id="2"></DailyRatePlan>
+                                                                </DailyRatePlans>
+                                                            </Room>
+                                                        </Rooms>
+                                                        <DailyRatePlans>
+                                                            <DailyRatePlan name="Tarifa Estandar"
+                                                                cod="TARSTDTI" id="2"></DailyRatePlan>
+                                                        </DailyRatePlans>
+                                                        <Fees></Fees>
+                                                        <Price currency="EUR" amount="351.04"
+                                                            binding="false" commission="0"
+                                                            minimumSellingPrice="-1"></Price>
+                                                        <Offers></Offers>
+                                                        <Remarks></Remarks>
+                                                    </Option>
+                                                </Options>
+                                            </MealPlan>
+                                            <MealPlan code="PC">
+                                                <Options>
+                                                    <Option type="Hotel" paymentType="MerchantPay"
+                                                        status="OK" supplierCode="INT">
+                                                        <CancelPenalties nonRefundable="false">
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-11T00:00:00Z</Deadline>
+                                                                <HoursBefore>192</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">90.12</Penalty>
+                                                            </CancelPenalty>
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-18T00:00:00Z</Deadline>
+                                                                <HoursBefore>24</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">270.36</Penalty>
+                                                            </CancelPenalty>
+                                                        </CancelPenalties>
+                                                        <Parameters>
+                                                            <Parameter key="session"
+                                                                value="9452867355BB49B6BCCCF80252ACD861"></Parameter>
+                                                            <Parameter key="option1"
+                                                                value="UFJFU1RJR0VQVVNIQEBOelU1TXpKQUpFQXhNRUFrUUVodmRHVnNRQ1JBVFdWeVkyaGhiblJRWVhsQUpFQkFKRUF4ZkRNd2ZEYzFPVE15ZkRJd01qWXRNRFl0TVRsOE0zdzNNemt4TVRreWZEWXpOekUxTVRKOE1UQjhNSHd3UUNSQU56VTVNekpmTXpsQUpFQkpibVJwZG1sa2RXRnNRQ1JBTVVBa1FFWmhiSE5sUUNSQU1FQWtRREkzTlM0NE9FQWtRREJBSkVBd1FDUkFSbUZzYzJWQUpFQXhmREY4TVh3eFFDb3FRREY4TXpCOE56VTVNeko4TWpBeU5pMHdOaTB4T1h3emZEY3pPVEV4T1RKOE5qTTNNVFV4TW53eE1Id3dmREJBWDE5QU1ud3hmREI4TVVBcUtrQkZVMEJmWDBBM01ETjhNSHd4ZkRCQUtpcEFNU01qUUY5ZlFHTmZZbkpBS2lwQVEyaGxZWEJsY2tGdGIzVnVkRUJmWDBCalgyMWhRQ29xUUVWVFFGOWZRR05mWTNWQUtpcEFSVlZTUUY5ZlFEY3dPSHd3ZkRCOE1FQXFLa0F5WWpFMk1ERXlaaTAxTkdZd0xUUmpOV1V0T1RReVl5MWpPVEJoWkRZeU5UWTRNV0ZBWDE5QU56QTFmREI4TUh3d1FDb3FRREVqUUY5ZlFEY3dPWHd3ZkRCOE1FQXFLa0JsYzBCZlgwQkFKRUJBSkVCQUpFQlBSa1ZDVUVNek1TOHdNMEFrUUU5bVpYSjBZU0JGWVhKc2VTQkNiMjlyYVc1bklETXhMekF6"></Parameter>
+                                                        </Parameters>
+                                                        <Rooms>
+                                                            <Room id="3" roomCandidateRefId="1"
+                                                                code="IND#STD"
+                                                                description="INDIVIDUAL"
+                                                                nonRefundable="false"
+                                                                numberOfUnits="10">
+                                                                <Price currency="EUR"
+                                                                    amount="270.36" binding="false"
+                                                                    commission="0"
+                                                                    minimumSellingPrice="-1"></Price>
+                                                                <DailyRatePlans>
+                                                                    <DailyRatePlan
+                                                                        name="Oferta Early Booking 31/03"
+                                                                        cod="OFEBPC31/03" id="3"></DailyRatePlan>
+                                                                </DailyRatePlans>
+                                                            </Room>
+                                                        </Rooms>
+                                                        <DailyRatePlans>
+                                                            <DailyRatePlan
+                                                                name="Oferta Early Booking 31/03"
+                                                                cod="OFEBPC31/03" id="3"></DailyRatePlan>
+                                                        </DailyRatePlans>
+                                                        <Fees></Fees>
+                                                        <Price currency="EUR" amount="270.36"
+                                                            binding="false" commission="0"
+                                                            minimumSellingPrice="-1"></Price>
+                                                        <Offers></Offers>
+                                                        <Remarks></Remarks>
+                                                    </Option>
+                                                    <Option type="Hotel" paymentType="MerchantPay"
+                                                        status="OK" supplierCode="INT">
+                                                        <CancelPenalties nonRefundable="false">
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-11T00:00:00Z</Deadline>
+                                                                <HoursBefore>192</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">102.41</Penalty>
+                                                            </CancelPenalty>
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-18T00:00:00Z</Deadline>
+                                                                <HoursBefore>24</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">307.23</Penalty>
+                                                            </CancelPenalty>
+                                                        </CancelPenalties>
+                                                        <Parameters>
+                                                            <Parameter key="session"
+                                                                value="9452867355BB49B6BCCCF80252ACD861"></Parameter>
+                                                            <Parameter key="option1"
+                                                                value="UFJFU1RJR0VQVVNIQEBOelU1TXpKQUpFQXhNRUFrUUVodmRHVnNRQ1JBVFdWeVkyaGhiblJRWVhsQUpFQkFKRUF4ZkRNd2ZEYzFPVE15ZkRJd01qWXRNRFl0TVRsOE0zdzJNemN4TkRrMWZEWXpOekUxTVRKOE1UQjhNSHd3UUNSQU56VTVNekpmTXpsQUpFQkpibVJwZG1sa2RXRnNRQ1JBTVVBa1FFWmhiSE5sUUNSQU1FQWtRRE14TXk0MVFDUkFNRUFrUURCQUpFQkdZV3h6WlVBa1FERjhNWHd4ZkRGQUtpcEFNWHd6TUh3M05Ua3pNbnd5TURJMkxUQTJMVEU1ZkROOE5qTTNNVFE1Tlh3Mk16Y3hOVEV5ZkRFd2ZEQjhNRUJmWDBBeWZERjhNSHd4UUNvcVFFVlRRRjlmUURjd00zd3dmREY4TUVBcUtrQXhJeU5BWDE5QVkxOWlja0FxS2tCRGFHVmhjR1Z5UVcxdmRXNTBRRjlmUUdOZmJXRkFLaXBBUlZOQVgxOUFZMTlqZFVBcUtrQkZWVkpBWDE5QU56QTRmREI4TUh3d1FDb3FRREppTVRZd01USm1MVFUwWmpBdE5HTTFaUzA1TkRKakxXTTVNR0ZrTmpJMU5qZ3hZVUJmWDBBM01EVjhNSHd3ZkRCQUtpcEFNU05BWDE5QU56QTVmREI4TUh3d1FDb3FRR1Z6UUY5ZlFFQWtRRUFrUUVBa1FGUkJVbE5VUkZCRFFDUkFWR0Z5YVdaaElFVnpkR0Z1WkdGeQ=="></Parameter>
+                                                        </Parameters>
+                                                        <Rooms>
+                                                            <Room id="4" roomCandidateRefId="1"
+                                                                code="IND#STD"
+                                                                description="INDIVIDUAL"
+                                                                nonRefundable="false"
+                                                                numberOfUnits="10">
+                                                                <Price currency="EUR"
+                                                                    amount="307.23" binding="false"
+                                                                    commission="0"
+                                                                    minimumSellingPrice="-1"></Price>
+                                                                <DailyRatePlans>
+                                                                    <DailyRatePlan
+                                                                        name="Tarifa Estandar"
+                                                                        cod="TARSTDPC" id="4"></DailyRatePlan>
+                                                                </DailyRatePlans>
+                                                            </Room>
+                                                        </Rooms>
+                                                        <DailyRatePlans>
+                                                            <DailyRatePlan name="Tarifa Estandar"
+                                                                cod="TARSTDPC" id="4"></DailyRatePlan>
+                                                        </DailyRatePlans>
+                                                        <Fees></Fees>
+                                                        <Price currency="EUR" amount="307.23"
+                                                            binding="false" commission="0"
+                                                            minimumSellingPrice="-1"></Price>
+                                                        <Offers></Offers>
+                                                        <Remarks></Remarks>
+                                                    </Option>
+                                                </Options>
+                                            </MealPlan>
+                                            <MealPlan code="MP">
+                                                <Options>
+                                                    <Option type="Hotel" paymentType="MerchantPay"
+                                                        status="OK" supplierCode="INT">
+                                                        <CancelPenalties nonRefundable="false">
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-11T00:00:00Z</Deadline>
+                                                                <HoursBefore>192</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">84.86</Penalty>
+                                                            </CancelPenalty>
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-18T00:00:00Z</Deadline>
+                                                                <HoursBefore>24</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">254.57</Penalty>
+                                                            </CancelPenalty>
+                                                        </CancelPenalties>
+                                                        <Parameters>
+                                                            <Parameter key="session"
+                                                                value="9452867355BB49B6BCCCF80252ACD861"></Parameter>
+                                                            <Parameter key="option1"
+                                                                value="UFJFU1RJR0VQVVNIQEBOelU1TXpKQUpFQXhNa0FrUUVodmRHVnNRQ1JBVFdWeVkyaGhiblJRWVhsQUpFQkFKRUF4ZkRNd2ZEYzFPVE15ZkRJd01qWXRNRFl0TVRsOE0zdzNNemt4TVRreGZEWXpOekUxTURkOE1USjhNSHd3UUNSQU56VTVNekpmTXpsQUpFQkpibVJwZG1sa2RXRnNRQ1JBTVVBa1FFWmhiSE5sUUNSQU1FQWtRREkxT1M0M04wQWtRREJBSkVBd1FDUkFSbUZzYzJWQUpFQXhmREY4TVh3eFFDb3FRREY4TXpCOE56VTVNeko4TWpBeU5pMHdOaTB4T1h3emZEY3pPVEV4T1RGOE5qTTNNVFV3TjN3eE1ud3dmREJBWDE5QU1ud3hmREI4TVVBcUtrQkZVMEJmWDBBM01ETjhNSHd4ZkRCQUtpcEFNU01qUUY5ZlFHTmZZbkpBS2lwQVEyaGxZWEJsY2tGdGIzVnVkRUJmWDBCalgyMWhRQ29xUUVWVFFGOWZRR05mWTNWQUtpcEFSVlZTUUY5ZlFEY3dPSHd3ZkRCOE1FQXFLa0F5WWpFMk1ERXlaaTAxTkdZd0xUUmpOV1V0T1RReVl5MWpPVEJoWkRZeU5UWTRNV0ZBWDE5QU56QTFmREI4TUh3d1FDb3FRREVqUUY5ZlFEY3dPWHd3ZkRCOE1FQXFLa0JsYzBCZlgwQkFKRUJBSkVCQUpFQlBSa1ZDVFZBek1TOHdNMEFrUUU5bVpYSjBZU0JGWVhKc2VTQkNiMjlyYVc1bklETXhMekF6"></Parameter>
+                                                        </Parameters>
+                                                        <Rooms>
+                                                            <Room id="5" roomCandidateRefId="1"
+                                                                code="IND#STD"
+                                                                description="INDIVIDUAL"
+                                                                nonRefundable="false"
+                                                                numberOfUnits="10">
+                                                                <Price currency="EUR"
+                                                                    amount="254.57" binding="false"
+                                                                    commission="0"
+                                                                    minimumSellingPrice="-1"></Price>
+                                                                <DailyRatePlans>
+                                                                    <DailyRatePlan
+                                                                        name="Oferta Early Booking 31/03"
+                                                                        cod="OFEBMP31/03" id="5"></DailyRatePlan>
+                                                                </DailyRatePlans>
+                                                            </Room>
+                                                        </Rooms>
+                                                        <DailyRatePlans>
+                                                            <DailyRatePlan
+                                                                name="Oferta Early Booking 31/03"
+                                                                cod="OFEBMP31/03" id="5"></DailyRatePlan>
+                                                        </DailyRatePlans>
+                                                        <Fees></Fees>
+                                                        <Price currency="EUR" amount="254.57"
+                                                            binding="false" commission="0"
+                                                            minimumSellingPrice="-1"></Price>
+                                                        <Offers></Offers>
+                                                        <Remarks></Remarks>
+                                                    </Option>
+                                                    <Option type="Hotel" paymentType="MerchantPay"
+                                                        status="OK" supplierCode="INT">
+                                                        <CancelPenalties nonRefundable="false">
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-11T00:00:00Z</Deadline>
+                                                                <HoursBefore>192</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">96.43</Penalty>
+                                                            </CancelPenalty>
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-18T00:00:00Z</Deadline>
+                                                                <HoursBefore>24</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">289.30</Penalty>
+                                                            </CancelPenalty>
+                                                        </CancelPenalties>
+                                                        <Parameters>
+                                                            <Parameter key="session"
+                                                                value="9452867355BB49B6BCCCF80252ACD861"></Parameter>
+                                                            <Parameter key="option1"
+                                                                value="UFJFU1RJR0VQVVNIQEBOelU1TXpKQUpFQXhNa0FrUUVodmRHVnNRQ1JBVFdWeVkyaGhiblJRWVhsQUpFQkFKRUF4ZkRNd2ZEYzFPVE15ZkRJd01qWXRNRFl0TVRsOE0zdzJNemN4TkRrMGZEWXpOekUxTURkOE1USjhNSHd3UUNSQU56VTVNekpmTXpsQUpFQkpibVJwZG1sa2RXRnNRQ1JBTVVBa1FFWmhiSE5sUUNSQU1FQWtRREk1TlM0eVFDUkFNRUFrUURCQUpFQkdZV3h6WlVBa1FERjhNWHd4ZkRGQUtpcEFNWHd6TUh3M05Ua3pNbnd5TURJMkxUQTJMVEU1ZkROOE5qTTNNVFE1Tkh3Mk16Y3hOVEEzZkRFeWZEQjhNRUJmWDBBeWZERjhNSHd4UUNvcVFFVlRRRjlmUURjd00zd3dmREY4TUVBcUtrQXhJeU5BWDE5QVkxOWlja0FxS2tCRGFHVmhjR1Z5UVcxdmRXNTBRRjlmUUdOZmJXRkFLaXBBUlZOQVgxOUFZMTlqZFVBcUtrQkZWVkpBWDE5QU56QTRmREI4TUh3d1FDb3FRREppTVRZd01USm1MVFUwWmpBdE5HTTFaUzA1TkRKakxXTTVNR0ZrTmpJMU5qZ3hZVUJmWDBBM01EVjhNSHd3ZkRCQUtpcEFNU05BWDE5QU56QTVmREI4TUh3d1FDb3FRR1Z6UUY5ZlFFQWtRRUFrUUVBa1FGUkJVbE5VUkUxUVFDUkFWR0Z5YVdaaElFVnpkR0Z1WkdGeQ=="></Parameter>
+                                                        </Parameters>
+                                                        <Rooms>
+                                                            <Room id="6" roomCandidateRefId="1"
+                                                                code="IND#STD"
+                                                                description="INDIVIDUAL"
+                                                                nonRefundable="false"
+                                                                numberOfUnits="10">
+                                                                <Price currency="EUR"
+                                                                    amount="289.30" binding="false"
+                                                                    commission="0"
+                                                                    minimumSellingPrice="-1"></Price>
+                                                                <DailyRatePlans>
+                                                                    <DailyRatePlan
+                                                                        name="Tarifa Estandar"
+                                                                        cod="TARSTDMP" id="6"></DailyRatePlan>
+                                                                </DailyRatePlans>
+                                                            </Room>
+                                                        </Rooms>
+                                                        <DailyRatePlans>
+                                                            <DailyRatePlan name="Tarifa Estandar"
+                                                                cod="TARSTDMP" id="6"></DailyRatePlan>
+                                                        </DailyRatePlans>
+                                                        <Fees></Fees>
+                                                        <Price currency="EUR" amount="289.3"
+                                                            binding="false" commission="0"
+                                                            minimumSellingPrice="-1"></Price>
+                                                        <Offers></Offers>
+                                                        <Remarks></Remarks>
+                                                    </Option>
+                                                </Options>
+                                            </MealPlan>
+                                            <MealPlan code="AD">
+                                                <Options>
+                                                    <Option type="Hotel" paymentType="MerchantPay"
+                                                        status="OK" supplierCode="INT">
+                                                        <CancelPenalties nonRefundable="false">
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-11T00:00:00Z</Deadline>
+                                                                <HoursBefore>192</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">80.63</Penalty>
+                                                            </CancelPenalty>
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-18T00:00:00Z</Deadline>
+                                                                <HoursBefore>24</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">241.90</Penalty>
+                                                            </CancelPenalty>
+                                                        </CancelPenalties>
+                                                        <Parameters>
+                                                            <Parameter key="session"
+                                                                value="9452867355BB49B6BCCCF80252ACD861"></Parameter>
+                                                            <Parameter key="option1"
+                                                                value="UFJFU1RJR0VQVVNIQEBOelU1TXpKQUpFQXpRQ1JBU0c5MFpXeEFKRUJOWlhKamFHRnVkRkJoZVVBa1FFQWtRREY4TXpCOE56VTVNeko4TWpBeU5pMHdOaTB4T1h3emZEY3pPVEV4T1RCOE5qTTNNVFE1TjN3emZEQjhNRUFrUURjMU9UTXlYek01UUNSQVNXNWthWFpwWkhWaGJFQWtRREZBSkVCR1lXeHpaVUFrUURCQUpFQXlORFl1T0RSQUpFQXdRQ1JBTUVBa1FFWmhiSE5sUUNSQU1Yd3hmREY4TVVBcUtrQXhmRE13ZkRjMU9UTXlmREl3TWpZdE1EWXRNVGw4TTN3M016a3hNVGt3ZkRZek56RTBPVGQ4TTN3d2ZEQkFYMTlBTW53eGZEQjhNVUFxS2tCRlUwQmZYMEEzTUROOE1Id3hmREJBS2lwQU1TTWpRRjlmUUdOZlluSkFLaXBBUTJobFlYQmxja0Z0YjNWdWRFQmZYMEJqWDIxaFFDb3FRRVZUUUY5ZlFHTmZZM1ZBS2lwQVJWVlNRRjlmUURjd09Id3dmREI4TUVBcUtrQXlZakUyTURFeVppMDFOR1l3TFRSak5XVXRPVFF5WXkxak9UQmhaRFl5TlRZNE1XRkFYMTlBTnpBMWZEQjhNSHd3UUNvcVFERWpRRjlmUURjd09Yd3dmREI4TUVBcUtrQmxjMEJmWDBCQUpFQkFKRUJBSkVCUFJrVkNRVVF6TVM4d00wQWtRRTltWlhKMFlTQkZZWEpzZVNCQ2IyOXJhVzVuSURNeEx6QXo="></Parameter>
+                                                        </Parameters>
+                                                        <Rooms>
+                                                            <Room id="7" roomCandidateRefId="1"
+                                                                code="IND#STD"
+                                                                description="INDIVIDUAL"
+                                                                nonRefundable="false"
+                                                                numberOfUnits="10">
+                                                                <Price currency="EUR"
+                                                                    amount="241.90" binding="false"
+                                                                    commission="0"
+                                                                    minimumSellingPrice="-1"></Price>
+                                                                <DailyRatePlans>
+                                                                    <DailyRatePlan
+                                                                        name="Oferta Early Booking 31/03"
+                                                                        cod="OFEBAD31/03" id="7"></DailyRatePlan>
+                                                                </DailyRatePlans>
+                                                            </Room>
+                                                        </Rooms>
+                                                        <DailyRatePlans>
+                                                            <DailyRatePlan
+                                                                name="Oferta Early Booking 31/03"
+                                                                cod="OFEBAD31/03" id="7"></DailyRatePlan>
+                                                        </DailyRatePlans>
+                                                        <Fees></Fees>
+                                                        <Price currency="EUR" amount="241.9"
+                                                            binding="false" commission="0"
+                                                            minimumSellingPrice="-1"></Price>
+                                                        <Offers></Offers>
+                                                        <Remarks></Remarks>
+                                                    </Option>
+                                                    <Option type="Hotel" paymentType="MerchantPay"
+                                                        status="OK" supplierCode="INT">
+                                                        <CancelPenalties nonRefundable="false">
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-11T00:00:00Z</Deadline>
+                                                                <HoursBefore>192</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">91.63</Penalty>
+                                                            </CancelPenalty>
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-18T00:00:00Z</Deadline>
+                                                                <HoursBefore>24</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">274.89</Penalty>
+                                                            </CancelPenalty>
+                                                        </CancelPenalties>
+                                                        <Parameters>
+                                                            <Parameter key="session"
+                                                                value="9452867355BB49B6BCCCF80252ACD861"></Parameter>
+                                                            <Parameter key="option1"
+                                                                value="UFJFU1RJR0VQVVNIQEBOelU1TXpKQUpFQXpRQ1JBU0c5MFpXeEFKRUJOWlhKamFHRnVkRkJoZVVBa1FFQWtRREY4TXpCOE56VTVNeko4TWpBeU5pMHdOaTB4T1h3emZEWXpOekUwT1ROOE5qTTNNVFE1TjN3emZEQjhNRUFrUURjMU9UTXlYek01UUNSQVNXNWthWFpwWkhWaGJFQWtRREZBSkVCR1lXeHpaVUFrUURCQUpFQXlPREF1TlVBa1FEQkFKRUF3UUNSQVJtRnNjMlZBSkVBeGZERjhNWHd4UUNvcVFERjhNekI4TnpVNU16SjhNakF5Tmkwd05pMHhPWHd6ZkRZek56RTBPVE44TmpNM01UUTVOM3d6ZkRCOE1FQmZYMEF5ZkRGOE1Id3hRQ29xUUVWVFFGOWZRRGN3TTN3d2ZERjhNRUFxS2tBeEl5TkFYMTlBWTE5aWNrQXFLa0JEYUdWaGNHVnlRVzF2ZFc1MFFGOWZRR05mYldGQUtpcEFSVk5BWDE5QVkxOWpkVUFxS2tCRlZWSkFYMTlBTnpBNGZEQjhNSHd3UUNvcVFESmlNVFl3TVRKbUxUVTBaakF0TkdNMVpTMDVOREpqTFdNNU1HRmtOakkxTmpneFlVQmZYMEEzTURWOE1Id3dmREJBS2lwQU1TTkFYMTlBTnpBNWZEQjhNSHd3UUNvcVFHVnpRRjlmUUVBa1FFQWtRRUFrUUZSQlVsTlVSRUZFUUNSQVZHRnlhV1poSUVWemRHRnVaR0Z5"></Parameter>
+                                                        </Parameters>
+                                                        <Rooms>
+                                                            <Room id="8" roomCandidateRefId="1"
+                                                                code="IND#STD"
+                                                                description="INDIVIDUAL"
+                                                                nonRefundable="false"
+                                                                numberOfUnits="10">
+                                                                <Price currency="EUR"
+                                                                    amount="274.89" binding="false"
+                                                                    commission="0"
+                                                                    minimumSellingPrice="-1"></Price>
+                                                                <DailyRatePlans>
+                                                                    <DailyRatePlan
+                                                                        name="Tarifa Estandar"
+                                                                        cod="TARSTDAD" id="8"></DailyRatePlan>
+                                                                </DailyRatePlans>
+                                                            </Room>
+                                                        </Rooms>
+                                                        <DailyRatePlans>
+                                                            <DailyRatePlan name="Tarifa Estandar"
+                                                                cod="TARSTDAD" id="8"></DailyRatePlan>
+                                                        </DailyRatePlans>
+                                                        <Fees></Fees>
+                                                        <Price currency="EUR" amount="274.89"
+                                                            binding="false" commission="0"
+                                                            minimumSellingPrice="-1"></Price>
+                                                        <Offers></Offers>
+                                                        <Remarks></Remarks>
+                                                    </Option>
+                                                </Options>
+                                            </MealPlan>
+                                        </MealPlans>
+                                    </Hotel>
+                                    <Hotel code="113665" name="Best Costa Ballena ">
+                                        <MealPlans>
+                                            <MealPlan code="PC">
+                                                <Options>
+                                                    <Option type="Hotel" paymentType="MerchantPay"
+                                                        status="OK" supplierCode="INT">
+                                                        <CancelPenalties nonRefundable="false">
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-14T00:00:00Z</Deadline>
+                                                                <HoursBefore>120</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">157.10</Penalty>
+                                                            </CancelPenalty>
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-19T00:00:00Z</Deadline>
+                                                                <HoursBefore>0</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">314.20</Penalty>
+                                                            </CancelPenalty>
+                                                        </CancelPenalties>
+                                                        <Parameters>
+                                                            <Parameter key="session"
+                                                                value="9452867355BB49B6BCCCF80252ACD861"></Parameter>
+                                                            <Parameter key="option1"
+                                                                value="QkVTVEBATkRGQUpFQlFRMEFrUUVodmRHVnNRQ1JBVFdWeVkyaGhiblJRWVhsQUpFQkFKRUF4TWlORVZVbEFKRUJFVlVsQUpFQkViMkpzWlNCVmMyOGdTVzVrYVhacFpIVmhiRUFrUURGQUpFQkdZV3h6WlVBa1FEQkFKRUEwTnpRc01qQkFKRUF3UUNSQU1FQWtRRVpoYkhObFFDUkFVbUYwWlZCc1lXNURiMlJsTVVBcUtrQk9RVU5BWDE5QVVtOXZiVlI1Y0dWRGIyUmxNVUFxS2tCRVZVbEFYMTlBVFdWaGJGQnNZVzVEYjJSbE1VQXFLa0JRUTBCZlgwQlFjbTl0YjNScGIyNURiMlJsTVVBcUtrQkFYMTlBVUhKbFkybHZSbWx1WVd4QUtpcEFORGMwTGpKQVgxOUFRQ1JBUUNSQVFDUkFUa0ZEUUNSQVRrRkRTVTlPUVV3PQ=="></Parameter>
+                                                        </Parameters>
+                                                        <Rooms>
+                                                            <Room id="9" roomCandidateRefId="1"
+                                                                code="DUI#STD"
+                                                                description="DOBLE USO INDIVIDUAL"
+                                                                nonRefundable="false"
+                                                                numberOfUnits="15">
+                                                                <Price currency="EUR"
+                                                                    amount="465.90" binding="false"
+                                                                    commission="0"
+                                                                    minimumSellingPrice="-1"></Price>
+                                                                <DailyRatePlans>
+                                                                    <DailyRatePlan name="NACIONAL"
+                                                                        cod="NAC" id="9"></DailyRatePlan>
+                                                                </DailyRatePlans>
+                                                            </Room>
+                                                        </Rooms>
+                                                        <DailyRatePlans>
+                                                            <DailyRatePlan name="NACIONAL" cod="NAC"
+                                                                id="9"></DailyRatePlan>
+                                                        </DailyRatePlans>
+                                                        <Fees></Fees>
+                                                        <Price currency="EUR" amount="465.9"
+                                                            binding="false" commission="0"
+                                                            minimumSellingPrice="-1"></Price>
+                                                        <Offers></Offers>
+                                                        <Remarks></Remarks>
+                                                    </Option>
+                                                    <Option type="Hotel" paymentType="MerchantPay"
+                                                        status="OK" supplierCode="INT">
+                                                        <CancelPenalties nonRefundable="false">
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-14T00:00:00Z</Deadline>
+                                                                <HoursBefore>120</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">164.08</Penalty>
+                                                            </CancelPenalty>
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-19T00:00:00Z</Deadline>
+                                                                <HoursBefore>0</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">328.16</Penalty>
+                                                            </CancelPenalty>
+                                                        </CancelPenalties>
+                                                        <Parameters>
+                                                            <Parameter key="session"
+                                                                value="9452867355BB49B6BCCCF80252ACD861"></Parameter>
+                                                            <Parameter key="option1"
+                                                                value="QkVTVEBATkRGQUpFQlFRMEFrUUVodmRHVnNRQ1JBVFdWeVkyaGhiblJRWVhsQUpFQkFKRUF4TkNORVFreEFKRUJFUWt4QUpFQkViMkpzWlVBa1FERkFKRUJHWVd4elpVQWtRREJBSkVBME9UVXNNVFZBSkVBd1FDUkFNRUFrUUVaaGJITmxRQ1JBVW1GMFpWQnNZVzVEYjJSbE1VQXFLa0JPUVVOQVgxOUFVbTl2YlZSNWNHVkRiMlJsTVVBcUtrQkVRa3hBWDE5QVRXVmhiRkJzWVc1RGIyUmxNVUFxS2tCUVEwQmZYMEJRY205dGIzUnBiMjVEYjJSbE1VQXFLa0JBWDE5QVVISmxZMmx2Um1sdVlXeEFLaXBBTkRrMUxqRTFRRjlmUUVBa1FFQWtRRUFrUUU1QlEwQWtRRTVCUTBsUFRrRk0="></Parameter>
+                                                        </Parameters>
+                                                        <Rooms>
+                                                            <Room id="10" roomCandidateRefId="1"
+                                                                code="DBL#STD" description="DOBLE"
+                                                                nonRefundable="false"
+                                                                numberOfUnits="192">
+                                                                <Price currency="EUR"
+                                                                    amount="486.48" binding="false"
+                                                                    commission="0"
+                                                                    minimumSellingPrice="-1"></Price>
+                                                                <DailyRatePlans>
+                                                                    <DailyRatePlan name="NACIONAL"
+                                                                        cod="NAC" id="10"></DailyRatePlan>
+                                                                </DailyRatePlans>
+                                                            </Room>
+                                                        </Rooms>
+                                                        <DailyRatePlans>
+                                                            <DailyRatePlan name="NACIONAL" cod="NAC"
+                                                                id="10"></DailyRatePlan>
+                                                        </DailyRatePlans>
+                                                        <Fees></Fees>
+                                                        <Price currency="EUR" amount="486.48"
+                                                            binding="false" commission="0"
+                                                            minimumSellingPrice="-1"></Price>
+                                                        <Offers></Offers>
+                                                        <Remarks></Remarks>
+                                                    </Option>
+                                                    <Option type="Hotel" paymentType="MerchantPay"
+                                                        status="OK" supplierCode="INT">
+                                                        <CancelPenalties nonRefundable="false">
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-14T00:00:00Z</Deadline>
+                                                                <HoursBefore>120</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">167.02</Penalty>
+                                                            </CancelPenalty>
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-19T00:00:00Z</Deadline>
+                                                                <HoursBefore>0</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">334.05</Penalty>
+                                                            </CancelPenalty>
+                                                        </CancelPenalties>
+                                                        <Parameters>
+                                                            <Parameter key="session"
+                                                                value="9452867355BB49B6BCCCF80252ACD861"></Parameter>
+                                                            <Parameter key="option1"
+                                                                value="QkVTVEBATkRGQUpFQlFRMEFrUUVodmRHVnNRQ1JBVFdWeVkyaGhiblJRWVhsQUpFQkFKRUF4TlNORVFreExVMEFrUUVSQ1RFdFRRQ1JBUkc5aWJHVWdTMmx1WnlCVGFYcGxRQ1JBTVVBa1FFWmhiSE5sUUNSQU1FQWtRRFV3TkN3d01FQWtRREJBSkVBd1FDUkFSbUZzYzJWQUpFQlNZWFJsVUd4aGJrTnZaR1V4UUNvcVFFNUJRMEJmWDBCU2IyOXRWSGx3WlVOdlpHVXhRQ29xUUVSQ1RFdFRRRjlmUUUxbFlXeFFiR0Z1UTI5a1pURkFLaXBBVUVOQVgxOUFVSEp2Ylc5MGFXOXVRMjlrWlRGQUtpcEFRRjlmUUZCeVpXTnBiMFpwYm1Gc1FDb3FRRFV3TkVCZlgwQkFKRUJBSkVCQUpFQk9RVU5BSkVCT1FVTkpUMDVCVEE9PQ=="></Parameter>
+                                                        </Parameters>
+                                                        <Rooms>
+                                                            <Room id="11" roomCandidateRefId="1"
+                                                                code="DBL_KS#STD"
+                                                                description="DOBLE KING SIZE"
+                                                                nonRefundable="false"
+                                                                numberOfUnits="50">
+                                                                <Price currency="EUR"
+                                                                    amount="495.18" binding="false"
+                                                                    commission="0"
+                                                                    minimumSellingPrice="-1"></Price>
+                                                                <DailyRatePlans>
+                                                                    <DailyRatePlan name="NACIONAL"
+                                                                        cod="NAC" id="11"></DailyRatePlan>
+                                                                </DailyRatePlans>
+                                                            </Room>
+                                                        </Rooms>
+                                                        <DailyRatePlans>
+                                                            <DailyRatePlan name="NACIONAL" cod="NAC"
+                                                                id="11"></DailyRatePlan>
+                                                        </DailyRatePlans>
+                                                        <Fees></Fees>
+                                                        <Price currency="EUR" amount="495.18"
+                                                            binding="false" commission="0"
+                                                            minimumSellingPrice="-1"></Price>
+                                                        <Offers></Offers>
+                                                        <Remarks></Remarks>
+                                                    </Option>
+                                                    <Option type="Hotel" paymentType="MerchantPay"
+                                                        status="OK" supplierCode="INT">
+                                                        <CancelPenalties nonRefundable="false">
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-14T00:00:00Z</Deadline>
+                                                                <HoursBefore>120</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">171.94</Penalty>
+                                                            </CancelPenalty>
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-19T00:00:00Z</Deadline>
+                                                                <HoursBefore>0</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">343.88</Penalty>
+                                                            </CancelPenalty>
+                                                        </CancelPenalties>
+                                                        <Parameters>
+                                                            <Parameter key="session"
+                                                                value="9452867355BB49B6BCCCF80252ACD861"></Parameter>
+                                                            <Parameter key="option1"
+                                                                value="QkVTVEBATkRGQUpFQlFRMEFrUUVodmRHVnNRQ1JBVFdWeVkyaGhiblJRWVhsQUpFQkFKRUF4TmlOVFZWQkFKRUJUVlZCQUpFQlRkWEJsY21sdmNrQWtRREZBSkVCR1lXeHpaVUFrUURCQUpFQTFNallzTlRWQUpFQXdRQ1JBTUVBa1FFWmhiSE5sUUNSQVVtRjBaVkJzWVc1RGIyUmxNVUFxS2tCT1FVTkFYMTlBVW05dmJWUjVjR1ZEYjJSbE1VQXFLa0JUVlZCQVgxOUFUV1ZoYkZCc1lXNURiMlJsTVVBcUtrQlFRMEJmWDBCUWNtOXRiM1JwYjI1RGIyUmxNVUFxS2tCQVgxOUFVSEpsWTJsdlJtbHVZV3hBS2lwQU5USTJMalUxUUY5ZlFFQWtRRUFrUUVBa1FFNUJRMEFrUUU1QlEwbFBUa0ZN"></Parameter>
+                                                        </Parameters>
+                                                        <Rooms>
+                                                            <Room id="12" roomCandidateRefId="1"
+                                                                code="SUP#STD"
+                                                                description="SUPERIOR"
+                                                                nonRefundable="false"
+                                                                numberOfUnits="199">
+                                                                <Price currency="EUR"
+                                                                    amount="517.34" binding="false"
+                                                                    commission="0"
+                                                                    minimumSellingPrice="-1"></Price>
+                                                                <DailyRatePlans>
+                                                                    <DailyRatePlan name="NACIONAL"
+                                                                        cod="NAC" id="12"></DailyRatePlan>
+                                                                </DailyRatePlans>
+                                                            </Room>
+                                                        </Rooms>
+                                                        <DailyRatePlans>
+                                                            <DailyRatePlan name="NACIONAL" cod="NAC"
+                                                                id="12"></DailyRatePlan>
+                                                        </DailyRatePlans>
+                                                        <Fees></Fees>
+                                                        <Price currency="EUR" amount="517.34"
+                                                            binding="false" commission="0"
+                                                            minimumSellingPrice="-1"></Price>
+                                                        <Offers></Offers>
+                                                        <Remarks></Remarks>
+                                                    </Option>
+                                                </Options>
+                                            </MealPlan>
+                                            <MealPlan code="MP">
+                                                <Options>
+                                                    <Option type="Hotel" paymentType="MerchantPay"
+                                                        status="OK" supplierCode="INT">
+                                                        <CancelPenalties nonRefundable="false">
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-14T00:00:00Z</Deadline>
+                                                                <HoursBefore>120</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">146.29</Penalty>
+                                                            </CancelPenalty>
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-19T00:00:00Z</Deadline>
+                                                                <HoursBefore>0</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">292.59</Penalty>
+                                                            </CancelPenalty>
+                                                        </CancelPenalties>
+                                                        <Parameters>
+                                                            <Parameter key="session"
+                                                                value="9452867355BB49B6BCCCF80252ACD861"></Parameter>
+                                                            <Parameter key="option1"
+                                                                value="QkVTVEBATkRGQUpFQk5VRUFrUUVodmRHVnNRQ1JBVFdWeVkyaGhiblJRWVhsQUpFQkFKRUEzSTBSVlNVQWtRRVJWU1VBa1FFUnZZbXhsSUZWemJ5QkpibVJwZG1sa2RXRnNRQ1JBTVVBa1FFWmhiSE5sUUNSQU1FQWtRRFEwTUN3Mk5VQWtRREJBSkVBd1FDUkFSbUZzYzJWQUpFQlNZWFJsVUd4aGJrTnZaR1V4UUNvcVFFNUJRMEJmWDBCU2IyOXRWSGx3WlVOdlpHVXhRQ29xUUVSVlNVQmZYMEJOWldGc1VHeGhia052WkdVeFFDb3FRRTFRUUY5ZlFGQnliMjF2ZEdsdmJrTnZaR1V4UUNvcVFFQmZYMEJRY21WamFXOUdhVzVoYkVBcUtrQTBOREF1TmpWQVgxOUFRQ1JBUUNSQVFDUkFUa0ZEUUNSQVRrRkRTVTlPUVV3PQ=="></Parameter>
+                                                        </Parameters>
+                                                        <Rooms>
+                                                            <Room id="5" roomCandidateRefId="1"
+                                                                code="DUI#STD"
+                                                                description="DOBLE USO INDIVIDUAL"
+                                                                nonRefundable="false"
+                                                                numberOfUnits="15">
+                                                                <Price currency="EUR"
+                                                                    amount="432.94" binding="false"
+                                                                    commission="0"
+                                                                    minimumSellingPrice="-1"></Price>
+                                                                <DailyRatePlans>
+                                                                    <DailyRatePlan name="NACIONAL"
+                                                                        cod="NAC" id="5"></DailyRatePlan>
+                                                                </DailyRatePlans>
+                                                            </Room>
+                                                        </Rooms>
+                                                        <DailyRatePlans>
+                                                            <DailyRatePlan name="NACIONAL" cod="NAC"
+                                                                id="5"></DailyRatePlan>
+                                                        </DailyRatePlans>
+                                                        <Fees></Fees>
+                                                        <Price currency="EUR" amount="432.94"
+                                                            binding="false" commission="0"
+                                                            minimumSellingPrice="-1"></Price>
+                                                        <Offers></Offers>
+                                                        <Remarks></Remarks>
+                                                    </Option>
+                                                    <Option type="Hotel" paymentType="MerchantPay"
+                                                        status="OK" supplierCode="INT">
+                                                        <CancelPenalties nonRefundable="false">
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-14T00:00:00Z</Deadline>
+                                                                <HoursBefore>120</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">153.27</Penalty>
+                                                            </CancelPenalty>
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-19T00:00:00Z</Deadline>
+                                                                <HoursBefore>0</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">306.54</Penalty>
+                                                            </CancelPenalty>
+                                                        </CancelPenalties>
+                                                        <Parameters>
+                                                            <Parameter key="session"
+                                                                value="9452867355BB49B6BCCCF80252ACD861"></Parameter>
+                                                            <Parameter key="option1"
+                                                                value="QkVTVEBATkRGQUpFQk5VRUFrUUVodmRHVnNRQ1JBVFdWeVkyaGhiblJRWVhsQUpFQkFKRUE1STBSQ1RFQWtRRVJDVEVBa1FFUnZZbXhsUUNSQU1VQWtRRVpoYkhObFFDUkFNRUFrUURRMk1TdzJNRUFrUURCQUpFQXdRQ1JBUm1Gc2MyVkFKRUJTWVhSbFVHeGhia052WkdVeFFDb3FRRTVCUTBCZlgwQlNiMjl0Vkhsd1pVTnZaR1V4UUNvcVFFUkNURUJmWDBCTlpXRnNVR3hoYmtOdlpHVXhRQ29xUUUxUVFGOWZRRkJ5YjIxdmRHbHZia052WkdVeFFDb3FRRUJmWDBCUWNtVmphVzlHYVc1aGJFQXFLa0EwTmpFdU5rQmZYMEJBSkVCQUpFQkFKRUJPUVVOQUpFQk9RVU5KVDA1QlRBPT0="></Parameter>
+                                                        </Parameters>
+                                                        <Rooms>
+                                                            <Room id="6" roomCandidateRefId="1"
+                                                                code="DBL#STD" description="DOBLE"
+                                                                nonRefundable="false"
+                                                                numberOfUnits="192">
+                                                                <Price currency="EUR"
+                                                                    amount="453.52" binding="false"
+                                                                    commission="0"
+                                                                    minimumSellingPrice="-1"></Price>
+                                                                <DailyRatePlans>
+                                                                    <DailyRatePlan name="NACIONAL"
+                                                                        cod="NAC" id="6"></DailyRatePlan>
+                                                                </DailyRatePlans>
+                                                            </Room>
+                                                        </Rooms>
+                                                        <DailyRatePlans>
+                                                            <DailyRatePlan name="NACIONAL" cod="NAC"
+                                                                id="6"></DailyRatePlan>
+                                                        </DailyRatePlans>
+                                                        <Fees></Fees>
+                                                        <Price currency="EUR" amount="453.52"
+                                                            binding="false" commission="0"
+                                                            minimumSellingPrice="-1"></Price>
+                                                        <Offers></Offers>
+                                                        <Remarks></Remarks>
+                                                    </Option>
+                                                    <Option type="Hotel" paymentType="MerchantPay"
+                                                        status="OK" supplierCode="INT">
+                                                        <CancelPenalties nonRefundable="false">
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-14T00:00:00Z</Deadline>
+                                                                <HoursBefore>120</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">156.22</Penalty>
+                                                            </CancelPenalty>
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-19T00:00:00Z</Deadline>
+                                                                <HoursBefore>0</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">312.44</Penalty>
+                                                            </CancelPenalty>
+                                                        </CancelPenalties>
+                                                        <Parameters>
+                                                            <Parameter key="session"
+                                                                value="9452867355BB49B6BCCCF80252ACD861"></Parameter>
+                                                            <Parameter key="option1"
+                                                                value="QkVTVEBATkRGQUpFQk5VRUFrUUVodmRHVnNRQ1JBVFdWeVkyaGhiblJRWVhsQUpFQkFKRUF4TVNORVFreExVMEFrUUVSQ1RFdFRRQ1JBUkc5aWJHVWdTMmx1WnlCVGFYcGxRQ1JBTVVBa1FFWmhiSE5sUUNSQU1FQWtRRFEzTUN3ME5VQWtRREJBSkVBd1FDUkFSbUZzYzJWQUpFQlNZWFJsVUd4aGJrTnZaR1V4UUNvcVFFNUJRMEJmWDBCU2IyOXRWSGx3WlVOdlpHVXhRQ29xUUVSQ1RFdFRRRjlmUUUxbFlXeFFiR0Z1UTI5a1pURkFLaXBBVFZCQVgxOUFVSEp2Ylc5MGFXOXVRMjlrWlRGQUtpcEFRRjlmUUZCeVpXTnBiMFpwYm1Gc1FDb3FRRFEzTUM0ME5VQmZYMEJBSkVCQUpFQkFKRUJPUVVOQUpFQk9RVU5KVDA1QlRBPT0="></Parameter>
+                                                        </Parameters>
+                                                        <Rooms>
+                                                            <Room id="7" roomCandidateRefId="1"
+                                                                code="DBL_KS#STD"
+                                                                description="DOBLE KING SIZE"
+                                                                nonRefundable="false"
+                                                                numberOfUnits="50">
+                                                                <Price currency="EUR"
+                                                                    amount="462.22" binding="false"
+                                                                    commission="0"
+                                                                    minimumSellingPrice="-1"></Price>
+                                                                <DailyRatePlans>
+                                                                    <DailyRatePlan name="NACIONAL"
+                                                                        cod="NAC" id="7"></DailyRatePlan>
+                                                                </DailyRatePlans>
+                                                            </Room>
+                                                        </Rooms>
+                                                        <DailyRatePlans>
+                                                            <DailyRatePlan name="NACIONAL" cod="NAC"
+                                                                id="7"></DailyRatePlan>
+                                                        </DailyRatePlans>
+                                                        <Fees></Fees>
+                                                        <Price currency="EUR" amount="462.22"
+                                                            binding="false" commission="0"
+                                                            minimumSellingPrice="-1"></Price>
+                                                        <Offers></Offers>
+                                                        <Remarks></Remarks>
+                                                    </Option>
+                                                    <Option type="Hotel" paymentType="MerchantPay"
+                                                        status="OK" supplierCode="INT">
+                                                        <CancelPenalties nonRefundable="false">
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-14T00:00:00Z</Deadline>
+                                                                <HoursBefore>120</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">161.13</Penalty>
+                                                            </CancelPenalty>
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-19T00:00:00Z</Deadline>
+                                                                <HoursBefore>0</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">322.26</Penalty>
+                                                            </CancelPenalty>
+                                                        </CancelPenalties>
+                                                        <Parameters>
+                                                            <Parameter key="session"
+                                                                value="9452867355BB49B6BCCCF80252ACD861"></Parameter>
+                                                            <Parameter key="option1"
+                                                                value="QkVTVEBATkRGQUpFQk5VRUFrUUVodmRHVnNRQ1JBVFdWeVkyaGhiblJRWVhsQUpFQkFKRUF4TXlOVFZWQkFKRUJUVlZCQUpFQlRkWEJsY21sdmNrQWtRREZBSkVCR1lXeHpaVUFrUURCQUpFQTBPVE1zTURCQUpFQXdRQ1JBTUVBa1FFWmhiSE5sUUNSQVVtRjBaVkJzWVc1RGIyUmxNVUFxS2tCT1FVTkFYMTlBVW05dmJWUjVjR1ZEYjJSbE1VQXFLa0JUVlZCQVgxOUFUV1ZoYkZCc1lXNURiMlJsTVVBcUtrQk5VRUJmWDBCUWNtOXRiM1JwYjI1RGIyUmxNVUFxS2tCQVgxOUFVSEpsWTJsdlJtbHVZV3hBS2lwQU5Ea3pRRjlmUUVBa1FFQWtRRUFrUUU1QlEwQWtRRTVCUTBsUFRrRk0="></Parameter>
+                                                        </Parameters>
+                                                        <Rooms>
+                                                            <Room id="8" roomCandidateRefId="1"
+                                                                code="SUP#STD"
+                                                                description="SUPERIOR"
+                                                                nonRefundable="false"
+                                                                numberOfUnits="199">
+                                                                <Price currency="EUR"
+                                                                    amount="484.37" binding="false"
+                                                                    commission="0"
+                                                                    minimumSellingPrice="-1"></Price>
+                                                                <DailyRatePlans>
+                                                                    <DailyRatePlan name="NACIONAL"
+                                                                        cod="NAC" id="8"></DailyRatePlan>
+                                                                </DailyRatePlans>
+                                                            </Room>
+                                                        </Rooms>
+                                                        <DailyRatePlans>
+                                                            <DailyRatePlan name="NACIONAL" cod="NAC"
+                                                                id="8"></DailyRatePlan>
+                                                        </DailyRatePlans>
+                                                        <Fees></Fees>
+                                                        <Price currency="EUR" amount="484.37"
+                                                            binding="false" commission="0"
+                                                            minimumSellingPrice="-1"></Price>
+                                                        <Offers></Offers>
+                                                        <Remarks></Remarks>
+                                                    </Option>
+                                                </Options>
+                                            </MealPlan>
+                                            <MealPlan code="AD">
+                                                <Options>
+                                                    <Option type="Hotel" paymentType="MerchantPay"
+                                                        status="OK" supplierCode="INT">
+                                                        <CancelPenalties nonRefundable="false">
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-14T00:00:00Z</Deadline>
+                                                                <HoursBefore>120</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">136.47</Penalty>
+                                                            </CancelPenalty>
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-19T00:00:00Z</Deadline>
+                                                                <HoursBefore>0</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">272.94</Penalty>
+                                                            </CancelPenalty>
+                                                        </CancelPenalties>
+                                                        <Parameters>
+                                                            <Parameter key="session"
+                                                                value="9452867355BB49B6BCCCF80252ACD861"></Parameter>
+                                                            <Parameter key="option1"
+                                                                value="QkVTVEBATkRGQUpFQkJSRUFrUUVodmRHVnNRQ1JBVFdWeVkyaGhiblJRWVhsQUpFQkFKRUF5STBSVlNVQWtRRVJWU1VBa1FFUnZZbXhsSUZWemJ5QkpibVJwZG1sa2RXRnNRQ1JBTVVBa1FFWmhiSE5sUUNSQU1FQWtRRFF4TUN3eE5VQWtRREJBSkVBd1FDUkFSbUZzYzJWQUpFQlNZWFJsVUd4aGJrTnZaR1V4UUNvcVFFNUJRMEJmWDBCU2IyOXRWSGx3WlVOdlpHVXhRQ29xUUVSVlNVQmZYMEJOWldGc1VHeGhia052WkdVeFFDb3FRRUZFUUY5ZlFGQnliMjF2ZEdsdmJrTnZaR1V4UUNvcVFFQmZYMEJRY21WamFXOUdhVzVoYkVBcUtrQTBNVEF1TVRWQVgxOUFRQ1JBUUNSQVFDUkFUa0ZEUUNSQVRrRkRTVTlPUVV3PQ=="></Parameter>
+                                                        </Parameters>
+                                                        <Rooms>
+                                                            <Room id="1" roomCandidateRefId="1"
+                                                                code="DUI#STD"
+                                                                description="DOBLE USO INDIVIDUAL"
+                                                                nonRefundable="false"
+                                                                numberOfUnits="15">
+                                                                <Price currency="EUR"
+                                                                    amount="402.97" binding="false"
+                                                                    commission="0"
+                                                                    minimumSellingPrice="-1"></Price>
+                                                                <DailyRatePlans>
+                                                                    <DailyRatePlan name="NACIONAL"
+                                                                        cod="NAC" id="1"></DailyRatePlan>
+                                                                </DailyRatePlans>
+                                                            </Room>
+                                                        </Rooms>
+                                                        <DailyRatePlans>
+                                                            <DailyRatePlan name="NACIONAL" cod="NAC"
+                                                                id="1"></DailyRatePlan>
+                                                        </DailyRatePlans>
+                                                        <Fees></Fees>
+                                                        <Price currency="EUR" amount="402.97"
+                                                            binding="false" commission="0"
+                                                            minimumSellingPrice="-1"></Price>
+                                                        <Offers></Offers>
+                                                        <Remarks></Remarks>
+                                                    </Option>
+                                                    <Option type="Hotel" paymentType="MerchantPay"
+                                                        status="OK" supplierCode="INT">
+                                                        <CancelPenalties nonRefundable="false">
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-14T00:00:00Z</Deadline>
+                                                                <HoursBefore>120</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">143.44</Penalty>
+                                                            </CancelPenalty>
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-19T00:00:00Z</Deadline>
+                                                                <HoursBefore>0</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">286.89</Penalty>
+                                                            </CancelPenalty>
+                                                        </CancelPenalties>
+                                                        <Parameters>
+                                                            <Parameter key="session"
+                                                                value="9452867355BB49B6BCCCF80252ACD861"></Parameter>
+                                                            <Parameter key="option1"
+                                                                value="QkVTVEBATkRGQUpFQkJSRUFrUUVodmRHVnNRQ1JBVFdWeVkyaGhiblJRWVhsQUpFQkFKRUExSTBSQ1RFQWtRRVJDVEVBa1FFUnZZbXhsUUNSQU1VQWtRRVpoYkhObFFDUkFNRUFrUURRek1Td3hNRUFrUURCQUpFQXdRQ1JBUm1Gc2MyVkFKRUJTWVhSbFVHeGhia052WkdVeFFDb3FRRTVCUTBCZlgwQlNiMjl0Vkhsd1pVTnZaR1V4UUNvcVFFUkNURUJmWDBCTlpXRnNVR3hoYmtOdlpHVXhRQ29xUUVGRVFGOWZRRkJ5YjIxdmRHbHZia052WkdVeFFDb3FRRUJmWDBCUWNtVmphVzlHYVc1aGJFQXFLa0EwTXpFdU1VQmZYMEJBSkVCQUpFQkFKRUJPUVVOQUpFQk9RVU5KVDA1QlRBPT0="></Parameter>
+                                                        </Parameters>
+                                                        <Rooms>
+                                                            <Room id="2" roomCandidateRefId="1"
+                                                                code="DBL#STD" description="DOBLE"
+                                                                nonRefundable="false"
+                                                                numberOfUnits="192">
+                                                                <Price currency="EUR"
+                                                                    amount="423.56" binding="false"
+                                                                    commission="0"
+                                                                    minimumSellingPrice="-1"></Price>
+                                                                <DailyRatePlans>
+                                                                    <DailyRatePlan name="NACIONAL"
+                                                                        cod="NAC" id="2"></DailyRatePlan>
+                                                                </DailyRatePlans>
+                                                            </Room>
+                                                        </Rooms>
+                                                        <DailyRatePlans>
+                                                            <DailyRatePlan name="NACIONAL" cod="NAC"
+                                                                id="2"></DailyRatePlan>
+                                                        </DailyRatePlans>
+                                                        <Fees></Fees>
+                                                        <Price currency="EUR" amount="423.56"
+                                                            binding="false" commission="0"
+                                                            minimumSellingPrice="-1"></Price>
+                                                        <Offers></Offers>
+                                                        <Remarks></Remarks>
+                                                    </Option>
+                                                    <Option type="Hotel" paymentType="MerchantPay"
+                                                        status="OK" supplierCode="INT">
+                                                        <CancelPenalties nonRefundable="false">
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-14T00:00:00Z</Deadline>
+                                                                <HoursBefore>120</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">146.39</Penalty>
+                                                            </CancelPenalty>
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-19T00:00:00Z</Deadline>
+                                                                <HoursBefore>0</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">292.78</Penalty>
+                                                            </CancelPenalty>
+                                                        </CancelPenalties>
+                                                        <Parameters>
+                                                            <Parameter key="session"
+                                                                value="9452867355BB49B6BCCCF80252ACD861"></Parameter>
+                                                            <Parameter key="option1"
+                                                                value="QkVTVEBATkRGQUpFQkJSRUFrUUVodmRHVnNRQ1JBVFdWeVkyaGhiblJRWVhsQUpFQkFKRUEySTBSQ1RFdFRRQ1JBUkVKTVMxTkFKRUJFYjJKc1pTQkxhVzVuSUZOcGVtVkFKRUF4UUNSQVJtRnNjMlZBSkVBd1FDUkFORE01TERrMVFDUkFNRUFrUURCQUpFQkdZV3h6WlVBa1FGSmhkR1ZRYkdGdVEyOWtaVEZBS2lwQVRrRkRRRjlmUUZKdmIyMVVlWEJsUTI5a1pURkFLaXBBUkVKTVMxTkFYMTlBVFdWaGJGQnNZVzVEYjJSbE1VQXFLa0JCUkVCZlgwQlFjbTl0YjNScGIyNURiMlJsTVVBcUtrQkFYMTlBVUhKbFkybHZSbWx1WVd4QUtpcEFORE01TGprMVFGOWZRRUFrUUVBa1FFQWtRRTVCUTBBa1FFNUJRMGxQVGtGTQ=="></Parameter>
+                                                        </Parameters>
+                                                        <Rooms>
+                                                            <Room id="3" roomCandidateRefId="1"
+                                                                code="DBL_KS#STD"
+                                                                description="DOBLE KING SIZE"
+                                                                nonRefundable="false"
+                                                                numberOfUnits="50">
+                                                                <Price currency="EUR"
+                                                                    amount="432.25" binding="false"
+                                                                    commission="0"
+                                                                    minimumSellingPrice="-1"></Price>
+                                                                <DailyRatePlans>
+                                                                    <DailyRatePlan name="NACIONAL"
+                                                                        cod="NAC" id="3"></DailyRatePlan>
+                                                                </DailyRatePlans>
+                                                            </Room>
+                                                        </Rooms>
+                                                        <DailyRatePlans>
+                                                            <DailyRatePlan name="NACIONAL" cod="NAC"
+                                                                id="3"></DailyRatePlan>
+                                                        </DailyRatePlans>
+                                                        <Fees></Fees>
+                                                        <Price currency="EUR" amount="432.25"
+                                                            binding="false" commission="0"
+                                                            minimumSellingPrice="-1"></Price>
+                                                        <Offers></Offers>
+                                                        <Remarks></Remarks>
+                                                    </Option>
+                                                    <Option type="Hotel" paymentType="MerchantPay"
+                                                        status="OK" supplierCode="INT">
+                                                        <CancelPenalties nonRefundable="false">
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-14T00:00:00Z</Deadline>
+                                                                <HoursBefore>120</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">151.30</Penalty>
+                                                            </CancelPenalty>
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-19T00:00:00Z</Deadline>
+                                                                <HoursBefore>0</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">302.61</Penalty>
+                                                            </CancelPenalty>
+                                                        </CancelPenalties>
+                                                        <Parameters>
+                                                            <Parameter key="session"
+                                                                value="9452867355BB49B6BCCCF80252ACD861"></Parameter>
+                                                            <Parameter key="option1"
+                                                                value="QkVTVEBATkRGQUpFQkJSRUFrUUVodmRHVnNRQ1JBVFdWeVkyaGhiblJRWVhsQUpFQkFKRUF4TUNOVFZWQkFKRUJUVlZCQUpFQlRkWEJsY21sdmNrQWtRREZBSkVCR1lXeHpaVUFrUURCQUpFQTBOaklzTlRCQUpFQXdRQ1JBTUVBa1FFWmhiSE5sUUNSQVVtRjBaVkJzWVc1RGIyUmxNVUFxS2tCT1FVTkFYMTlBVW05dmJWUjVjR1ZEYjJSbE1VQXFLa0JUVlZCQVgxOUFUV1ZoYkZCc1lXNURiMlJsTVVBcUtrQkJSRUJmWDBCUWNtOXRiM1JwYjI1RGIyUmxNVUFxS2tCQVgxOUFVSEpsWTJsdlJtbHVZV3hBS2lwQU5EWXlMalZBWDE5QVFDUkFRQ1JBUUNSQVRrRkRRQ1JBVGtGRFNVOU9RVXc9"></Parameter>
+                                                        </Parameters>
+                                                        <Rooms>
+                                                            <Room id="4" roomCandidateRefId="1"
+                                                                code="SUP#STD"
+                                                                description="SUPERIOR"
+                                                                nonRefundable="false"
+                                                                numberOfUnits="199">
+                                                                <Price currency="EUR"
+                                                                    amount="454.41" binding="false"
+                                                                    commission="0"
+                                                                    minimumSellingPrice="-1"></Price>
+                                                                <DailyRatePlans>
+                                                                    <DailyRatePlan name="NACIONAL"
+                                                                        cod="NAC" id="4"></DailyRatePlan>
+                                                                </DailyRatePlans>
+                                                            </Room>
+                                                        </Rooms>
+                                                        <DailyRatePlans>
+                                                            <DailyRatePlan name="NACIONAL" cod="NAC"
+                                                                id="4"></DailyRatePlan>
+                                                        </DailyRatePlans>
+                                                        <Fees></Fees>
+                                                        <Price currency="EUR" amount="454.41"
+                                                            binding="false" commission="0"
+                                                            minimumSellingPrice="-1"></Price>
+                                                        <Offers></Offers>
+                                                        <Remarks></Remarks>
+                                                    </Option>
+                                                </Options>
+                                            </MealPlan>
+                                            <MealPlan code="SA">
+                                                <Options>
+                                                    <Option type="Hotel" paymentType="MerchantPay"
+                                                        status="OK" supplierCode="INT">
+                                                        <CancelPenalties nonRefundable="false">
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-14T00:00:00Z</Deadline>
+                                                                <HoursBefore>120</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">132.54</Penalty>
+                                                            </CancelPenalty>
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-19T00:00:00Z</Deadline>
+                                                                <HoursBefore>0</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">265.08</Penalty>
+                                                            </CancelPenalty>
+                                                        </CancelPenalties>
+                                                        <Parameters>
+                                                            <Parameter key="session"
+                                                                value="9452867355BB49B6BCCCF80252ACD861"></Parameter>
+                                                            <Parameter key="option1"
+                                                                value="QkVTVEBATkRGQUpFQlRRVUFrUUVodmRHVnNRQ1JBVFdWeVkyaGhiblJRWVhsQUpFQkFKRUF4STBSVlNVQWtRRVJWU1VBa1FFUnZZbXhsSUZWemJ5QkpibVJwZG1sa2RXRnNRQ1JBTVVBa1FFWmhiSE5sUUNSQU1FQWtRRE01Tnl3NU5VQWtRREJBSkVBd1FDUkFSbUZzYzJWQUpFQlNZWFJsVUd4aGJrTnZaR1V4UUNvcVFFNUJRMEJmWDBCU2IyOXRWSGx3WlVOdlpHVXhRQ29xUUVSVlNVQmZYMEJOWldGc1VHeGhia052WkdVeFFDb3FRRk5CUUY5ZlFGQnliMjF2ZEdsdmJrTnZaR1V4UUNvcVFFQmZYMEJRY21WamFXOUdhVzVoYkVBcUtrQXpPVGN1T1RWQVgxOUFRQ1JBUUNSQVFDUkFUa0ZEUUNSQVRrRkRTVTlPUVV3PQ=="></Parameter>
+                                                        </Parameters>
+                                                        <Rooms>
+                                                            <Room id="13" roomCandidateRefId="1"
+                                                                code="DUI#STD"
+                                                                description="DOBLE USO INDIVIDUAL"
+                                                                nonRefundable="false"
+                                                                numberOfUnits="15">
+                                                                <Price currency="EUR"
+                                                                    amount="390.99" binding="false"
+                                                                    commission="0"
+                                                                    minimumSellingPrice="-1"></Price>
+                                                                <DailyRatePlans>
+                                                                    <DailyRatePlan name="NACIONAL"
+                                                                        cod="NAC" id="13"></DailyRatePlan>
+                                                                </DailyRatePlans>
+                                                            </Room>
+                                                        </Rooms>
+                                                        <DailyRatePlans>
+                                                            <DailyRatePlan name="NACIONAL" cod="NAC"
+                                                                id="13"></DailyRatePlan>
+                                                        </DailyRatePlans>
+                                                        <Fees></Fees>
+                                                        <Price currency="EUR" amount="390.99"
+                                                            binding="false" commission="0"
+                                                            minimumSellingPrice="-1"></Price>
+                                                        <Offers></Offers>
+                                                        <Remarks></Remarks>
+                                                    </Option>
+                                                    <Option type="Hotel" paymentType="MerchantPay"
+                                                        status="OK" supplierCode="INT">
+                                                        <CancelPenalties nonRefundable="false">
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-14T00:00:00Z</Deadline>
+                                                                <HoursBefore>120</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">139.52</Penalty>
+                                                            </CancelPenalty>
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-19T00:00:00Z</Deadline>
+                                                                <HoursBefore>0</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">279.03</Penalty>
+                                                            </CancelPenalty>
+                                                        </CancelPenalties>
+                                                        <Parameters>
+                                                            <Parameter key="session"
+                                                                value="9452867355BB49B6BCCCF80252ACD861"></Parameter>
+                                                            <Parameter key="option1"
+                                                                value="QkVTVEBATkRGQUpFQlRRVUFrUUVodmRHVnNRQ1JBVFdWeVkyaGhiblJRWVhsQUpFQkFKRUF6STBSQ1RFQWtRRVJDVEVBa1FFUnZZbXhsUUNSQU1VQWtRRVpoYkhObFFDUkFNRUFrUURReE9DdzVNRUFrUURCQUpFQXdRQ1JBUm1Gc2MyVkFKRUJTWVhSbFVHeGhia052WkdVeFFDb3FRRTVCUTBCZlgwQlNiMjl0Vkhsd1pVTnZaR1V4UUNvcVFFUkNURUJmWDBCTlpXRnNVR3hoYmtOdlpHVXhRQ29xUUZOQlFGOWZRRkJ5YjIxdmRHbHZia052WkdVeFFDb3FRRUJmWDBCUWNtVmphVzlHYVc1aGJFQXFLa0EwTVRndU9VQmZYMEJBSkVCQUpFQkFKRUJPUVVOQUpFQk9RVU5KVDA1QlRBPT0="></Parameter>
+                                                        </Parameters>
+                                                        <Rooms>
+                                                            <Room id="14" roomCandidateRefId="1"
+                                                                code="DBL#STD" description="DOBLE"
+                                                                nonRefundable="false"
+                                                                numberOfUnits="192">
+                                                                <Price currency="EUR"
+                                                                    amount="411.57" binding="false"
+                                                                    commission="0"
+                                                                    minimumSellingPrice="-1"></Price>
+                                                                <DailyRatePlans>
+                                                                    <DailyRatePlan name="NACIONAL"
+                                                                        cod="NAC" id="14"></DailyRatePlan>
+                                                                </DailyRatePlans>
+                                                            </Room>
+                                                        </Rooms>
+                                                        <DailyRatePlans>
+                                                            <DailyRatePlan name="NACIONAL" cod="NAC"
+                                                                id="14"></DailyRatePlan>
+                                                        </DailyRatePlans>
+                                                        <Fees></Fees>
+                                                        <Price currency="EUR" amount="411.57"
+                                                            binding="false" commission="0"
+                                                            minimumSellingPrice="-1"></Price>
+                                                        <Offers></Offers>
+                                                        <Remarks></Remarks>
+                                                    </Option>
+                                                    <Option type="Hotel" paymentType="MerchantPay"
+                                                        status="OK" supplierCode="INT">
+                                                        <CancelPenalties nonRefundable="false">
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-14T00:00:00Z</Deadline>
+                                                                <HoursBefore>120</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">142.46</Penalty>
+                                                            </CancelPenalty>
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-19T00:00:00Z</Deadline>
+                                                                <HoursBefore>0</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">284.92</Penalty>
+                                                            </CancelPenalty>
+                                                        </CancelPenalties>
+                                                        <Parameters>
+                                                            <Parameter key="session"
+                                                                value="9452867355BB49B6BCCCF80252ACD861"></Parameter>
+                                                            <Parameter key="option1"
+                                                                value="QkVTVEBATkRGQUpFQlRRVUFrUUVodmRHVnNRQ1JBVFdWeVkyaGhiblJRWVhsQUpFQkFKRUEwSTBSQ1RFdFRRQ1JBUkVKTVMxTkFKRUJFYjJKc1pTQkxhVzVuSUZOcGVtVkFKRUF4UUNSQVJtRnNjMlZBSkVBd1FDUkFOREkzTERjMVFDUkFNRUFrUURCQUpFQkdZV3h6WlVBa1FGSmhkR1ZRYkdGdVEyOWtaVEZBS2lwQVRrRkRRRjlmUUZKdmIyMVVlWEJsUTI5a1pURkFLaXBBUkVKTVMxTkFYMTlBVFdWaGJGQnNZVzVEYjJSbE1VQXFLa0JUUVVCZlgwQlFjbTl0YjNScGIyNURiMlJsTVVBcUtrQkFYMTlBVUhKbFkybHZSbWx1WVd4QUtpcEFOREkzTGpjMVFGOWZRRUFrUUVBa1FFQWtRRTVCUTBBa1FFNUJRMGxQVGtGTQ=="></Parameter>
+                                                        </Parameters>
+                                                        <Rooms>
+                                                            <Room id="15" roomCandidateRefId="1"
+                                                                code="DBL_KS#STD"
+                                                                description="DOBLE KING SIZE"
+                                                                nonRefundable="false"
+                                                                numberOfUnits="50">
+                                                                <Price currency="EUR"
+                                                                    amount="420.26" binding="false"
+                                                                    commission="0"
+                                                                    minimumSellingPrice="-1"></Price>
+                                                                <DailyRatePlans>
+                                                                    <DailyRatePlan name="NACIONAL"
+                                                                        cod="NAC" id="15"></DailyRatePlan>
+                                                                </DailyRatePlans>
+                                                            </Room>
+                                                        </Rooms>
+                                                        <DailyRatePlans>
+                                                            <DailyRatePlan name="NACIONAL" cod="NAC"
+                                                                id="15"></DailyRatePlan>
+                                                        </DailyRatePlans>
+                                                        <Fees></Fees>
+                                                        <Price currency="EUR" amount="420.26"
+                                                            binding="false" commission="0"
+                                                            minimumSellingPrice="-1"></Price>
+                                                        <Offers></Offers>
+                                                        <Remarks></Remarks>
+                                                    </Option>
+                                                    <Option type="Hotel" paymentType="MerchantPay"
+                                                        status="OK" supplierCode="INT">
+                                                        <CancelPenalties nonRefundable="false">
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-14T00:00:00Z</Deadline>
+                                                                <HoursBefore>120</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">147.38</Penalty>
+                                                            </CancelPenalty>
+                                                            <CancelPenalty>
+                                                                <Deadline>2026-06-19T00:00:00Z</Deadline>
+                                                                <HoursBefore>0</HoursBefore>
+                                                                <Penalty type="Importe"
+                                                                    paymentType="MerchantPay"
+                                                                    currency="EUR">294.75</Penalty>
+                                                            </CancelPenalty>
+                                                        </CancelPenalties>
+                                                        <Parameters>
+                                                            <Parameter key="session"
+                                                                value="9452867355BB49B6BCCCF80252ACD861"></Parameter>
+                                                            <Parameter key="option1"
+                                                                value="QkVTVEBATkRGQUpFQlRRVUFrUUVodmRHVnNRQ1JBVFdWeVkyaGhiblJRWVhsQUpFQkFKRUE0STFOVlVFQWtRRk5WVUVBa1FGTjFjR1Z5YVc5eVFDUkFNVUFrUUVaaGJITmxRQ1JBTUVBa1FEUTFNQ3d6TUVBa1FEQkFKRUF3UUNSQVJtRnNjMlZBSkVCU1lYUmxVR3hoYmtOdlpHVXhRQ29xUUU1QlEwQmZYMEJTYjI5dFZIbHdaVU52WkdVeFFDb3FRRk5WVUVCZlgwQk5aV0ZzVUd4aGJrTnZaR1V4UUNvcVFGTkJRRjlmUUZCeWIyMXZkR2x2YmtOdlpHVXhRQ29xUUVCZlgwQlFjbVZqYVc5R2FXNWhiRUFxS2tBME5UQXVNMEJmWDBCQUpFQkFKRUJBSkVCT1FVTkFKRUJPUVVOSlQwNUJUQT09"></Parameter>
+                                                        </Parameters>
+                                                        <Rooms>
+                                                            <Room id="16" roomCandidateRefId="1"
+                                                                code="SUP#STD"
+                                                                description="SUPERIOR"
+                                                                nonRefundable="false"
+                                                                numberOfUnits="199">
+                                                                <Price currency="EUR"
+                                                                    amount="442.42" binding="false"
+                                                                    commission="0"
+                                                                    minimumSellingPrice="-1"></Price>
+                                                                <DailyRatePlans>
+                                                                    <DailyRatePlan name="NACIONAL"
+                                                                        cod="NAC" id="16"></DailyRatePlan>
+                                                                </DailyRatePlans>
+                                                            </Room>
+                                                        </Rooms>
+                                                        <DailyRatePlans>
+                                                            <DailyRatePlan name="NACIONAL" cod="NAC"
+                                                                id="16"></DailyRatePlan>
+                                                        </DailyRatePlans>
+                                                        <Fees></Fees>
+                                                        <Price currency="EUR" amount="442.42"
+                                                            binding="false" commission="0"
+                                                            minimumSellingPrice="-1"></Price>
+                                                        <Offers></Offers>
+                                                        <Remarks></Remarks>
+                                                    </Option>
+                                                </Options>
+                                            </MealPlan>
+                                        </MealPlans>
+                                    </Hotel>
+                                </Hotels>
+                            </AvailRS>
+                        </rsXML>
+                    </ProviderRS>
+                </providerRSs>
+            </AvailResult>
+        </AvailResponse>
+    </s:Body>
+</s:Envelope>

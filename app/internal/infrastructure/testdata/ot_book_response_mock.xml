@@ -1,0 +1,20 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body>
+		<ReservationResponse xmlns="http://schemas.xmltravelgate.com/hub/2012/06">
+			<ReservationResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+				<hubStatus i:nil="true" />
+				<providerRS>
+					<hubProviderStatus i:nil="true" />
+					<refId>1726725299429263</refId>
+					<rs>
+						&lt;ReservationRS&gt;&lt;operationImplemented&gt;true&lt;/operationImplemented&gt;&lt;ResStatus&gt;OK&lt;/ResStatus&gt;&lt;ProviderLocator&gt;50311132&lt;/ProviderLocator&gt;&lt;Price
+						currency="EUR" amount="119.29" binding="false" commission="0"
+						minimumSellingPrice="-1"&gt;&lt;/Price&gt;&lt;ResModifiable&gt;true&lt;/ResModifiable&gt;&lt;Offers&gt;&lt;/Offers&gt;&lt;DailyRatePlans&gt;&lt;DailyRatePlan
+						name="NACIONAL"
+						cod="NAC"&gt;&lt;/DailyRatePlan&gt;&lt;/DailyRatePlans&gt;&lt;Remarks&gt;&lt;/Remarks&gt;&lt;CodFac&gt;113665&lt;/CodFac&gt;&lt;/ReservationRS&gt;</rs>
+					<rsXML i:nil="true" />
+				</providerRS>
+			</ReservationResult>
+		</ReservationResponse>
+	</s:Body>
+</s:Envelope>

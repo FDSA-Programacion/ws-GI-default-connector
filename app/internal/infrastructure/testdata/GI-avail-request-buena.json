@@ -1,0 +1,104 @@
+{
+  "pos": {
+    "source": {
+      "requestorID": {
+        "type": "DSP",
+        "id": "{{otUser}}",
+        "messagePassword": "{{otPass}}",
+        "companyName": {
+          "companyShortName": "GUEST INCOMING",
+          "travelSector": null
+        }
+      },
+      "bookingChannel": {
+        "type": "7",
+        "primary": true
+      }
+    }
+  },
+  "availRequestSegments": {
+    "availRequestSegment": {
+      "stayDateRange": {
+        "start": "2026-05-11",
+        "end": "2026-05-15"
+      },
+      "hotelSearchCriteria": {
+        "criterion": {
+          "hotelRef": [
+            { "hotelCode": "119111" }
+            // { "hotelCode": "63382"}
+            //{ "hotelCode": "843736"},
+            //{ "hotelCode": "16864"},
+            //{ "hotelCode": "487016"}
+          ]
+        }
+      },
+      "roomStayCandidates": {
+        "roomStayCandidate": [
+          {
+            "rph": "1",
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "age": 30,
+                  "ageQualifyingCode": "10"
+                },
+                {
+                  "age": 30,
+                  "ageQualifyingCode": "10"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "tpa": {
+        "currency": "EUR",
+        "nationality": "ES",
+        "market": "ES",
+        "cancelPenalties": true,
+        "onRequest": false
+      },
+      "tpaExtension": {
+        "currency": "EUR",
+        "nationality": "ES",
+        "market": "ES",
+        "cancelPenalties": true,
+        "onRequest": false
+      }
+    }
+  },
+  "internalCondition": {
+    "callCondition": {
+      "echoToken": "1762431135188609",
+      "originTimeStamp": 1726725299429
+    },
+    "providerCondition": {
+      "code": "1102",
+      "timeOut": 99999,
+      "url": "http://schemas.xmltravelgate.com/hub/2012/06"
+    },
+    "clientCondition": {
+      "code": "COI6VEJF",
+      "type": "PACK",
+      "markup": 0.0,
+      "deltaMarkup": 0.0,
+      "supportNoRefund": true
+    },
+    "channels": {
+      "channel": [
+        {
+          "code": "OPENB2B",
+          "id": 1102
+        }
+      ]
+    },
+    "rebook": false
+  },
+  "debug": "g2018i",
+  "primaryLangID": "es",
+  "rqType": "GIOTAHotelAvailRQ",
+  "version": "1.004",
+  "timeout": 0,
+  "valuation": true
+}

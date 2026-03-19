@@ -1,0 +1,205 @@
+{
+  "echoToken": "1573647294121",
+  "hotelReservations": {
+    "hotelReservation": [
+      {
+        "roomStays": {
+          "roomStay": [
+            {
+              "cancelPenalties": {
+                "cancelPenalty": [
+                  {
+                    "amountPercent": {
+                      "amount": null,
+                      "currencyCode": "EUR",
+                      "nmbrOfNights": null,
+                      "percent": "100"
+                    },
+                    "end": "2025-10-01",
+                    "penaltyDescription": {
+                      "text": "Tenga en cuenta que la reserva de esta habitación no es reembolsable ni se puede modificar. Si se cancela la reserva, no se devuelve el dinero."
+                    },
+                    "start": "2025-08-18"
+                  }
+                ]
+              },
+              "comments": {
+                "comment": [
+                  {
+                    "text": "Todas las estancias en un hotel / apartamento en Costa Brava / Lloret de Mar / Costa Dorada y toda Cataluña excepto Barcelona ciudad deben pagar 0,66 € por día por persona si se alojan en hoteles de 1-2-3 estrellas, 1,32 € por día por persona si se alojan en hoteles de 4 estrellas y 3,30 € por día por persona si se alojan en hoteles de 5 estrellas. Este impuesto municipal se paga al hacer el registro de entrada / salida directamente en el hotel / apartamento."
+                  },
+                  {
+                    "text": "Clients must leave a deposit of €150 . Check-in hour 14:00-00:00.Car park NO."
+                  }
+                ]
+              },
+              "guestCounts": null,
+              "marketCode": null,
+              "resGuestRPHs": null,
+              "roomRates": {
+                "roomRate": {
+                  "availabilityStatus": null,
+                  "bookingCode": null,
+                  "directPayment": null,
+                  "invBlockCode": null,
+                  "openBookingCode": "1757932880690685|2.0|22|3670|42311|20251001|20251003|16983|DOBALVM|Doble balcon vista Mar|16500#241979337|Double room - Balcony - Sea View|0|1|1|20|2|0|3030||0|ES|ES|MP|288.0|288.0|EUR|EUR|0|1.0|173634|3.0||2~0|||0|1|1-22¬3670¬DOBALVM¬MP¬1¬jsgg||04c8af53-89e1-430d-89a1-83de80333a65|",
+                  "roomTypeCode": null,
+                  "total": {
+                    "nonRefundable": "1",
+                    "taxes": {
+                      "amount": 288.0,
+                      "currencyCode": "EUR",
+                      "retailAmount": null
+                    }
+                  }
+                }
+              },
+              "roomStayCandidateRPH": null
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "internalConditionRS": {
+    "message": null,
+    "providerStatus": null,
+    "providerStatusDescription": null,
+    "rsList": null,
+    "status": "200",
+    "statusDescription": "OK"
+  },
+  "primaryLangID": "es",
+  "resResponseType": "Pending",
+  "success": "",
+  "tpaExtensions": {
+    "invoiceReference": null,
+    "tpaExtension": [
+      {
+        "client": {
+          "iD": "",
+          "name": ""
+        },
+        "file": {
+          "adultsTotal": 2,
+          "childrenTotal": 0,
+          "clientReference": null,
+          "distribution": "20",
+          "documentation": false,
+          "ownReference": "",
+          "rebook": false,
+          "rebookProviderOwnReference": null,
+          "roomsTotal": 1,
+          "saleChannel": {
+            "iD": "3",
+            "name": "Venta XML"
+          },
+          "serviceTotal": 1,
+          "services": {
+            "service": [
+              {
+                "accommodationID": "3670",
+                "accommodationName": "URH Excelsior",
+                "adultAges": "30,30",
+                "billingProviderID": null,
+                "bookingCode": "1757932880690685|2.0|22|3670|42311|20251001|20251003|16983|DOBALVM|Doble balcon vista Mar|16500#241979337|Double room - Balcony - Sea View|0|1|1|20|2|0|3030||0|ES|ES|MP|288.0|288.0|EUR|EUR|0|1.0|173634|3.0||2~0|||0|1|1-22¬3670¬DOBALVM¬MP¬1¬jsgg||04c8af53-89e1-430d-89a1-83de80333a65|",
+                "buyAmount": 288.0,
+                "buyChannel": {
+                  "iD": "22",
+                  "name": "SUNHOTELS XML"
+                },
+                "buyCurrency": "EUR",
+                "cancelPolicies": {
+                  "dateRange": [
+                    {
+                      "amount": null,
+                      "currency": "EUR",
+                      "end": "2025-10-01",
+                      "source": null,
+                      "start": "2025-08-18",
+                      "type": "percentage",
+                      "value": 100
+                    }
+                  ],
+                  "identifier": 0
+                },
+                "childrensAges": "",
+                "comments": {
+                  "comment": [
+                    {
+                      "text": "(2025-10-01 / 2025-10-03)Todas las estancias en un hotel / apartamento en Costa Brava / Lloret de Mar / Costa Dorada y toda Cataluña excepto Barcelona ciudad deben pagar 0,66 € por día por persona si se alojan en hoteles de 1-2-3 estrellas, 1,32 € por día por persona si se alojan en hoteles de 4 estrellas y 3,30 € por día por persona si se alojan en hoteles de 5 estrellas. Este impuesto municipal se paga al hacer el registro de entrada / salida directamente en el hotel / apartamento.\\n(2025-10-01 / 2025-10-03)Clients must leave a deposit of €150 . Check-in hour 14:00-00:00.Car park NO.\\n",
+                      "type": "PROVIDER"
+                    }
+                  ]
+                },
+                "currency": null,
+                "decreaseQuota": false,
+                "distribution": "20",
+                "exchangeRate": null,
+                "identifier": 0,
+                "market": "ES",
+                "markup": null,
+                "nationality": "ES",
+                "nonRefundableRate": false,
+                "numberOfAdults": 2,
+                "numberOfChildren": 0,
+                "numberOfRooms": 1,
+                "rebookProserId": null,
+                "remarks": null,
+                "retailAmount": null,
+                "rooms": {
+                  "room": [
+                    {
+                      "adultsAges": "30,30",
+                      "board": {
+                        "iD": "1",
+                        "name": "Media Pension"
+                      },
+                      "childrenAges": "",
+                      "distribution": "20",
+                      "iD": "16983",
+                      "identifier": 16983,
+                      "name": "Doble balcon vista Mar",
+                      "numberOfAdults": 2,
+                      "numberOfChildren": 0,
+                      "status": null,
+                      "sumUpDetails": {
+                        "sumUpDetails": [
+                          {
+                            "buyAmount": 288.0,
+                            "buyCurrency": "EUR",
+                            "concept": "Doble balcon vista Mar - Media Pension",
+                            "quantity": 1,
+                            "saleAmount": 288.0,
+                            "saleCurrency": "EUR",
+                            "type": "base"
+                          }
+                        ]
+                      },
+                      "supplierName": "Double room - Balcony - Sea View",
+                      "supplierRoomID": "16500"
+                    }
+                  ]
+                },
+                "saleAmount": 288.0,
+                "saleCurrency": "EUR",
+                "status": null,
+                "stayDateRange": {
+                  "end": "2025-10-03",
+                  "start": "2025-10-01"
+                },
+                "supplierAccommodationID": "42311",
+                "supplierReference": null
+              }
+            ]
+          }
+        },
+        "internalUser": {
+          "iD": "",
+          "messagePassword": ""
+        }
+      }
+    ]
+  },
+  "version": "1.004"
+}

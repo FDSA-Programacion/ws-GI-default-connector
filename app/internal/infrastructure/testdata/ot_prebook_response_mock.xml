@@ -1,0 +1,45 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body>
+		<ValuationResponse xmlns="http://schemas.xmltravelgate.com/hub/2012/06">
+			<ValuationResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+				<hubStatus i:nil="true" />
+				<providerRS>
+					<hubProviderStatus i:nil="true" />
+					<refId>1726725299429263</refId>
+					<rs i:nil="true" />
+					<rsXML>
+						<ValuationRS xmlns="">
+							<operationImplemented>true</operationImplemented>
+							<CancelPenalties nonRefundable="false">
+								<CancelPenalty>
+									<Deadline>2026-06-11T00:00:00Z</Deadline>
+									<HoursBefore>120</HoursBefore>
+									<Penalty type="Importe" paymentType="MerchantPay" currency="EUR">102.97</Penalty>
+								</CancelPenalty>
+								<CancelPenalty>
+									<Deadline>2026-06-18T00:00:00Z</Deadline>
+									<HoursBefore>-48</HoursBefore>
+									<Penalty type="Importe" paymentType="MerchantPay" currency="EUR">308.91</Penalty>
+								</CancelPenalty>
+							</CancelPenalties>
+							<Status>OK</Status>
+							<Price currency="EUR" amount="308.91" binding="false" commission="0"
+								minimumSellingPrice="-1"></Price>
+							<Parameters>
+								<Parameter key="session" value="50CF754F76264A51B43F49DA50C57143"></Parameter>
+								<Parameter key="option1"
+									value="UFJFU1RJR0VQVVNIQEBOelU1TXpKQUpFQXhRQ1JBU0c5MFpXeEFKRUJOWlhKamFHRnVkRkJoZVVBa1FFQWtRREY4TXpCOE56VTVNeko4TWpBeU5pMHdOaTB4T1h3emZEY3pPVEV4T1ROOE5qTTNNVFV4TjN3eGZEQjhNRUFrUURjMU9UTXlYek01UUNSQVNXNWthWFpwWkhWaGJFQWtRREZBSkVCR1lXeHpaVUFrUURCQUpFQXpNVFV1TWpGQUpFQXdRQ1JBTUVBa1FFWmhiSE5sUUNSQU1Yd3hmREY4TVVBcUtrQXhmRE13ZkRjMU9UTXlmREl3TWpZdE1EWXRNVGw4TTN3M016a3hNVGt6ZkRZek56RTFNVGQ4TVh3d2ZEQkFYMTlBTW53eGZEQjhNVUFxS2tCRlUwQmZYMEEzTUROOE1Id3hmREJBS2lwQU1TTWpRRjlmUUdOZlluSkFLaXBBUTJobFlYQmxja0Z0YjNWdWRFQmZYMEJqWDIxaFFDb3FRRVZUUUY5ZlFHTmZZM1ZBS2lwQVJWVlNRRjlmUURjd09Id3dmREI4TUVBcUtrQmxPRGMyTURCbFpTMW1ZMkprTFRRek5EY3RPVGc0T1Mxa1l6QTBOamM1TWprek5qSkFYMTlBTnpBMWZEQjhNSHd3UUNvcVFERWpRRjlmUURjd09Yd3dmREI4TUVBcUtrQmxjMEJmWDBCQUpFQkFKRUJBSkVCUFJrVkNWRWt6TVM4d00wQWtRRTltWlhKMFlTQkZZWEpzZVNCQ2IyOXJhVzVuSURNeEx6QXo="></Parameter>
+							</Parameters>
+							<Offers></Offers>
+							<DailyRatePlans>
+								<DailyRatePlan name="Oferta Early Booking 31/03" cod="OFEBTI31/03"></DailyRatePlan>
+							</DailyRatePlans>
+							<Remarks></Remarks>
+							<CodFac>3906</CodFac>
+						</ValuationRS>
+					</rsXML>
+				</providerRS>
+			</ValuationResult>
+		</ValuationResponse>
+	</s:Body>
+</s:Envelope>

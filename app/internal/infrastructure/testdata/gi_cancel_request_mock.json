@@ -1,0 +1,65 @@
+{
+  "cancelType": "Cancel",
+  "echoToken": "1757933003557406",
+  "internalCondition": {
+    "callCondition": {
+      "echoToken": "1726725299429263",
+      "originTimeStamp": 1726725299429
+    },
+    "channels": {
+      "channel": [
+        {
+          "code": "B2COPEN",
+          "id": 1522
+        }
+      ]
+    },
+    "clientCondition": {
+      "code": "COI6VEJF",
+      "deltaMarkup": 0.0,
+      "markup": 0.0,
+      "supportNoRefund": false,
+      "type": "PACK"
+    },
+    "code": null,
+    "forced": null,
+    "id": null,
+    "name": null,
+    "providerCondition": {
+      "code": "22",
+      "password": null,
+      "timeOut": 55000,
+      "url": null,
+      "user": null
+    },
+    "rebook": false
+  },
+  "pos": {
+    "source": {
+      "bookingChannel": {
+        "code": "XML",
+        "id": 3,
+        "name": "Venta XML"
+      },
+      "requestorID": {
+        "companyName": {
+          "companyShortName": "GUEST INCOMING ",
+          "travelSector": null
+        },
+        "id": "produccion@guestincoming.com",
+        "messagePassword": "TST2019",
+        "type": "DSP"
+      }
+    }
+  },
+  "primaryLangID": "en",
+  "rqType": "GIOTACancelRQ",
+  "uniqueID": [
+    {
+      "companyName": null,
+      "id": "GI20001520|SH26533501",
+      "type": "14"
+    }
+  ],
+  "version": 1.003
+}

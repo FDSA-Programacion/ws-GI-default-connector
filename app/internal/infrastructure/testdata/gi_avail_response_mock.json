@@ -1,0 +1,2321 @@
+{
+  "echoToken": "1757933549497230",
+  "giRoomStays": {
+    "giRoomStayGroup": [
+      {
+        "boardCode": "SA",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-15",
+                  "amountPercent": {
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬D¬SA¬1¬580n",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|20|D|DOBLE STANDARD|1410#241979133|Habitacion doble (Cama Doble) - Balcon|0|1|1|20|2|0|3030||0|ES|ES|SA|146.00|146.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|1|1-22¬3670¬D¬SA¬1¬580n|||",
+                "roomRateDescription": {
+                  "text": ["SA", "DOBLE STANDARD"]
+                },
+                "roomTypeCode": "D",
+                "total": {
+                  "nonRefundable": "1",
+                  "taxes": {
+                    "amount": 146,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcDbcSAnr1",
+        "nettPrice": 146,
+        "nonRefund": "1",
+        "price": 146,
+        "roomCode": "D",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "AD",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-15",
+                  "amountPercent": {
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬D¬AD¬1¬ncs3",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|20|D|DOBLE STANDARD|1410#241979133|Habitacion doble (Cama Doble) - Balcon|0|1|1|20|2|0|3030||0|ES|ES|AD|191.00|191.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|1|1-22¬3670¬D¬AD¬1¬ncs3|||",
+                "roomRateDescription": {
+                  "text": ["AD", "DOBLE STANDARD"]
+                },
+                "roomTypeCode": "D",
+                "total": {
+                  "nonRefundable": "1",
+                  "taxes": {
+                    "amount": 191,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcDbcADnr1",
+        "nettPrice": 191,
+        "nonRefund": "1",
+        "price": 191,
+        "roomCode": "D",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "MP",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-15",
+                  "amountPercent": {
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬D¬MP¬1¬exhr",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|20|D|DOBLE STANDARD|1410#241979133|Habitacion doble (Cama Doble) - Balcon|0|1|1|20|2|0|3030||0|ES|ES|MP|248.00|248.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|1|1-22¬3670¬D¬MP¬1¬exhr|||",
+                "roomRateDescription": {
+                  "text": ["MP", "DOBLE STANDARD"]
+                },
+                "roomTypeCode": "D",
+                "total": {
+                  "nonRefundable": "1",
+                  "taxes": {
+                    "amount": 248,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcDbcMPnr1",
+        "nettPrice": 248,
+        "nonRefund": "1",
+        "price": 248,
+        "roomCode": "D",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "SA",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-27",
+                  "amountPercent": {
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬D¬SA¬0¬ambz",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|20|D|DOBLE STANDARD|1410#241978995|Habitacion doble (Cama Doble) - Balcon|0|1|1|20|2|0|3030||0|ES|ES|SA|172.00|172.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|0|1-22¬3670¬D¬SA¬0¬ambz|||",
+                "roomRateDescription": {
+                  "text": ["SA", "DOBLE STANDARD"]
+                },
+                "roomTypeCode": "D",
+                "total": {
+                  "nonRefundable": "0",
+                  "taxes": {
+                    "amount": 172,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcDbcSAnr0",
+        "nettPrice": 172,
+        "nonRefund": "0",
+        "price": 172,
+        "roomCode": "D",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "AD",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-27",
+                  "amountPercent": {
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬D¬AD¬0¬is1w",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|20|D|DOBLE STANDARD|1410#241978995|Habitacion doble (Cama Doble) - Balcon|0|1|1|20|2|0|3030||0|ES|ES|AD|225.00|225.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|0|1-22¬3670¬D¬AD¬0¬is1w|||",
+                "roomRateDescription": {
+                  "text": ["AD", "DOBLE STANDARD"]
+                },
+                "roomTypeCode": "D",
+                "total": {
+                  "nonRefundable": "0",
+                  "taxes": {
+                    "amount": 225,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcDbcADnr0",
+        "nettPrice": 225,
+        "nonRefund": "0",
+        "price": 225,
+        "roomCode": "D",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "MP",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-27",
+                  "amountPercent": {
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬D¬MP¬0¬p9kr",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|20|D|DOBLE STANDARD|1410#241978995|Habitacion doble (Cama Doble) - Balcon|0|1|1|20|2|0|3030||0|ES|ES|MP|292.00|292.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|0|1-22¬3670¬D¬MP¬0¬p9kr|||",
+                "roomRateDescription": {
+                  "text": ["MP", "DOBLE STANDARD"]
+                },
+                "roomTypeCode": "D",
+                "total": {
+                  "nonRefundable": "0",
+                  "taxes": {
+                    "amount": 292,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcDbcMPnr0",
+        "nettPrice": 292,
+        "nonRefund": "0",
+        "price": 292,
+        "roomCode": "D",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "SA",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-15",
+                  "amountPercent": {
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬D¬SA¬1¬r175",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|20|D|DOBLE STANDARD|1016#70711373|Habitación doble - Balcon|0|1|1|20|2|0|3030||0|ES|ES|SA|149.00|149.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|1|1-22¬3670¬D¬SA¬1¬r175|||",
+                "roomRateDescription": {
+                  "text": ["SA", "DOBLE STANDARD"]
+                },
+                "roomTypeCode": "D",
+                "total": {
+                  "nonRefundable": "1",
+                  "taxes": {
+                    "amount": 149,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcDbcSAnr1",
+        "nettPrice": 149,
+        "nonRefund": "1",
+        "price": 149,
+        "roomCode": "D",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "SA",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-29",
+                  "amountPercent": {
+                    "percent": "50"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬D¬SA¬0¬pvoj",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|20|D|DOBLE STANDARD|1016#70711356|Habitación doble - Balcon|0|1|1|20|2|0|3030||0|ES|ES|SA|166.00|166.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|0|1-22¬3670¬D¬SA¬0¬pvoj|||",
+                "roomRateDescription": {
+                  "text": ["SA", "DOBLE STANDARD"]
+                },
+                "roomTypeCode": "D",
+                "total": {
+                  "nonRefundable": "0",
+                  "taxes": {
+                    "amount": 166,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcDbcSAnr0",
+        "nettPrice": 166,
+        "nonRefund": "0",
+        "price": 166,
+        "roomCode": "D",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "AD",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-15",
+                  "amountPercent": {
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬D¬AD¬1¬340s",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|20|D|DOBLE STANDARD|1016#70711377|Habitación doble - Balcon|0|1|1|20|2|0|3030||0|ES|ES|AD|194.00|194.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|1|1-22¬3670¬D¬AD¬1¬340s|||",
+                "roomRateDescription": {
+                  "text": ["AD", "DOBLE STANDARD"]
+                },
+                "roomTypeCode": "D",
+                "total": {
+                  "nonRefundable": "1",
+                  "taxes": {
+                    "amount": 194,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcDbcADnr1",
+        "nettPrice": 194,
+        "nonRefund": "1",
+        "price": 194,
+        "roomCode": "D",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "AD",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-29",
+                  "amountPercent": {
+                    "percent": "50"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬D¬AD¬0¬1vms",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|20|D|DOBLE STANDARD|1016#70711360|Habitación doble - Balcon|0|1|1|20|2|0|3030||0|ES|ES|AD|216.00|216.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|0|1-22¬3670¬D¬AD¬0¬1vms|||",
+                "roomRateDescription": {
+                  "text": ["AD", "DOBLE STANDARD"]
+                },
+                "roomTypeCode": "D",
+                "total": {
+                  "nonRefundable": "0",
+                  "taxes": {
+                    "amount": 216,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcDbcADnr0",
+        "nettPrice": 216,
+        "nonRefund": "0",
+        "price": 216,
+        "roomCode": "D",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "SA",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-15",
+                  "amountPercent": {
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬TRADN¬SA¬1¬8whl",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|521|TRADN|TRIPLE|1357#241979067|Habitación triple - Balcon|0|1|1|20|2|0|3030||0|ES|ES|SA|170.00|170.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|1|1-22¬3670¬TRADN¬SA¬1¬8whl|||",
+                "roomRateDescription": {
+                  "text": ["SA", "TRIPLE"]
+                },
+                "roomTypeCode": "TRADN",
+                "total": {
+                  "nonRefundable": "1",
+                  "taxes": {
+                    "amount": 170,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcTRADNbcSAnr1",
+        "nettPrice": 170,
+        "nonRefund": "1",
+        "price": 170,
+        "roomCode": "TRADN",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "AD",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-15",
+                  "amountPercent": {
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬TRADN¬AD¬1¬6hif",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|521|TRADN|TRIPLE|1357#241979067|Habitación triple - Balcon|0|1|1|20|2|0|3030||0|ES|ES|AD|237.00|237.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|1|1-22¬3670¬TRADN¬AD¬1¬6hif|||",
+                "roomRateDescription": {
+                  "text": ["AD", "TRIPLE"]
+                },
+                "roomTypeCode": "TRADN",
+                "total": {
+                  "nonRefundable": "1",
+                  "taxes": {
+                    "amount": 237,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcTRADNbcADnr1",
+        "nettPrice": 237,
+        "nonRefund": "1",
+        "price": 237,
+        "roomCode": "TRADN",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "MP",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-15",
+                  "amountPercent": {
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬TRADN¬MP¬1¬7p65",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|521|TRADN|TRIPLE|1357#241979067|Habitación triple - Balcon|0|1|1|20|2|0|3030||0|ES|ES|MP|323.00|323.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|1|1-22¬3670¬TRADN¬MP¬1¬7p65|||",
+                "roomRateDescription": {
+                  "text": ["MP", "TRIPLE"]
+                },
+                "roomTypeCode": "TRADN",
+                "total": {
+                  "nonRefundable": "1",
+                  "taxes": {
+                    "amount": 323,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcTRADNbcMPnr1",
+        "nettPrice": 323,
+        "nonRefund": "1",
+        "price": 323,
+        "roomCode": "TRADN",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "SA",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-27",
+                  "amountPercent": {
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬TRADN¬SA¬0¬0n9b",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|521|TRADN|TRIPLE|1357#241980530|Habitación triple - Balcon|0|1|1|20|2|0|3030||0|ES|ES|SA|200.00|200.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|0|1-22¬3670¬TRADN¬SA¬0¬0n9b|||",
+                "roomRateDescription": {
+                  "text": ["SA", "TRIPLE"]
+                },
+                "roomTypeCode": "TRADN",
+                "total": {
+                  "nonRefundable": "0",
+                  "taxes": {
+                    "amount": 200,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcTRADNbcSAnr0",
+        "nettPrice": 200,
+        "nonRefund": "0",
+        "price": 200,
+        "roomCode": "TRADN",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "AD",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-27",
+                  "amountPercent": {
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬TRADN¬AD¬0¬ysfl",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|521|TRADN|TRIPLE|1357#241980530|Habitación triple - Balcon|0|1|1|20|2|0|3030||0|ES|ES|AD|279.00|279.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|0|1-22¬3670¬TRADN¬AD¬0¬ysfl|||",
+                "roomRateDescription": {
+                  "text": ["AD", "TRIPLE"]
+                },
+                "roomTypeCode": "TRADN",
+                "total": {
+                  "nonRefundable": "0",
+                  "taxes": {
+                    "amount": 279,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcTRADNbcADnr0",
+        "nettPrice": 279,
+        "nonRefund": "0",
+        "price": 279,
+        "roomCode": "TRADN",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "MP",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-27",
+                  "amountPercent": {
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬TRADN¬MP¬0¬jbpi",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|521|TRADN|TRIPLE|1357#241980530|Habitación triple - Balcon|0|1|1|20|2|0|3030||0|ES|ES|MP|380.00|380.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|0|1-22¬3670¬TRADN¬MP¬0¬jbpi|||",
+                "roomRateDescription": {
+                  "text": ["MP", "TRIPLE"]
+                },
+                "roomTypeCode": "TRADN",
+                "total": {
+                  "nonRefundable": "0",
+                  "taxes": {
+                    "amount": 380,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcTRADNbcMPnr0",
+        "nettPrice": 380,
+        "nonRefund": "0",
+        "price": 380,
+        "roomCode": "TRADN",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "SA",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-15",
+                  "amountPercent": {
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬DOBALVM¬SA¬1¬tnts",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|16983|DOBALVM|Doble balcon vista Mar|16500#241979337|Double room - Balcony - Sea View|0|1|1|20|2|0|3030||0|ES|ES|SA|186.00|186.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|1|1-22¬3670¬DOBALVM¬SA¬1¬tnts|||",
+                "roomRateDescription": {
+                  "text": ["SA", "Doble balcon vista Mar"]
+                },
+                "roomTypeCode": "DOBALVM",
+                "total": {
+                  "nonRefundable": "1",
+                  "taxes": {
+                    "amount": 186,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcDOBALVMbcSAnr1",
+        "nettPrice": 186,
+        "nonRefund": "1",
+        "price": 186,
+        "roomCode": "DOBALVM",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "AD",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-15",
+                  "amountPercent": {
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬DOBALVM¬AD¬1¬jjqq",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|16983|DOBALVM|Doble balcon vista Mar|16500#241979337|Double room - Balcony - Sea View|0|1|1|20|2|0|3030||0|ES|ES|AD|231.00|231.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|1|1-22¬3670¬DOBALVM¬AD¬1¬jjqq|||",
+                "roomRateDescription": {
+                  "text": ["AD", "Doble balcon vista Mar"]
+                },
+                "roomTypeCode": "DOBALVM",
+                "total": {
+                  "nonRefundable": "1",
+                  "taxes": {
+                    "amount": 231,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcDOBALVMbcADnr1",
+        "nettPrice": 231,
+        "nonRefund": "1",
+        "price": 231,
+        "roomCode": "DOBALVM",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "MP",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-15",
+                  "amountPercent": {
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬DOBALVM¬MP¬1¬upd8",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|16983|DOBALVM|Doble balcon vista Mar|16500#241979337|Double room - Balcony - Sea View|0|1|1|20|2|0|3030||0|ES|ES|MP|288.00|288.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|1|1-22¬3670¬DOBALVM¬MP¬1¬upd8|||",
+                "roomRateDescription": {
+                  "text": ["MP", "Doble balcon vista Mar"]
+                },
+                "roomTypeCode": "DOBALVM",
+                "total": {
+                  "nonRefundable": "1",
+                  "taxes": {
+                    "amount": 288,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcDOBALVMbcMPnr1",
+        "nettPrice": 288,
+        "nonRefund": "1",
+        "price": 288,
+        "roomCode": "DOBALVM",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "SA",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-27",
+                  "amountPercent": {
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬DOBALVM¬SA¬0¬rlk4",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|16983|DOBALVM|Doble balcon vista Mar|16500#241979918|Double room - Balcony - Sea View|0|1|1|20|2|0|3030||0|ES|ES|SA|219.00|219.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|0|1-22¬3670¬DOBALVM¬SA¬0¬rlk4|||",
+                "roomRateDescription": {
+                  "text": ["SA", "Doble balcon vista Mar"]
+                },
+                "roomTypeCode": "DOBALVM",
+                "total": {
+                  "nonRefundable": "0",
+                  "taxes": {
+                    "amount": 219,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcDOBALVMbcSAnr0",
+        "nettPrice": 219,
+        "nonRefund": "0",
+        "price": 219,
+        "roomCode": "DOBALVM",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "AD",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-27",
+                  "amountPercent": {
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬DOBALVM¬AD¬0¬zpqk",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|16983|DOBALVM|Doble balcon vista Mar|16500#241979918|Double room - Balcony - Sea View|0|1|1|20|2|0|3030||0|ES|ES|AD|272.00|272.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|0|1-22¬3670¬DOBALVM¬AD¬0¬zpqk|||",
+                "roomRateDescription": {
+                  "text": ["AD", "Doble balcon vista Mar"]
+                },
+                "roomTypeCode": "DOBALVM",
+                "total": {
+                  "nonRefundable": "0",
+                  "taxes": {
+                    "amount": 272,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcDOBALVMbcADnr0",
+        "nettPrice": 272,
+        "nonRefund": "0",
+        "price": 272,
+        "roomCode": "DOBALVM",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "MP",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-27",
+                  "amountPercent": {
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬DOBALVM¬MP¬0¬mpcx",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|16983|DOBALVM|Doble balcon vista Mar|16500#241979918|Double room - Balcony - Sea View|0|1|1|20|2|0|3030||0|ES|ES|MP|339.00|339.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|0|1-22¬3670¬DOBALVM¬MP¬0¬mpcx|||",
+                "roomRateDescription": {
+                  "text": ["MP", "Doble balcon vista Mar"]
+                },
+                "roomTypeCode": "DOBALVM",
+                "total": {
+                  "nonRefundable": "0",
+                  "taxes": {
+                    "amount": 339,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcDOBALVMbcMPnr0",
+        "nettPrice": 339,
+        "nonRefund": "0",
+        "price": 339,
+        "roomCode": "DOBALVM",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "SA",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-15",
+                  "amountPercent": {
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬VMUN¬SA¬1¬4t1p",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|1492|VMUN|VISTA MAR|1085#70713486|Habitación doble - Balcon, Vista mar|0|1|1|20|2|0|3030||0|ES|ES|SA|189.00|189.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|1|1-22¬3670¬VMUN¬SA¬1¬4t1p|||",
+                "roomRateDescription": {
+                  "text": ["SA", "VISTA MAR"]
+                },
+                "roomTypeCode": "VMUN",
+                "total": {
+                  "nonRefundable": "1",
+                  "taxes": {
+                    "amount": 189,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcVMUNbcSAnr1",
+        "nettPrice": 189,
+        "nonRefund": "1",
+        "price": 189,
+        "roomCode": "VMUN",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "SA",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-29",
+                  "amountPercent": {
+                    "percent": "50"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬VMUN¬SA¬0¬teok",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|1492|VMUN|VISTA MAR|1085#70713470|Habitación doble - Balcon, Vista mar|0|1|1|20|2|0|3030||0|ES|ES|SA|210.00|210.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|0|1-22¬3670¬VMUN¬SA¬0¬teok|||",
+                "roomRateDescription": {
+                  "text": ["SA", "VISTA MAR"]
+                },
+                "roomTypeCode": "VMUN",
+                "total": {
+                  "nonRefundable": "0",
+                  "taxes": {
+                    "amount": 210,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcVMUNbcSAnr0",
+        "nettPrice": 210,
+        "nonRefund": "0",
+        "price": 210,
+        "roomCode": "VMUN",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "AD",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-15",
+                  "amountPercent": {
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬VMUN¬AD¬1¬q1ro",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|1492|VMUN|VISTA MAR|1085#70713496|Habitación doble - Balcon, Vista mar|0|1|1|20|2|0|3030||0|ES|ES|AD|235.00|235.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|1|1-22¬3670¬VMUN¬AD¬1¬q1ro|||",
+                "roomRateDescription": {
+                  "text": ["AD", "VISTA MAR"]
+                },
+                "roomTypeCode": "VMUN",
+                "total": {
+                  "nonRefundable": "1",
+                  "taxes": {
+                    "amount": 235,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcVMUNbcADnr1",
+        "nettPrice": 235,
+        "nonRefund": "1",
+        "price": 235,
+        "roomCode": "VMUN",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "AD",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-29",
+                  "amountPercent": {
+                    "percent": "50"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬VMUN¬AD¬0¬iu27",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|1492|VMUN|VISTA MAR|1085#70713481|Habitación doble - Balcon, Vista mar|0|1|1|20|2|0|3030||0|ES|ES|AD|261.00|261.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|0|1-22¬3670¬VMUN¬AD¬0¬iu27|||",
+                "roomRateDescription": {
+                  "text": ["AD", "VISTA MAR"]
+                },
+                "roomTypeCode": "VMUN",
+                "total": {
+                  "nonRefundable": "0",
+                  "taxes": {
+                    "amount": 261,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcVMUNbcADnr0",
+        "nettPrice": 261,
+        "nonRefund": "0",
+        "price": 261,
+        "roomCode": "VMUN",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "SA",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-15",
+                  "amountPercent": {
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬CUA 4+0¬SA¬1¬6r3t",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|2427|CUA 4+0|CUADRUPLE|2392#238018558|Habitación cuadruple - Balcon|0|1|1|20|2|0|3030||0|ES|ES|SA|218.00|218.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|1|1-22¬3670¬CUA 4+0¬SA¬1¬6r3t|||",
+                "roomRateDescription": {
+                  "text": ["SA", "CUADRUPLE"]
+                },
+                "roomTypeCode": "CUA 4+0",
+                "total": {
+                  "nonRefundable": "1",
+                  "taxes": {
+                    "amount": 218,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcCUA 4+0bcSAnr1",
+        "nettPrice": 218,
+        "nonRefund": "1",
+        "price": 218,
+        "roomCode": "CUA 4+0",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "AD",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-15",
+                  "amountPercent": {
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬CUA 4+0¬AD¬1¬5mf1",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|2427|CUA 4+0|CUADRUPLE|2392#238018558|Habitación cuadruple - Balcon|0|1|1|20|2|0|3030||0|ES|ES|AD|307.00|307.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|1|1-22¬3670¬CUA 4+0¬AD¬1¬5mf1|||",
+                "roomRateDescription": {
+                  "text": ["AD", "CUADRUPLE"]
+                },
+                "roomTypeCode": "CUA 4+0",
+                "total": {
+                  "nonRefundable": "1",
+                  "taxes": {
+                    "amount": 307,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcCUA 4+0bcADnr1",
+        "nettPrice": 307,
+        "nonRefund": "1",
+        "price": 307,
+        "roomCode": "CUA 4+0",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "MP",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-15",
+                  "amountPercent": {
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬CUA 4+0¬MP¬1¬me9v",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|2427|CUA 4+0|CUADRUPLE|2392#238018558|Habitación cuadruple - Balcon|0|1|1|20|2|0|3030||0|ES|ES|MP|422.00|422.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|1|1-22¬3670¬CUA 4+0¬MP¬1¬me9v|||",
+                "roomRateDescription": {
+                  "text": ["MP", "CUADRUPLE"]
+                },
+                "roomTypeCode": "CUA 4+0",
+                "total": {
+                  "nonRefundable": "1",
+                  "taxes": {
+                    "amount": 422,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcCUA 4+0bcMPnr1",
+        "nettPrice": 422,
+        "nonRefund": "1",
+        "price": 422,
+        "roomCode": "CUA 4+0",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "SA",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-27",
+                  "amountPercent": {
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬CUA 4+0¬SA¬0¬znt6",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|2427|CUA 4+0|CUADRUPLE|2392#238036818|Habitación cuadruple - Balcon|0|1|1|20|2|0|3030||0|ES|ES|SA|256.00|256.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|0|1-22¬3670¬CUA 4+0¬SA¬0¬znt6|||",
+                "roomRateDescription": {
+                  "text": ["SA", "CUADRUPLE"]
+                },
+                "roomTypeCode": "CUA 4+0",
+                "total": {
+                  "nonRefundable": "0",
+                  "taxes": {
+                    "amount": 256,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcCUA 4+0bcSAnr0",
+        "nettPrice": 256,
+        "nonRefund": "0",
+        "price": 256,
+        "roomCode": "CUA 4+0",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "AD",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-27",
+                  "amountPercent": {
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬CUA 4+0¬AD¬0¬y0gg",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|2427|CUA 4+0|CUADRUPLE|2392#238036818|Habitación cuadruple - Balcon|0|1|1|20|2|0|3030||0|ES|ES|AD|361.00|361.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|0|1-22¬3670¬CUA 4+0¬AD¬0¬y0gg|||",
+                "roomRateDescription": {
+                  "text": ["AD", "CUADRUPLE"]
+                },
+                "roomTypeCode": "CUA 4+0",
+                "total": {
+                  "nonRefundable": "0",
+                  "taxes": {
+                    "amount": 361,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcCUA 4+0bcADnr0",
+        "nettPrice": 361,
+        "nonRefund": "0",
+        "price": 361,
+        "roomCode": "CUA 4+0",
+        "supplier": "22"
+      },
+      {
+        "boardCode": "MP",
+        "giRoomStay": [
+          {
+            "basicPropertyInfo": {
+              "address": {
+                "cityName": "Lloret de Mar"
+              },
+              "award": {
+                "hotelCategory": "Hotel",
+                "propertyClassCode": "Hotel",
+                "rating": "3*"
+              },
+              "hotelCityCode": "1",
+              "hotelCode": "3670",
+              "hotelName": "URH Excelsior"
+            },
+            "cancelPenalties": {
+              "cancelPenalty": [
+                {
+                  "end": "2025-10-01",
+                  "start": "2025-09-27",
+                  "amountPercent": {
+                    "percent": "100"
+                  }
+                }
+              ]
+            },
+            "guestCounts": {
+              "guestCount": [
+                {
+                  "ageQualifyingCode": "10",
+                  "count": 2
+                },
+                {
+                  "ageQualifyingCode": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "marketCode": "ES",
+            "roomRates": {
+              "roomRate": {
+                "availabilityStatus": "AvailableForSale",
+                "bookingCode": "",
+                "directPayment": "False",
+                "invBlockCode": "1-22¬3670¬CUA 4+0¬MP¬0¬rh0e",
+                "openBookingCode": "1757933549497230|2.0|22|3670|42311|20251001|20251003|2427|CUA 4+0|CUADRUPLE|2392#238036818|Habitación cuadruple - Balcon|0|1|1|20|2|0|3030||0|ES|ES|MP|495.00|495.00|EUR|EUR|0|0.00|0|0.00||2~0|||0|0|1-22¬3670¬CUA 4+0¬MP¬0¬rh0e|||",
+                "roomRateDescription": {
+                  "text": ["MP", "CUADRUPLE"]
+                },
+                "roomTypeCode": "CUA 4+0",
+                "total": {
+                  "nonRefundable": "0",
+                  "taxes": {
+                    "amount": 495,
+                    "currencyCode": "EUR"
+                  }
+                }
+              }
+            },
+            "roomStayCandidateRPH": 1
+          }
+        ],
+        "hotelCode": "3670",
+        "key": "hc3670rcCUA 4+0bcMPnr0",
+        "nettPrice": 495,
+        "nonRefund": "0",
+        "price": 495,
+        "roomCode": "CUA 4+0",
+        "supplier": "22"
+      }
+    ]
+  },
+  "internalConditionRS": {
+    "rsList": {},
+    "status": "200",
+    "statusDescription": "OK"
+  },
+  "primaryLangID": "es",
+  "schemaLocation": "http://www.opentravel.org/OTA/2003/05 OTA_HotelAvailRS.xsd",
+  "success": "",
+  "version": "1.004",
+  "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+}

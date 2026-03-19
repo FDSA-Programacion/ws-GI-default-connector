@@ -1,0 +1,83 @@
+<soapenv:Envelope
+   xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:ns1="http://schemas.xmltravelgate.com/hub/2012/06"
+   xmlns:ns2="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+   <soapenv:Header>
+      <ns2:Security>
+         <ns2:UsernameToken>
+            <ns2:Username>GUEXML#20497</ns2:Username>
+            <ns2:Password>$GU32024.1nc0.XML$</ns2:Password>
+         </ns2:UsernameToken>
+      </ns2:Security>
+   </soapenv:Header>
+   <soapenv:Body>
+      <ns1:Valuation>
+         <ns1:valuationRQ>
+            <ns1:timeoutMilliseconds>29400</ns1:timeoutMilliseconds>
+            <ns1:version>1</ns1:version>
+            <source>
+               <languageCode>es</languageCode>
+            </source>
+            <ns1:providerRQ>
+               <ns1:code>pruebaGuest</ns1:code>
+               <ns1:id>222</ns1:id>
+               <ns1:rqXML>
+                  <ValuationRQ>
+                     <timeoutMilliseconds>29000</timeoutMilliseconds>
+                     <source>
+                        <languageCode>es</languageCode>
+                     </source>
+                     <filterAuditData>
+                        <registerTransactions>true</registerTransactions>
+                     </filterAuditData>
+                     <Configuration>
+                        <Parameters>
+                           <Parameter key="maxHotels" value="50" />
+                           <Parameter key="maxRooms" value="20" />
+                           <Parameter key="rsXML" value="true" />
+                        </Parameters>
+                     </Configuration>
+                     <StartDate>16/06/2025</StartDate>
+                     <EndDate>20/06/2025</EndDate>
+                     <MealPlanCode></MealPlanCode>
+                     <HotelCode>3906</HotelCode>
+                     <OptionType>Hotel</OptionType>
+                     <Nationality>es</Nationality>
+                     <Parameters>
+                        <Parameter key="session" value="5A8146942CBE4913A8F83A1483EF9712" />
+                        <Parameter key="option1"
+                           value="QkxVRVNFQUBATURVd01FQWtRRUpDUUNSQVNHOTBaV3hBSkVCTlpYSmphR0Z1ZEZCaGVVQWtRRUFrUURFalJVTlBUa0FrUUVWRFQwNUFKRUJFVDBKTVJTQlFVazlOVDBBa1FERkFKRUJHWVd4elpVQWtRREJBSkVBek56UXVOREJBSkVBd1FDUkFNRUFrUUVaaGJITmxRQ1JBVUhKdmJXOTBhVzl1UTI5a1pURkFLaXBBUUY5ZlFFMWxZV3hRYkdGdVEyOWtaVEpBS2lwQVFrSkFYMTlBVFdWaGJGQnNZVzVEYjJSbE1VQXFLa0JDUWtCZlgwQlNZWFJsVUd4aGJrTnZaR1V4UUNvcVFGUkJVa2xHUVVKQlUwVlhRVlpaUUY5ZlFGQnliMjF2ZEdsdmJrTnZaR1V5UUNvcVFFQmZYMEJRY21WamFXOUdhVzVoYkVBcUtrQTNORGd1T0RCQVgxOUFVbUYwWlZCc1lXNURiMlJsTWtBcUtrQlVRVkpKUmtGQ1FWTkZWMEZXV1VCZlgwQlNiMjl0Vkhsd1pVTnZaR1V5UUNvcVFFVkRUMDVBWDE5QVVtOXZiVlI1Y0dWRGIyUmxNVUFxS2tCRlEwOU9RRjlmUUhKbFkyaGxZMnRBS2lwQVptRnNjMlZBWDE5QVFDUkFRQ1JBUUNSQVZFRlNTVVpCUWtGVFJWZEJWbGxBSkVCVVFWSkpSa0ZDUVZORlYwRldXUT09" />
+                        <Parameter key="option2"
+                           value="QkxVRVNFQUBATURVd01FQWtRRUpDUUNSQVNHOTBaV3hBSkVCTlpYSmphR0Z1ZEZCaGVVQWtRRUFrUURFalJVTlBUa0FrUUVWRFQwNUFKRUJFVDBKTVJTQlFVazlOVDBBa1FESkFKRUJHWVd4elpVQWtRREJBSkVBek56UXVOREJBSkVBd1FDUkFNRUFrUUVaaGJITmxRQ1JBVUhKdmJXOTBhVzl1UTI5a1pURkFLaXBBUUY5ZlFFMWxZV3hRYkdGdVEyOWtaVEpBS2lwQVFrSkFYMTlBVFdWaGJGQnNZVzVEYjJSbE1VQXFLa0JDUWtCZlgwQlNZWFJsVUd4aGJrTnZaR1V4UUNvcVFGUkJVa2xHUVVKQlUwVlhRVlpaUUY5ZlFGQnliMjF2ZEdsdmJrTnZaR1V5UUNvcVFFQmZYMEJRY21WamFXOUdhVzVoYkVBcUtrQTNORGd1T0RCQVgxOUFVbUYwWlZCc1lXNURiMlJsTWtBcUtrQlVRVkpKUmtGQ1FWTkZWMEZXV1VCZlgwQlNiMjl0Vkhsd1pVTnZaR1V5UUNvcVFFVkRUMDVBWDE5QVVtOXZiVlI1Y0dWRGIyUmxNVUFxS2tCRlEwOU9RRjlmUUhKbFkyaGxZMnRBS2lwQVptRnNjMlZBWDE5QVFDUkFRQ1JBUUNSQVZFRlNTVVpCUWtGVFJWZEJWbGxBSkVCVVFWSkpSa0ZDUVZORlYwRldXUT09" />
+                     </Parameters>
+                     <Rooms>
+                        <Room id="" roomCandidateRefId="1" code="" description="" nonRefundable=""
+                           numberOfUnits="">
+                           <Price />
+                        </Room>
+                        <Room id="" roomCandidateRefId="2" code="" description="" nonRefundable=""
+                           numberOfUnits="">
+                           <Price />
+                        </Room>
+                     </Rooms>
+                     <RoomCandidates>
+                        <RoomCandidate id="1">
+                           <Paxes>
+                              <Pax age="30" id="1"></Pax>
+                              <Pax age="30" id="1"></Pax>
+                           </Paxes>
+                        </RoomCandidate>
+                        <RoomCandidate id="2">
+                           <Paxes>
+                              <Pax age="30" id="2"></Pax>
+                              <Pax age="30" id="2"></Pax>
+                           </Paxes>
+                        </RoomCandidate>
+                     </RoomCandidates>
+                  </ValuationRQ>
+               </ns1:rqXML>
+            </ns1:providerRQ>
+         </ns1:valuationRQ>
+      </ns1:Valuation>
+   </soapenv:Body>
+</soapenv:Envelope>

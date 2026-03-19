@@ -1,0 +1,149 @@
+{
+  "debug": "g2018i",
+  "deltaPercentage": 0.0,
+  "echoToken": "1571222026713",
+  "hotelReservations": {
+    "hotelReservation": [
+      {
+        "creatorID": "12345test",
+        "resGuests": {
+          "resGuest": [
+            {
+              "ageQualifyingCode": "10",
+              "profiles": {
+                "profileInfo": {
+                  "profile": [
+                    {
+                      "customer": {
+                        "birthDate": "1989-11-22",
+                        "personName": {
+                          "givenName": "test name rph1",
+                          "surname": "test surname rph1"
+                        }
+                      },
+                      "profileType": "18",
+                      "rph": "1"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "ageQualifyingCode": "10",
+              "profiles": {
+                "profileInfo": {
+                  "profile": [
+                    {
+                      "customer": {
+                        "birthDate": "1989-11-22",
+                        "personName": {
+                          "givenName": "test name rph2",
+                          "surname": "test surname rph2"
+                        }
+                      },
+                      "profileType": "1",
+                      "rph": "2"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "roomStays": {
+          "roomStay": [
+            {
+              "cancelPenalties": null,
+              "comments": {
+                "comment": [
+                  {
+                    "text": "This is a client Comment"
+                  }
+                ]
+              },
+              "guestCounts": null,
+              "marketCode": null,
+              "resGuestRPHs": {
+                "resGuestRPH": [
+                  {
+                    "rph": "1"
+                  }
+                ]
+              },
+              "roomRates": {
+                "roomRate": {
+                  "availabilityStatus": null,
+                  "bookingCode": "01EBh3smymXEm7aecrJnuv6XobHbgow9/ITpZWPmi991WaepX9cXzaHvf70oXxzT/9N57GpDjDs6vjpPB9tOQmLEVu8lNLVmMaaxFORgS9GJlql/qcoqlDbZkyznzq9XKB1tlowgX6aTI5AbyX0ME6g+ybSlE8TGAc9tDuVliU59M/tAmui5+VYQpJQGIfyiZypU/emPN+Qlc5EN7a64LQGuK9YodeuOJOCDsXg0EKhHqraiSLvPzuaSW4u+BcLhnuIU/sv2hqOZHOJ7a1BsIXAYMeGf3dCx5DRHSvQzRYPUU/dlQhCiWUbQrRq+VyHFKqSMha0GpoWOM9Aq0TX8ofYTrvhX/wqeTiRBu3E1dGrKoVroHejp+K0jD3vnx5svteX3RvudhQuRM=",
+                  "directPayment": null,
+                  "invBlockCode": null,
+                  "openBookingCode": "151726725299429263|1.0.0|B2COPEN|113665|113665|20260621|20260622|||DOBLE USO INDIVIDUAL|113665#_#DUI#STD|DOBLE USO INDIVIDUAL|0|0|15||0|0|||0|ES|ES|AD|256.64|123.22|EUR|EUR|0|0.00|0|0.00|||||0|0|1-1522¬113665¬6¬0¬VX3J8|Parameters:PFBhcmFtZXRlcnM-PFBhcmFtZXRlciBrZXk9InNlc3Npb24iIHZhbHVlPSJDOUVDQTQ2NDAzQ0U0RjI5OTcyNDg5MkNEQkFCQjQzRiI-PC9QYXJhbWV0ZXI-PFBhcmFtZXRlciBrZXk9Im9wdGlvbjEiIHZhbHVlPSJRa1ZUVkVCQVRrUkdRVXBGUWtKU1JVRnJVVVZvZG1SSFZuTlJRMUpCVkZkV2VWa3lhR2hpYmxKUldWaHNRVXBGUWtGS1JVRjVTVEJTVmxOVlFXdFJSVkpXVTFWQmExRkZVblpaYlhoc1NVWldlbUo1UWtwaWJWSndaRzFzYTJSWFJuTlJRMUpCVFZWQmExRkZXbWhpU0U1c1VVTlNRVTFGUVd0UlJFVjVUbE4zTUUxVlFXdFJSRUpCU2tWQmQxRkRVa0ZTYlVaell6SldRVXBGUWxGamJUbDBZak5TY0dJeU5VUmlNbEpzVFZWQmNVdHJRa0ZZTVRsQlZGZFdhR0pHUW5OWlZ6VkVZakpTYkUxclFYRkxhMEpDVWtWQ1psZ3dRazVhVjBaelZVZDRhR0pyVG5aYVIxVjRVVU52Y1ZGRlJrVlJSamxtVVVaS2FHUkhWbEZpUjBaMVVUSTVhMXBVUmtGTGFYQkJWR3RHUkZGR09XWlJSa0o1WWpJeGRtUkhiSFppYTA1MldrZFZlVkZEYjNGUlJVSm1XREJDVVdOdFZtcGhWemxIWVZjMWFHSkZRWEZMYTBGNFRXcFZkVTVFUmtGWU1UbEJWVzFHTUZwV1FuTlpWelZFWWpKU2JFMXJRWEZMYTBKUFVWVk9RVmd4T1VGVmJUbDJZbFpTTldOSFZrUmlNbEpzVFd0QmNVdHJRa1ZSYTNoQldERTVRVlZ0T1haaVZsSTFZMGRXUkdJeVVteE5WVUZ4UzJ0Q1JWWlZiRUZZTVRsQlkyMVdhbUZIVm1waE1FRnhTMnRDYlZsWGVIcGFWVUptV0RCQ1FVcEZRa0ZLUlVKQlNrVkNUMUZWVGtGS1JVSlBVVlZPU2xRd05VSlVRVDA5Ij48L1BhcmFtZXRlcj48L1BhcmFtZXRlcnM-@@@Rooms:PFJvb20gaWQ9IjEiIHJvb21DYW5kaWRhdGVSZWZJZD0iMSIgY29kZT0iRFVJI1NURCIgZGVzY3JpcHRpb249IkRPQkxFIFVTTyBJTkRJVklEVUFMIiBub25SZWZ1bmRhYmxlPSJmYWxzZSIgbnVtYmVyT2ZVbml0cz0iMTUiPjxQcmljZSBjdXJyZW5jeT0iRVVSIiBhbW91bnQ9IjEyMy4yMiIgYmluZGluZz0iZmFsc2UiIGNvbW1pc3Npb249IjAiIG1pbmltdW1TZWxsaW5nUHJpY2U9Ii0xIj48L1ByaWNlPjxEYWlseVJhdGVQbGFucz48RGFpbHlSYXRlUGxhbnM-PC9EYWlseVJhdGVQbGFucz48L0RhaWx5UmF0ZVBsYW5zPjwvUm9vbT48Um9vbSBpZD0iMiIgcm9vbUNhbmRpZGF0ZVJlZklkPSIyIiBjb2RlPSJEQkwjU1REIiBkZXNjcmlwdGlvbj0iRE9CTEUiIG5vblJlZnVuZGFibGU9ImZhbHNlIiBudW1iZXJPZlVuaXRzPSIxODgiPjxQcmljZSBjdXJyZW5jeT0iRVVSIiBhbW91bnQ9IjEzMy40MiIgYmluZGluZz0iZmFsc2UiIGNvbW1pc3Npb249IjAiIG1pbmltdW1TZWxsaW5nUHJpY2U9Ii0xIj48L1ByaWNlPjxEYWlseVJhdGVQbGFucz48RGFpbHlSYXRlUGxhbnM-PC9EYWlseVJhdGVQbGFucz48L0RhaWx5UmF0ZVBsYW5zPjwvUm9vbT4=@@@RoomCandidates:PFJvb21DYW5kaWRhdGUgaWQ9IjEiPjxQYXhlcz48UGF4IGFnZT0iMzAiIGlkPSIxIj48L1BheD48L1BheGVzPjwvUm9vbUNhbmRpZGF0ZT48Um9vbUNhbmRpZGF0ZSBpZD0iMiI-PFBheGVzPjxQYXggYWdlPSIzMCIgaWQ9IjEiPjwvUGF4PjxQYXggYWdlPSIzMCIgaWQ9IjIiPjwvUGF4PjwvUGF4ZXM-PC9Sb29tQ2FuZGlkYXRlPg==||DUI#STD",
+                  "roomTypeCode": null
+                }
+              },
+              "roomStayCandidateRPH": null
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "internalCondition": {
+    "callCondition": {
+      "echoToken": "1726725299429263",
+      "originTimeStamp": 1726725299429
+    },
+    "channels": {
+      "channel": [
+        {
+          "code": "B2COPEN",
+          "id": 1522
+        }
+      ]
+    },
+    "clientCondition": {
+      "code": "COI6VEJF",
+      "deltaMarkup": 0.0,
+      "markup": 0.0,
+      "supportNoRefund": false,
+      "type": "PACK"
+    },
+    "code": null,
+    "forced": null,
+    "id": null,
+    "name": null,
+    "providerCondition": {
+      "code": "22",
+      "password": null,
+      "timeOut": 60000,
+      "url": null,
+      "user": null
+    },
+    "rebook": false
+  },
+  "pos": {
+    "source": {
+      "bookingChannel": {
+        "code": "XML",
+        "id": 3,
+        "name": "Venta XML"
+      },
+      "requestorID": {
+        "companyName": {
+          "companyShortName": "GUEST INCOMING ",
+          "travelSector": null
+        },
+        "id": "produccion@guestincoming.com",
+        "messagePassword": "TST2019",
+        "type": "DSP"
+      }
+    }
+  },
+  "primaryLangID": "es",
+  "resStatus": "Commit",
+  "rqType": "GIOTAHotelResRQ",
+  "transactionIdentifier": "GI20001520",
+  "version": "1.004",
+  "xmlns": "http://www.opentravel.org/OTA/2003/05",
+  "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+}

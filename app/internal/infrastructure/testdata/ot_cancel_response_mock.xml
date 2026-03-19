@@ -1,0 +1,30 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body>
+		<CancelResponse xmlns="http://schemas.xmltravelgate.com/hub/2012/06">
+			<CancelResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+				<hubStatus i:nil="true" />
+				<providerRS>
+					<hubProviderStatus i:nil="true" />
+					<refId i:nil="true" />
+					<rs>&lt;CancelRS&gt;&lt;ProviderLocator&gt;50311132&lt;/ProviderLocator&gt;&lt;operationImplemented&gt;true&lt;/operationImplemented&gt;&lt;CancelId&gt;50311132&lt;/CancelId&gt;&lt;TransactionStatus&gt;&lt;ComunicationStatus&gt;OK&lt;/ComunicationStatus&gt;&lt;RSStatus&gt;EXISTE&lt;/RSStatus&gt;&lt;ResStatus&gt;CN&lt;/ResStatus&gt;&lt;/TransactionStatus&gt;&lt;Price
+						currency="EUR" amount="0" comission="-1" /&gt;&lt;/CancelRS&gt;</rs>
+					<rsXML i:nil="true" />
+
+
+					<CancelRS>
+						<ProviderLocator>50311132</ProviderLocator>
+						<operationImplemented>true</operationImplemented>
+						<CancelId>50311132</CancelId>
+						<TransactionStatus>
+							<ComunicationStatus>OK</ComunicationStatus>
+							<RSStatus>EXISTE</RSStatus>
+							<ResStatus>CN</ResStatus>
+						</TransactionStatus>
+						<Price currency="EUR" amount="0" comission="-1" />
+					</CancelRS>
+
+				</providerRS>
+			</CancelResult>
+		</CancelResponse>
+	</s:Body>
+</s:Envelope>

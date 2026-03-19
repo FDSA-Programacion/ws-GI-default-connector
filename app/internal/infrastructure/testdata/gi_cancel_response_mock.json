@@ -1,0 +1,39 @@
+{
+    "cancelInfoRS": {
+        "cancelRules": {
+            "cancelRule": [
+                {
+                    "amount": 288.0,
+                    "cancelByDate": "2025-09-15",
+                    "currencyCode": "EUR",
+                    "decimalPlaces": 2,
+                    "nmbrOfNights": null,
+                    "paymentCard": null,
+                    "percent": null,
+                    "type": null
+                }
+            ]
+        },
+        "uniqueID": null
+    },
+    "internalCondition": {
+        "message": null,
+        "providerStatus": null,
+        "providerStatusDescription": null,
+        "rsList": null,
+        "status": "200",
+        "statusDescription": "OK"
+    },
+    "primaryLangID": "en",
+    "segment": [],
+    "status": "Cancelled",
+    "success": "",
+    "uniqueID": [
+        {
+            "companyName": null,
+            "id": "GI20001520|SH26533501",
+            "type": "14"
+        }
+    ],
+    "version": 1.003
+}

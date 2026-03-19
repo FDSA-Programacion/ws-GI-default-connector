@@ -1,0 +1,69 @@
+<soapenv:Envelope
+	xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"
+	xmlns:ns="http://schemas.xmltravelgate.com/hub/2012/06">
+	<soapenv:Header>
+		<wsse:Security>
+			<wsse:UsernameToken>
+				<wsse:Username>GUEXML#20497</wsse:Username>
+				<wsse:Password>$GU32024.1nc0.XML$</wsse:Password>
+			</wsse:UsernameToken>
+		</wsse:Security>
+	</soapenv:Header>
+	<soapenv:Body>
+		<ns:Avail>
+			<ns:availRQ>
+				<ns:timeoutMilliseconds>18000</ns:timeoutMilliseconds>
+				<ns:version>1</ns:version>
+				<ns:providerRQs>
+					<ns:ProviderRQ>
+						<ns:code>OPENB2B</ns:code>
+						<ns:id>1726725299429263</ns:id>
+						<ns:rqXML>
+							<AvailRQ>
+								<timeoutMilliseconds>99999</timeoutMilliseconds>
+								<source>
+									<languageCode>ES</languageCode>
+								</source>
+								<filterAuditData>
+									<registerTransactions>false</registerTransactions>
+								</filterAuditData>
+				                     <Configuration>
+				                        <Parameters>
+				                           <Parameter key="maxHotels" value="50"/>
+				                           <Parameter key="maxRooms" value="20"/>
+				                           <Parameter key="rsXML" value="true"/>
+				                        </Parameters>
+				                     </Configuration>
+								<AvailDestinations>
+									<Destination type="HOT" code="22585"></Destination>
+								</AvailDestinations>
+								<StartDate>16/06/2025</StartDate>
+								<EndDate>20/06/2025</EndDate>
+								<Currency>EUR</Currency>
+								<Nationality>ES</Nationality>
+								<Markets>
+									<Market>ES</Market>
+								</Markets>
+								<RoomCandidates>
+									<RoomCandidate id="1">
+										<Paxes>
+											<Pax age="30" id="1"></Pax>
+											<Pax age="30" id="1"></Pax>
+										</Paxes>
+									</RoomCandidate>
+									<RoomCandidate id="2">
+										<Paxes>
+											<Pax age="30" id="2"></Pax>
+											<Pax age="30" id="2"></Pax>
+										</Paxes>
+									</RoomCandidate>
+								</RoomCandidates>
+							</AvailRQ>
+						</ns:rqXML>
+					</ns:ProviderRQ>
+				</ns:providerRQs>
+			</ns:availRQ>
+		</ns:Avail>
+	</soapenv:Body>
+</soapenv:Envelope>

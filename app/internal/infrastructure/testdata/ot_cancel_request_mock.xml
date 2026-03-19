@@ -1,0 +1,47 @@
+<soapenv:Envelope
+   xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header>
+      <wstxns1:Security
+         xmlns:wstxns1="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+         <wstxns1:UsernameToken wstxns2:Id="uuid-abaee110-6f1d-4f04-95a6-d2eb8050ba9f-1"
+            xmlns:wstxns2="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+            <wstxns1:Username>GUEXML#20497</wstxns1:Username>
+            <wstxns1:Password>$GU32024.1nc0.XML$</wstxns1:Password>
+         </wstxns1:UsernameToken>
+      </wstxns1:Security>
+   </soapenv:Header>
+   <soapenv:Body>
+      <wstxns3:Cancel xmlns:wstxns3="http://schemas.xmltravelgate.com/hub/2012/06">
+         <wstxns3:cancelRQ>
+            <wstxns3:timeoutMilliseconds>25000</wstxns3:timeoutMilliseconds>
+            <wstxns3:version>1</wstxns3:version>
+            <wstxns3:providerRQ>
+               <wstxns3:code>pruebaGuest</wstxns3:code>
+               <wstxns3:id>222</wstxns3:id>
+               <wstxns3:rqXML>
+                  <CancelRQ>
+                     <timeoutMilliseconds>59000</timeoutMilliseconds>
+                     <source />
+                     <filterAuditData>
+                        <registerTransactions>false</registerTransactions>
+                     </filterAuditData>
+                     <Configuration>
+                        <Parameters>
+                           <Parameter key="maxHotels" value="50" />
+                           <Parameter key="maxRooms" value="20" />
+                           <Parameter key="rsXML" value="true" />
+                        </Parameters>
+                     </Configuration>
+                     <Locators>
+                        <Client>ReservaTest</Client>
+                        <Provider>50178820</Provider>
+                     </Locators>
+                     <StartDate>16/06/2025</StartDate>
+                     <EndDate>20/06/2025</EndDate>
+                  </CancelRQ>
+               </wstxns3:rqXML>
+            </wstxns3:providerRQ>
+         </wstxns3:cancelRQ>
+      </wstxns3:Cancel>
+   </soapenv:Body>
+</soapenv:Envelope>

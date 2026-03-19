@@ -1,0 +1,643 @@
+{
+    "debug": null,
+    "deltaPercentage": 0.0,
+    "echoToken": "1763377240844607",
+    "hotelReservations": {
+        "hotelReservation": [
+            {
+                "creatorID": "3975876",
+                "resGuests": {
+                    "resGuest": [
+                        {
+                            "ageQualifyingCode": "10",
+                            "profiles": {
+                                "profileInfo": {
+                                    "profile": [
+                                        {
+                                            "customer": {
+                                                "birthDate": "1995-11-17",
+                                                "personName": {
+                                                    "givenName": "JOSE",
+                                                    "surname": "ASENJO"
+                                                }
+                                            },
+                                            "profileType": "18",
+                                            "rph": "0"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "ageQualifyingCode": "10",
+                            "profiles": {
+                                "profileInfo": {
+                                    "profile": [
+                                        {
+                                            "customer": {
+                                                "birthDate": "1995-11-17",
+                                                "personName": {
+                                                    "givenName": "JOSEB",
+                                                    "surname": "ASENJOB"
+                                                }
+                                            },
+                                            "profileType": "1",
+                                            "rph": "1"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "ageQualifyingCode": "10",
+                            "profiles": {
+                                "profileInfo": {
+                                    "profile": [
+                                        {
+                                            "customer": {
+                                                "birthDate": "1995-11-17",
+                                                "personName": {
+                                                    "givenName": "JOSE",
+                                                    "surname": "ASENJO"
+                                                }
+                                            },
+                                            "profileType": "1",
+                                            "rph": "2"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "ageQualifyingCode": "10",
+                            "profiles": {
+                                "profileInfo": {
+                                    "profile": [
+                                        {
+                                            "customer": {
+                                                "birthDate": "1995-11-17",
+                                                "personName": {
+                                                    "givenName": "JOSEB",
+                                                    "surname": "ASENJOB"
+                                                }
+                                            },
+                                            "profileType": "1",
+                                            "rph": "3"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "ageQualifyingCode": "10",
+                            "profiles": {
+                                "profileInfo": {
+                                    "profile": [
+                                        {
+                                            "customer": {
+                                                "birthDate": "1995-11-17",
+                                                "personName": {
+                                                    "givenName": "JOSE",
+                                                    "surname": "ASENJO"
+                                                }
+                                            },
+                                            "profileType": "1",
+                                            "rph": "4"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "ageQualifyingCode": "10",
+                            "profiles": {
+                                "profileInfo": {
+                                    "profile": [
+                                        {
+                                            "customer": {
+                                                "birthDate": "1995-11-17",
+                                                "personName": {
+                                                    "givenName": "JOSEB",
+                                                    "surname": "ASENJOB"
+                                                }
+                                            },
+                                            "profileType": "1",
+                                            "rph": "5"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "ageQualifyingCode": "8",
+                            "profiles": {
+                                "profileInfo": {
+                                    "profile": [
+                                        {
+                                            "customer": {
+                                                "birthDate": "2014-11-17",
+                                                "personName": {
+                                                    "givenName": "JOSEC",
+                                                    "surname": "ASENJOC"
+                                                }
+                                            },
+                                            "profileType": "1",
+                                            "rph": "6"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                "roomStays": {
+                    "roomStay": [
+                        {
+                            "cancelPenalties": null,
+                            "guestCounts": null,
+                            "marketCode": null,
+                            "resGuestRPHs": {
+                                "resGuestRPH": [
+                                    {
+                                        "rph": "0"
+                                    },
+                                    {
+                                        "rph": "1"
+                                    }
+                                ]
+                            },
+                            "roomRates": {
+                                "roomRate": {
+                                    "availabilityStatus": null,
+                                    "bookingCode": "01fjCrotLo5uwFgQkLXze2d27JknHV0sljj9yvXKQafyc3FG3c4Cq+I5TkkA5CdaSceAfG8qxlZx7cLRh0Kh1z5THuSJBARIEmlgUKQ8ehTFx6k1U5nlB3qvkxrwuQ45KluQvvFMtDWRSvcePkVI+w/8aIbChgzzW/oduljDCFtu2QtsdqVLU9pLZqsfpY3+1BDEJgfMx6MHKI+ed94SNvK8ARAayeTLLEEfkHWuXEFIgoG5A+NtL0u0yS8DHJEdY7zUHBp/tPHh5bPPe6LA0iYW0hSGiFtIcz0aFvynxaiEq75sQp5VY2Dv8lL+MzG6td3dPkScpJ2KCZ/azLZOhqukResrAAengacVWMKEDtu2TuBmBYjadRdVf+8Lz1ABuhvTjZcV4UVN3DCRrndCI6g+8aIDY2kZNkNz+Biqhs7pYe8ZXBDf4qf6fFjo0/S27EhzdsNtpzmt31CiL/k8TGHUbRXV1IhTLb9wDPF50ZaYEGuKLd/59vucF684MHaOLOJYKVrfKY7AmDEu2erD2NOBnkJi4veW/uiD9NyAq5gVG64T3YzESLAyvSZ1JH/SprgxIzMfWf/rameF9386ct0Wy2P4iS/bbUacLS2og5bVZkSj3iCQkalJW1lGVryuRl+4G7k/zHhFx8Mq+mCIPfni8WpB40rOhvRM9b95/4wksKRLSEtq8eka7z35ErwMxpqtkfepxXAGlFyaKA6pQZXOGwfMaem5lNXe1G3sS6qF4TkCWi+XlrceT16neV10AeguIfVoRp4bMeTpESgjTqq9PsieEPBBuMD4ojmtEEa/ACjiIl7RLe2Mq1jwvkVt87OBh/3bC4oyNKH5Lsvn8Kl1vqi3wBAu9eXbsAM2rVlrRDaMkL98Lp9H7KnRDAXg16/wXVh3RyAllx2ANYYeY0ZDcXjNPqUk/TQPfwjTnyTPc0yRYxKw+Itf2ubyFjnAld9x5HLeEYkE3jp85d0Zz5+Y906DpqZEmlJMR8kWqw5lU6+tg04dHU0fF0avKUMclX0eGgMrjHqC1wmkoIMNy5+zbX4obnd+UpN0NXF9xDmpigKfB6Iw40yUePEPGRHQURVqJI+jwzFeOwMbdD8U/7wZ8uGX9xJDnlq7JvxLSnONQrYXKZPW+WfMBnhv8Bgx0LrqG//MWjQq4vOdY43zxAuNZDmDJ9V2ZRIfIKJfX46Qd2t0wRQkQeaNku6iPQVsjywnqyR/nQF6oTmVO30FVoDwdt4XG3k55bs4GEN84jXRsi2CuZLRPolC4JeC7e05uWZMsqyCc3/q5G95tCeif2qDOwKoR2Fik57j0xFk00AQqRI+UjUwW2ebLrb4HFyqD65Znc6zakpdHE+4lR3CWEOU24ws25ZlzkXP64FvWOFj0DR7KkmA/VYfCWEskNXFHAM8lzn11l/lmqcQD83EPL7qLz6BPa+V79feqACBK7+p+CIHGWh2p54PcTTW0NjCPkF3c2GIL5Y3aDQC/gqvTr9M9p6NM1MHXx",
+                                    "directPayment": null,
+                                    "invBlockCode": null,
+                                    "openBookingCode": "011763377240844607|2.0|1502|467|9999-19642969|20251206|20251208|32235|6239_[B@7c817ecd|Standard Room with twin beds and sofa bed|STANDARD_ROOM_WITH_TWIN_BEDS_AND_SOFA_BED|Standard Room with twin beds and sofa bed|0|3|3|202021|6|1|303030303030|11|0|ES|ES|SA|404.32|404.32|EUR|EUR|0|1.0|236581|2.8|510.45|2~0|||0|0|1-1502¬467¬SA¬0|AccessCode:=:28973:_#_:||31[a1[b251206[c251208[d9999-19642969[e28[f0[gES[hES[ies[jEUR[k0[l28973[m467[n9[o1[p0[x17111100[M1531.35[N20.791458516994808502301890489[Otrue[PEUR[Q[R0[S[T[z1[A35660407[B[C30$~@30[EStandard Room with twin beds and sofa bed[FStandard Room with twin beds and sofa bed[G1[z2[A35660407[B[C30$~@30[EStandard Room with twin beds and sofa bed[FStandard Room with twin beds and sofa bed[G2[z3[A35660407[B[C30$~@30$~@11[EStandard Room with twin beds and sofa bed[FStandard Room with twin beds and sofa bed[G3[HcityCode[IMADRID[HtokenNumber[ITRA_STG: 20251117_110038[HroomConfig[I3#28#35660407#840942@2#28#35660407#840942@1#28#35660407#840942[Hrates[I404.32@404.32@404.32[Htokens[I840942@840942@840942[Htgx_sess[I008dd776-4e9f-482b-ad1a-da11c2834a98[tOK[uSith[v1[w[y[qHOTEL[q0[y[",
+                                    "roomTypeCode": null
+                                }
+                            },
+                            "roomStayCandidateRPH": null
+                        },
+                        {
+                            "cancelPenalties": null,
+                            "guestCounts": null,
+                            "marketCode": null,
+                            "resGuestRPHs": {
+                                "resGuestRPH": [
+                                    {
+                                        "rph": "2"
+                                    },
+                                    {
+                                        "rph": "3"
+                                    }
+                                ]
+                            },
+                            "roomRates": {
+                                "roomRate": {
+                                    "availabilityStatus": null,
+                                    "bookingCode": "011Mb9bWx8vLlrZix7CLuleAPSPV3Keso1Cpgat1t8Za7y2uRf8bPNP8rWWlQMtZfW2khHf/4ZltWzAXAOvFDyxz4rn94A6x8yo7QX/tNYg8/YoKKG1b3LwxNOh/7TPGtg1vFPKZ2aJnY8KmsKqXoR/KNVk900GLrmeRhy5bSfG8+NptkhXgDR2ybNn5WWDRWFUPYiGGaQBrsdU/ebIxavH6OcWgGL4y4w1ItzIna6keGeajnI1ZX8jdddv7Y3kzmNHF5JpHxiXHoPF93vMoipe54pg+JNpD4OV1DmJglyb4T0qPoSNoSJIxP/LJGXXLJ6PwdX4RQ3D3J1hDHCoFUcl6+MSnurgxH43qONDAw0s5qz/paW+AZozenpkpIVujzRfo6E3NveHPG9ryn2vKegNBRxYl5PbVhx+R7cvfdj+Ncg9CS4WNPu6cwqT2YfzrZMIknDaEHTjBLePKzfk1xSQEYV7b/yuve1yYU9FUbH1HAy08SsYRU4/jXJ1DFR/tiuOF08OczGn/OUzinhaUZh/LBj0MrkNLkwhSkqUy2XUNc5BqZqGjBfTCo9w2GHiWWTN2t1kQE3la/3yVdzmuvbq5956fP3MOQiGf6I/9WaWK/W5stagmr7gY7wZhRgUeM2+QKAIDUURKxJ6ae91IazE60k3+AHzjvxOkZyNRtIplq7vy14/gEtGIIE2VTxM79sAZ0oE1SIBtbV/kjPnS1WDkWGMIxg2LUwTnjch4jq+RK6uCfEA0a6gN0KV05O58nW8H4QRTwM4f7r8wjm9qVu4JzCTU+Ub47ddITPu4dRoIlssCuejJC2U1LCyhFetxRfP3zrx3dh7nzSustwawVNfkyxlqPknlRKBXKXGKU1ufRAjrXXaAD9jX4K7+vcivHRYAHPZnFT2QZrD8ZL5tnR7NO7IokA7EU4qsxfpTxbf0WEzRwN7OJQrau+v7/jMIUXISdhhbLwjOsYCrbaV7fwISH29XoZKKs1i1dVVbXZwcIL2/pGieP+VA5XvGhUgkST4clGsEx7bNtEL311N7jbejKqSGS9BOSS0JRP1k+IHh/B/tj3SLqWvYTgkEYH4j4TxrjQ8aMb1Up8GGKPqNdhJnUIJcATv9akzRrUqFv3FSJy8XaZTQ+FxTnsZgDS2ZShDt4//m1EaWQk8s2Ujsden1vkb/oqaikWt3m66vIFLZI2P60HRaRg8v6ZVQQwPry5kFqgZDejH89VKisW1Li5tzErhwqcWi1O+BW9SUH345kz39dtEwWLOSxvjUq+D/6d2ColpohJUdC9VxPzI0FwNWs9SwS759CIm2ahn1Y+isB+g4mkxukKi6PU1KABylrfyxW4Brxyo018uDxVuqqcPol4u1xh6fU112Qi1tV6JRZdgxntgwddoRqFRB9cKOFAYE13V0YaonM3qn0UUracJiPdDw0JRbzNQG/1gwzx8b+lNDoZShJpILsOqWOzWTxAAzkNZZynWsD377tZSDBwyC6aIZmA6ZvV",
+                                    "directPayment": null,
+                                    "invBlockCode": null,
+                                    "openBookingCode": "021763377240844607|2.0|1502|467|9999-19642969|20251206|20251208|32235|6239_[B@7c817ecd|Standard Room with twin beds and sofa bed|STANDARD_ROOM_WITH_TWIN_BEDS_AND_SOFA_BED|Standard Room with twin beds and sofa bed|0|3|3|202021|6|1|303030303030|11|0|ES|ES|SA|404.32|404.32|EUR|EUR|0|1.0|236581|2.8|510.45|2~0|||0|0|1-1502¬467¬SA¬0|AccessCode:=:28973:_#_:||31[a1[b251206[c251208[d9999-19642969[e28[f0[gES[hES[ies[jEUR[k0[l28973[m467[n9[o1[p0[x17111100[M1531.35[N20.791458516994808502301890489[Otrue[PEUR[Q[R0[S[T[z1[A35660407[B[C30$~@30[EStandard Room with twin beds and sofa bed[FStandard Room with twin beds and sofa bed[G1[z2[A35660407[B[C30$~@30[EStandard Room with twin beds and sofa bed[FStandard Room with twin beds and sofa bed[G2[z3[A35660407[B[C30$~@30$~@11[EStandard Room with twin beds and sofa bed[FStandard Room with twin beds and sofa bed[G3[HcityCode[IMADRID[HtokenNumber[ITRA_STG: 20251117_110038[HroomConfig[I3#28#35660407#840942@2#28#35660407#840942@1#28#35660407#840942[Hrates[I404.32@404.32@404.32[Htokens[I840942@840942@840942[Htgx_sess[I008dd776-4e9f-482b-ad1a-da11c2834a98[tOK[uSith[v1[w[y[qHOTEL[q0[y[",
+                                    "roomTypeCode": null
+                                }
+                            },
+                            "roomStayCandidateRPH": null
+                        },
+                        {
+                            "cancelPenalties": null,
+                            "guestCounts": null,
+                            "marketCode": null,
+                            "resGuestRPHs": {
+                                "resGuestRPH": [
+                                    {
+                                        "rph": "4"
+                                    },
+                                    {
+                                        "rph": "5"
+                                    },
+                                    {
+                                        "rph": "6"
+                                    }
+                                ]
+                            },
+                            "roomRates": {
+                                "roomRate": {
+                                    "availabilityStatus": null,
+                                    "bookingCode": "01u3Xed/koyXt9M5YSCo9Qr/gRDjVgKQg74JF08uAYrXwL/sDmvO5mmqfPXU2OtCwEOcGvG845pZDIw1CmWPG7lmmWOYThbH0ECY5Lu3hzOr5ahj/jvsyp2qeVRmfUlNNkSUJC1Sf3q1vyVn9yxKJOjlKq7kLlYxkr9bdtf1oruIAQaRsPQRXeZNPc1B+hoE2Wajo2/AIvmADJwcC8eKq8qYtqicZPi0TEiXHqivoFROseQLWCxNahfmzDX+Swf9DqSmHtYzOjk1m7plk2ya9llFvakfhGsryyxk2kkzceuJbOl2aEXbDhRADsBJSbm7ota1+LsdHORPsI1pkeD3zEjVnH7xmY9E2sa+tLkdLeQjbkzIpZtsLEm2vPzOImIfJTWvTRIMhQtaJaeVBWxLpIuCvSvjnuE93UTgbTq2K/xw2eyKhD5s1W3cnUflUvf22WSt854bz4XE2RJVdn0qNADo6o6sPeEu8MA16zPtzonfnyLp+o1j/nspXqFL+j11CG4J03FxTgsIbfHhXtt2CRxHlwCFcfVTPGoe944ISZEpZ7rC2EU0OROgeyuR5J18FKy/Qlme5aZBmiPh4/+KXNhDgTzGDQKAUYpfhVJD0jHZBc2KR/nXVqXusB2iNalkRcYNu8ZmTP5lcqa/pd1TqQ8ZQYh8OK8woSVowp4/50iZUikwxSj0vpqfW7pxvrqcU4On1S6e2Ow3ZpfRUFvmbEdeCKyMinVfpOcKUReN9iAFdFeuf1fvmrOvmnMcTL/OqRH5wcCMfq6nGV4R7NRZxFIcJ6gEaLHvWd/rlkfUjmCc5u+Km/StGiu7DXh4u8RvGRvvrI6HOlrqMXHEmh0Xh2Z+mW8Zh2jz8iipkEl4mfgTdK30JchdFK00z3MsXwteQPbMLxjK+teWwWQajDVMR0Tr6zDBcIsVlWTvKpgc3fLWXrsST4mFcqe2wjIpDJ/dB74EAGT1Ztb/B9EU1v6wzHvk7NmNg5madWRI+X8BaBAmlffMkXzn75rdjF6mb/HlF6o+plT4WTzkvWIRZJ9QYnRJo7rIhgen0mU7Hn9BMOz1/kgZdE1ctkNdtrOrMnq9CMeIO+S70EUzJORSJhgPwEIaGDqObRMn9yeB7xtyqBrw+Fgukdx8kJNKk6jZx6QEb59xPg7HvE6Q9HR3aPSQH5Bl+qzJlbFwPiRjJePKgDidbZpzFcvv1G4vuvM3ufdL+AtPaLEA5sVTEmfs+UJb724ggA/KoVklMmaGndNtel38iXZq1v6mkQ7GwoRJQA3T3b69kOdUdiIVtCe67AsYZO1AEDSnuNu9j6G9Eg8abZN5t1/PXwQ8kl8RvHwDTN0/WFausfB9wn2Fj3mDhKFvu59SZHPN4HMdgHwNtc09yyu6GEHRgPptXTj3SYayIRzDcE3OGw7HB4MvfPlGGrty2mSlGmVyCBdMUZ0B6SYC0E3lQfcxQvHYMT+LSoce4vpPAlOxGt5J8RII/S+NXYmacon/1nXxTEy92nCkrR8C1OsxA=",
+                                    "directPayment": null,
+                                    "invBlockCode": null,
+                                    "openBookingCode": "031763377240844607|2.0|1502|467|9999-19642969|20251206|20251208|32235|6239_[B@7c817ecd|Standard Room with twin beds and sofa bed|STANDARD_ROOM_WITH_TWIN_BEDS_AND_SOFA_BED|Standard Room with twin beds and sofa bed|0|3|3|202021|6|1|303030303030|11|0|ES|ES|SA|404.32|404.32|EUR|EUR|0|1.0|236581|2.8|510.45|2~1|11||0|0|1-1502¬467¬SA¬0|AccessCode:=:28973:_#_:||31[a1[b251206[c251208[d9999-19642969[e28[f0[gES[hES[ies[jEUR[k0[l28973[m467[n9[o1[p0[x17111100[M1531.35[N20.791458516994808502301890489[Otrue[PEUR[Q[R0[S[T[z1[A35660407[B[C30$~@30[EStandard Room with twin beds and sofa bed[FStandard Room with twin beds and sofa bed[G1[z2[A35660407[B[C30$~@30[EStandard Room with twin beds and sofa bed[FStandard Room with twin beds and sofa bed[G2[z3[A35660407[B[C30$~@30$~@11[EStandard Room with twin beds and sofa bed[FStandard Room with twin beds and sofa bed[G3[HcityCode[IMADRID[HtokenNumber[ITRA_STG: 20251117_110038[HroomConfig[I3#28#35660407#840942@2#28#35660407#840942@1#28#35660407#840942[Hrates[I404.32@404.32@404.32[Htokens[I840942@840942@840942[Htgx_sess[I008dd776-4e9f-482b-ad1a-da11c2834a98[tOK[uSith[v1[w[y[qHOTEL[q0[y[",
+                                    "roomTypeCode": null
+                                }
+                            },
+                            "roomStayCandidateRPH": null
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "internalCondition": {
+        "callCondition": {
+            "echoToken": "1763377240844607",
+            "originTimeStamp": 1763377285416
+        },
+        "channels": {
+            "channel": [
+                {
+                    "code": "XTG",
+                    "id": 97
+                }
+            ]
+        },
+        "clientCondition": {
+            "code": "TD",
+            "deltaMarkup": 0.0,
+            "markup": 0.0,
+            "supportNoRefund": false,
+            "type": "B2B"
+        },
+        "code": null,
+        "forced": null,
+        "id": null,
+        "name": null,
+        "providerCondition": {
+            "code": "1502",
+            "password": null,
+            "timeOut": 60000,
+            "url": null,
+            "user": null
+        },
+        "rebook": false
+    },
+    "pos": {
+        "source": {
+            "bookingChannel": {
+                "code": "XML",
+                "id": 3,
+                "name": "Venta XML"
+            },
+            "requestorID": {
+                "companyName": {
+                    "companyShortName": "TG TOURDIEZ B2B",
+                    "travelSector": null
+                },
+                "id": "reservas@tourdiez.com",
+                "messagePassword": "xxxxxxxxxx",
+                "type": "DSP"
+            }
+        }
+    },
+    "primaryLangID": "es",
+    "resStatus": "Commit",
+    "rqType": "ResDumpRQ",
+    "tpaExtensions": {
+        "invoiceReference": null,
+        "tpaExtension": [
+            {
+                "client": {
+                    "iD": "",
+                    "name": ""
+                },
+                "file": {
+                    "adultsTotal": 6,
+                    "childrenTotal": 1,
+                    "clientReference": "3975876",
+                    "distribution": "202021",
+                    "documentation": false,
+                    "ownReference": "GI147493845",
+                    "rebook": false,
+                    "rebookProviderOwnReference": null,
+                    "roomsTotal": 3,
+                    "saleChannel": {
+                        "iD": "3",
+                        "name": "Venta XML"
+                    },
+                    "serviceTotal": 3,
+                    "services": {
+                        "service": [
+                            {
+                                "accommodationID": "467",
+                                "accommodationName": "Novotel Madrid Center",
+                                "adultAges": "30,30",
+                                "billingProviderID": null,
+                                "bookingCode": "011763377240844607|2.0|1502|467|9999-19642969|20251206|20251208|32235|6239_[B@7c817ecd|Standard Room with twin beds and sofa bed|STANDARD_ROOM_WITH_TWIN_BEDS_AND_SOFA_BED|Standard Room with twin beds and sofa bed|0|3|3|202021|6|1|303030303030|11|0|ES|ES|SA|404.32|404.32|EUR|EUR|0|1.0|236581|2.8|510.45|2~0|||0|0|1-1502¬467¬SA¬0|AccessCode:=:28973:_#_:||31[a1[b251206[c251208[d9999-19642969[e28[f0[gES[hES[ies[jEUR[k0[l28973[m467[n9[o1[p0[x17111100[M1531.35[N20.791458516994808502301890489[Otrue[PEUR[Q[R0[S[T[z1[A35660407[B[C30$~@30[EStandard Room with twin beds and sofa bed[FStandard Room with twin beds and sofa bed[G1[z2[A35660407[B[C30$~@30[EStandard Room with twin beds and sofa bed[FStandard Room with twin beds and sofa bed[G2[z3[A35660407[B[C30$~@30$~@11[EStandard Room with twin beds and sofa bed[FStandard Room with twin beds and sofa bed[G3[HcityCode[IMADRID[HtokenNumber[ITRA_STG: 20251117_110038[HroomConfig[I3#28#35660407#840942@2#28#35660407#840942@1#28#35660407#840942[Hrates[I404.32@404.32@404.32[Htokens[I840942@840942@840942[Htgx_sess[I008dd776-4e9f-482b-ad1a-da11c2834a98[tOK[uSith[v1[w[y[qHOTEL[q0[y[",
+                                "buyAmount": 404.32,
+                                "buyChannel": {
+                                    "iD": "1502",
+                                    "name": "iOL B2B DP"
+                                },
+                                "buyCurrency": "EUR",
+                                "cancelPolicies": {
+                                    "dateRange": [
+                                        {
+                                            "amount": 202.16,
+                                            "currency": "EUR",
+                                            "end": "2025-12-06",
+                                            "source": "C",
+                                            "start": "2025-12-05",
+                                            "type": "amount",
+                                            "value": null
+                                        },
+                                        {
+                                            "amount": 207.98,
+                                            "currency": "EUR",
+                                            "end": "2025-12-06",
+                                            "source": "S",
+                                            "start": "2025-12-05",
+                                            "type": "amount",
+                                            "value": null
+                                        }
+                                    ],
+                                    "identifier": 0
+                                },
+                                "childrensAges": "",
+                                "comments": {
+                                    "comment": [
+                                        {
+                                            "text": "FLEX RATE B2B ALO|Room 1#MessageShort: Children Policy, Type: Child Policy, MessageFull: Children Policy\nDepending on the hotel's children's policy, children's supplements might be applied and it's not included in the total amount of the reservation. See the terms and conditions when booking., MessageChargeBase: 0, ValueType: Fixed, Occupancy: 0, AgeFrom: 0, AgeTo: 99|Room 1#MessageShort: Special term for children, Type: Child Policy, MessageFull: Special term for children\n1st child up to 11.99 y. will be free of charge sharing parent’s room\n2nd child up to 02.99 y. will be free of charge sharing parent’s room\n2nd child from 03 till 11.99 y. will be subject to 50% charge of adult rate in double room sharing parent’s room, MessageChargeBase: 0, ValueType: Fixed, Occupancy: 0, AgeFrom: 0, AgeTo: 99|Room 1#MessageShort: Rates are dynamic and non-amendable. Changes require cancellation and rebooking., Type: Amendment Policy, MessageFull: Refundable rates are dynamic, non-changeable, and non-amendable. If changes or amendments are required, the booking will need to be canceled and re-booked., MessageChargeBase: 0, ValueType: Fixed, AgeFrom: 0, AgeTo: 99|FLEX RATE B2B ALO|Room 2#MessageShort: Children Policy, Type: Child Policy, MessageFull: Children Policy\nDepending on the hotel's children's policy, children's supplements might be applied and it's not included in the total amount of the reservation. See the terms and conditions when booking., MessageChargeBase: 0, ValueType: Fixed, Occupancy: 0, AgeFrom: 0, AgeTo: 99|Room 2#MessageShort: Special term for children, Type: Child Policy, MessageFull: Special term for children\n1st child up to 11.99 y. will be free of charge sharing parent’s room\n2nd child up to 02.99 y. will be free of charge sharing parent’s room\n2nd child from 03 till 11.99 y. will be subject to 50% charge of adult rate in double room sharing parent’s room, MessageChargeBase: 0, ValueType: Fixed, Occupancy: 0, AgeFrom: 0, AgeTo: 99|Room 2#MessageShort: Rates are dynamic and non-amendable. Changes require cancellation and rebooking., Type: Amendment Policy, MessageFull: Refundable rates are dynamic, non-changeable, and non-amendable. If changes or amendments are required, the booking will need to be canceled and re-booked., MessageChargeBase: 0, ValueType: Fixed, AgeFrom: 0, AgeTo: 99|FLEX RATE B2B ALO|Room 3#MessageShort: Children Policy, Type: Child Policy, MessageFull: Children Policy\nDepending on the hotel's children's policy, children's supplements might be applied and it's not included in the total amount of the reservation. See the terms and conditions when booking., MessageChargeBase: 0, ValueType: Fixed, Occupancy: 0, AgeFrom: 0, AgeTo: 99|Room 3#MessageShort: Special term for children, Type: Child Policy, MessageFull: Special term for children\n1st child up to 11.99 y. will be free of charge sharing parent’s room\n2nd child up to 02.99 y. will be free of charge sharing parent’s room\n2nd child from 03 till 11.99 y. will be subject to 50% charge of adult rate in double room sharing parent’s room, MessageChargeBase: 0, ValueType: Fixed, Occupancy: 0, AgeFrom: 0, AgeTo: 99|Room 3#MessageShort: Rates are dynamic and non-amendable. Changes require cancellation and rebooking., Type: Amendment Policy, MessageFull: Refundable rates are dynamic, non-changeable, and non-amendable. If changes or amendments are required, the booking will need to be canceled and re-booked., MessageChargeBase: 0, ValueType: Fixed, AgeFrom: 0, AgeTo: 99|",
+                                            "type": "PROVIDER"
+                                        }
+                                    ]
+                                },
+                                "currency": "EUR",
+                                "decreaseQuota": false,
+                                "distribution": "20",
+                                "exchangeRate": 1,
+                                "identifier": 0,
+                                "market": "ES",
+                                "markup": 2.8,
+                                "nationality": "ES",
+                                "nonRefundableRate": false,
+                                "numberOfAdults": 2,
+                                "numberOfChildren": 0,
+                                "numberOfRooms": 1,
+                                "rebookProserId": null,
+                                "remarks": null,
+                                "retailAmount": 510.45,
+                                "rooms": {
+                                    "room": [
+                                        {
+                                            "adultsAges": "30,30",
+                                            "board": {
+                                                "iD": "9",
+                                                "name": "Solo Alojamiento"
+                                            },
+                                            "childrenAges": "",
+                                            "distribution": "20",
+                                            "iD": "32235",
+                                            "identifier": 32235,
+                                            "name": "STANDARD ROOM WITH TWIN BEDS AND SOFA BED",
+                                            "numberOfAdults": 2,
+                                            "numberOfChildren": 0,
+                                            "status": null,
+                                            "sumUpDetails": {
+                                                "sumUpDetails": [
+                                                    {
+                                                        "buyAmount": 404.32,
+                                                        "buyCurrency": "EUR",
+                                                        "concept": "STANDARD ROOM WITH TWIN BEDS AND SOFA BED - Solo Alojamiento",
+                                                        "quantity": 1,
+                                                        "saleAmount": 415.97,
+                                                        "saleCurrency": "EUR",
+                                                        "type": "base"
+                                                    }
+                                                ]
+                                            },
+                                            "supplierName": "Standard Room with twin beds and sofa bed",
+                                            "supplierRoomID": "STANDARD_ROOM_WITH_TWIN_BEDS_AND_SOFA_BED"
+                                        }
+                                    ]
+                                },
+                                "saleAmount": 415.97,
+                                "saleCurrency": "EUR",
+                                "status": null,
+                                "stayDateRange": {
+                                    "end": "2025-12-08",
+                                    "start": "2025-12-06"
+                                },
+                                "supplierAccommodationID": "9999-19642969",
+                                "supplierReference": "1492#3258925|28973|9999-19642969|1502"
+                            },
+                            {
+                                "accommodationID": "467",
+                                "accommodationName": "Novotel Madrid Center",
+                                "adultAges": "30,30",
+                                "billingProviderID": null,
+                                "bookingCode": "021763377240844607|2.0|1502|467|9999-19642969|20251206|20251208|32235|6239_[B@7c817ecd|Standard Room with twin beds and sofa bed|STANDARD_ROOM_WITH_TWIN_BEDS_AND_SOFA_BED|Standard Room with twin beds and sofa bed|0|3|3|202021|6|1|303030303030|11|0|ES|ES|SA|404.32|404.32|EUR|EUR|0|1.0|236581|2.8|510.45|2~0|||0|0|1-1502¬467¬SA¬0|AccessCode:=:28973:_#_:||31[a1[b251206[c251208[d9999-19642969[e28[f0[gES[hES[ies[jEUR[k0[l28973[m467[n9[o1[p0[x17111100[M1531.35[N20.791458516994808502301890489[Otrue[PEUR[Q[R0[S[T[z1[A35660407[B[C30$~@30[EStandard Room with twin beds and sofa bed[FStandard Room with twin beds and sofa bed[G1[z2[A35660407[B[C30$~@30[EStandard Room with twin beds and sofa bed[FStandard Room with twin beds and sofa bed[G2[z3[A35660407[B[C30$~@30$~@11[EStandard Room with twin beds and sofa bed[FStandard Room with twin beds and sofa bed[G3[HcityCode[IMADRID[HtokenNumber[ITRA_STG: 20251117_110038[HroomConfig[I3#28#35660407#840942@2#28#35660407#840942@1#28#35660407#840942[Hrates[I404.32@404.32@404.32[Htokens[I840942@840942@840942[Htgx_sess[I008dd776-4e9f-482b-ad1a-da11c2834a98[tOK[uSith[v1[w[y[qHOTEL[q0[y[",
+                                "buyAmount": 404.32,
+                                "buyChannel": {
+                                    "iD": "1502",
+                                    "name": "iOL B2B DP"
+                                },
+                                "buyCurrency": "EUR",
+                                "cancelPolicies": {
+                                    "dateRange": [
+                                        {
+                                            "amount": 202.16,
+                                            "currency": "EUR",
+                                            "end": "2025-12-06",
+                                            "source": "C",
+                                            "start": "2025-12-05",
+                                            "type": "amount",
+                                            "value": null
+                                        },
+                                        {
+                                            "amount": 207.98,
+                                            "currency": "EUR",
+                                            "end": "2025-12-06",
+                                            "source": "S",
+                                            "start": "2025-12-05",
+                                            "type": "amount",
+                                            "value": null
+                                        }
+                                    ],
+                                    "identifier": 0
+                                },
+                                "childrensAges": "",
+                                "comments": {
+                                    "comment": [
+                                        {
+                                            "text": "FLEX RATE B2B ALO|Room 1#MessageShort: Children Policy, Type: Child Policy, MessageFull: Children Policy\nDepending on the hotel's children's policy, children's supplements might be applied and it's not included in the total amount of the reservation. See the terms and conditions when booking., MessageChargeBase: 0, ValueType: Fixed, Occupancy: 0, AgeFrom: 0, AgeTo: 99|Room 1#MessageShort: Special term for children, Type: Child Policy, MessageFull: Special term for children\n1st child up to 11.99 y. will be free of charge sharing parent’s room\n2nd child up to 02.99 y. will be free of charge sharing parent’s room\n2nd child from 03 till 11.99 y. will be subject to 50% charge of adult rate in double room sharing parent’s room, MessageChargeBase: 0, ValueType: Fixed, Occupancy: 0, AgeFrom: 0, AgeTo: 99|Room 1#MessageShort: Rates are dynamic and non-amendable. Changes require cancellation and rebooking., Type: Amendment Policy, MessageFull: Refundable rates are dynamic, non-changeable, and non-amendable. If changes or amendments are required, the booking will need to be canceled and re-booked., MessageChargeBase: 0, ValueType: Fixed, AgeFrom: 0, AgeTo: 99|FLEX RATE B2B ALO|Room 2#MessageShort: Children Policy, Type: Child Policy, MessageFull: Children Policy\nDepending on the hotel's children's policy, children's supplements might be applied and it's not included in the total amount of the reservation. See the terms and conditions when booking., MessageChargeBase: 0, ValueType: Fixed, Occupancy: 0, AgeFrom: 0, AgeTo: 99|Room 2#MessageShort: Special term for children, Type: Child Policy, MessageFull: Special term for children\n1st child up to 11.99 y. will be free of charge sharing parent’s room\n2nd child up to 02.99 y. will be free of charge sharing parent’s room\n2nd child from 03 till 11.99 y. will be subject to 50% charge of adult rate in double room sharing parent’s room, MessageChargeBase: 0, ValueType: Fixed, Occupancy: 0, AgeFrom: 0, AgeTo: 99|Room 2#MessageShort: Rates are dynamic and non-amendable. Changes require cancellation and rebooking., Type: Amendment Policy, MessageFull: Refundable rates are dynamic, non-changeable, and non-amendable. If changes or amendments are required, the booking will need to be canceled and re-booked., MessageChargeBase: 0, ValueType: Fixed, AgeFrom: 0, AgeTo: 99|FLEX RATE B2B ALO|Room 3#MessageShort: Children Policy, Type: Child Policy, MessageFull: Children Policy\nDepending on the hotel's children's policy, children's supplements might be applied and it's not included in the total amount of the reservation. See the terms and conditions when booking., MessageChargeBase: 0, ValueType: Fixed, Occupancy: 0, AgeFrom: 0, AgeTo: 99|Room 3#MessageShort: Special term for children, Type: Child Policy, MessageFull: Special term for children\n1st child up to 11.99 y. will be free of charge sharing parent’s room\n2nd child up to 02.99 y. will be free of charge sharing parent’s room\n2nd child from 03 till 11.99 y. will be subject to 50% charge of adult rate in double room sharing parent’s room, MessageChargeBase: 0, ValueType: Fixed, Occupancy: 0, AgeFrom: 0, AgeTo: 99|Room 3#MessageShort: Rates are dynamic and non-amendable. Changes require cancellation and rebooking., Type: Amendment Policy, MessageFull: Refundable rates are dynamic, non-changeable, and non-amendable. If changes or amendments are required, the booking will need to be canceled and re-booked., MessageChargeBase: 0, ValueType: Fixed, AgeFrom: 0, AgeTo: 99|",
+                                            "type": "PROVIDER"
+                                        }
+                                    ]
+                                },
+                                "currency": "EUR",
+                                "decreaseQuota": false,
+                                "distribution": "20",
+                                "exchangeRate": 1,
+                                "identifier": 0,
+                                "market": "ES",
+                                "markup": 2.8,
+                                "nationality": "ES",
+                                "nonRefundableRate": false,
+                                "numberOfAdults": 2,
+                                "numberOfChildren": 0,
+                                "numberOfRooms": 1,
+                                "rebookProserId": null,
+                                "remarks": null,
+                                "retailAmount": 510.45,
+                                "rooms": {
+                                    "room": [
+                                        {
+                                            "adultsAges": "30,30",
+                                            "board": {
+                                                "iD": "9",
+                                                "name": "Solo Alojamiento"
+                                            },
+                                            "childrenAges": "",
+                                            "distribution": "20",
+                                            "iD": "32235",
+                                            "identifier": 32235,
+                                            "name": "STANDARD ROOM WITH TWIN BEDS AND SOFA BED",
+                                            "numberOfAdults": 2,
+                                            "numberOfChildren": 0,
+                                            "status": null,
+                                            "sumUpDetails": {
+                                                "sumUpDetails": [
+                                                    {
+                                                        "buyAmount": 404.32,
+                                                        "buyCurrency": "EUR",
+                                                        "concept": "STANDARD ROOM WITH TWIN BEDS AND SOFA BED - Solo Alojamiento",
+                                                        "quantity": 1,
+                                                        "saleAmount": 415.97,
+                                                        "saleCurrency": "EUR",
+                                                        "type": "base"
+                                                    }
+                                                ]
+                                            },
+                                            "supplierName": "Standard Room with twin beds and sofa bed",
+                                            "supplierRoomID": "STANDARD_ROOM_WITH_TWIN_BEDS_AND_SOFA_BED"
+                                        }
+                                    ]
+                                },
+                                "saleAmount": 415.97,
+                                "saleCurrency": "EUR",
+                                "status": null,
+                                "stayDateRange": {
+                                    "end": "2025-12-08",
+                                    "start": "2025-12-06"
+                                },
+                                "supplierAccommodationID": "9999-19642969",
+                                "supplierReference": "1492#3258925|28973|9999-19642969|1502"
+                            },
+                            {
+                                "accommodationID": "467",
+                                "accommodationName": "Novotel Madrid Center",
+                                "adultAges": "30,30",
+                                "billingProviderID": null,
+                                "bookingCode": "031763377240844607|2.0|1502|467|9999-19642969|20251206|20251208|32235|6239_[B@7c817ecd|Standard Room with twin beds and sofa bed|STANDARD_ROOM_WITH_TWIN_BEDS_AND_SOFA_BED|Standard Room with twin beds and sofa bed|0|3|3|202021|6|1|303030303030|11|0|ES|ES|SA|404.32|404.32|EUR|EUR|0|1.0|236581|2.8|510.45|2~1|11||0|0|1-1502¬467¬SA¬0|AccessCode:=:28973:_#_:||31[a1[b251206[c251208[d9999-19642969[e28[f0[gES[hES[ies[jEUR[k0[l28973[m467[n9[o1[p0[x17111100[M1531.35[N20.791458516994808502301890489[Otrue[PEUR[Q[R0[S[T[z1[A35660407[B[C30$~@30[EStandard Room with twin beds and sofa bed[FStandard Room with twin beds and sofa bed[G1[z2[A35660407[B[C30$~@30[EStandard Room with twin beds and sofa bed[FStandard Room with twin beds and sofa bed[G2[z3[A35660407[B[C30$~@30$~@11[EStandard Room with twin beds and sofa bed[FStandard Room with twin beds and sofa bed[G3[HcityCode[IMADRID[HtokenNumber[ITRA_STG: 20251117_110038[HroomConfig[I3#28#35660407#840942@2#28#35660407#840942@1#28#35660407#840942[Hrates[I404.32@404.32@404.32[Htokens[I840942@840942@840942[Htgx_sess[I008dd776-4e9f-482b-ad1a-da11c2834a98[tOK[uSith[v1[w[y[qHOTEL[q0[y[",
+                                "buyAmount": 404.32,
+                                "buyChannel": {
+                                    "iD": "1502",
+                                    "name": "iOL B2B DP"
+                                },
+                                "buyCurrency": "EUR",
+                                "cancelPolicies": {
+                                    "dateRange": [
+                                        {
+                                            "amount": 202.16,
+                                            "currency": "EUR",
+                                            "end": "2025-12-06",
+                                            "source": "C",
+                                            "start": "2025-12-05",
+                                            "type": "amount",
+                                            "value": null
+                                        },
+                                        {
+                                            "amount": 207.98,
+                                            "currency": "EUR",
+                                            "end": "2025-12-06",
+                                            "source": "S",
+                                            "start": "2025-12-05",
+                                            "type": "amount",
+                                            "value": null
+                                        }
+                                    ],
+                                    "identifier": 0
+                                },
+                                "childrensAges": "11",
+                                "comments": {
+                                    "comment": [
+                                        {
+                                            "text": "FLEX RATE B2B ALO|Room 1#MessageShort: Children Policy, Type: Child Policy, MessageFull: Children Policy\nDepending on the hotel's children's policy, children's supplements might be applied and it's not included in the total amount of the reservation. See the terms and conditions when booking., MessageChargeBase: 0, ValueType: Fixed, Occupancy: 0, AgeFrom: 0, AgeTo: 99|Room 1#MessageShort: Special term for children, Type: Child Policy, MessageFull: Special term for children\n1st child up to 11.99 y. will be free of charge sharing parent’s room\n2nd child up to 02.99 y. will be free of charge sharing parent’s room\n2nd child from 03 till 11.99 y. will be subject to 50% charge of adult rate in double room sharing parent’s room, MessageChargeBase: 0, ValueType: Fixed, Occupancy: 0, AgeFrom: 0, AgeTo: 99|Room 1#MessageShort: Rates are dynamic and non-amendable. Changes require cancellation and rebooking., Type: Amendment Policy, MessageFull: Refundable rates are dynamic, non-changeable, and non-amendable. If changes or amendments are required, the booking will need to be canceled and re-booked., MessageChargeBase: 0, ValueType: Fixed, AgeFrom: 0, AgeTo: 99|FLEX RATE B2B ALO|Room 2#MessageShort: Children Policy, Type: Child Policy, MessageFull: Children Policy\nDepending on the hotel's children's policy, children's supplements might be applied and it's not included in the total amount of the reservation. See the terms and conditions when booking., MessageChargeBase: 0, ValueType: Fixed, Occupancy: 0, AgeFrom: 0, AgeTo: 99|Room 2#MessageShort: Special term for children, Type: Child Policy, MessageFull: Special term for children\n1st child up to 11.99 y. will be free of charge sharing parent’s room\n2nd child up to 02.99 y. will be free of charge sharing parent’s room\n2nd child from 03 till 11.99 y. will be subject to 50% charge of adult rate in double room sharing parent’s room, MessageChargeBase: 0, ValueType: Fixed, Occupancy: 0, AgeFrom: 0, AgeTo: 99|Room 2#MessageShort: Rates are dynamic and non-amendable. Changes require cancellation and rebooking., Type: Amendment Policy, MessageFull: Refundable rates are dynamic, non-changeable, and non-amendable. If changes or amendments are required, the booking will need to be canceled and re-booked., MessageChargeBase: 0, ValueType: Fixed, AgeFrom: 0, AgeTo: 99|FLEX RATE B2B ALO|Room 3#MessageShort: Children Policy, Type: Child Policy, MessageFull: Children Policy\nDepending on the hotel's children's policy, children's supplements might be applied and it's not included in the total amount of the reservation. See the terms and conditions when booking., MessageChargeBase: 0, ValueType: Fixed, Occupancy: 0, AgeFrom: 0, AgeTo: 99|Room 3#MessageShort: Special term for children, Type: Child Policy, MessageFull: Special term for children\n1st child up to 11.99 y. will be free of charge sharing parent’s room\n2nd child up to 02.99 y. will be free of charge sharing parent’s room\n2nd child from 03 till 11.99 y. will be subject to 50% charge of adult rate in double room sharing parent’s room, MessageChargeBase: 0, ValueType: Fixed, Occupancy: 0, AgeFrom: 0, AgeTo: 99|Room 3#MessageShort: Rates are dynamic and non-amendable. Changes require cancellation and rebooking., Type: Amendment Policy, MessageFull: Refundable rates are dynamic, non-changeable, and non-amendable. If changes or amendments are required, the booking will need to be canceled and re-booked., MessageChargeBase: 0, ValueType: Fixed, AgeFrom: 0, AgeTo: 99|",
+                                            "type": "PROVIDER"
+                                        }
+                                    ]
+                                },
+                                "currency": "EUR",
+                                "decreaseQuota": false,
+                                "distribution": "21",
+                                "exchangeRate": 1,
+                                "identifier": 0,
+                                "market": "ES",
+                                "markup": 2.8,
+                                "nationality": "ES",
+                                "nonRefundableRate": false,
+                                "numberOfAdults": 2,
+                                "numberOfChildren": 1,
+                                "numberOfRooms": 1,
+                                "rebookProserId": null,
+                                "remarks": null,
+                                "retailAmount": 510.45,
+                                "rooms": {
+                                    "room": [
+                                        {
+                                            "adultsAges": "30,30",
+                                            "board": {
+                                                "iD": "9",
+                                                "name": "Solo Alojamiento"
+                                            },
+                                            "childrenAges": "11",
+                                            "distribution": "21",
+                                            "iD": "32235",
+                                            "identifier": 32235,
+                                            "name": "STANDARD ROOM WITH TWIN BEDS AND SOFA BED",
+                                            "numberOfAdults": 2,
+                                            "numberOfChildren": 1,
+                                            "status": null,
+                                            "sumUpDetails": {
+                                                "sumUpDetails": [
+                                                    {
+                                                        "buyAmount": 404.32,
+                                                        "buyCurrency": "EUR",
+                                                        "concept": "STANDARD ROOM WITH TWIN BEDS AND SOFA BED - Solo Alojamiento",
+                                                        "quantity": 1,
+                                                        "saleAmount": 415.97,
+                                                        "saleCurrency": "EUR",
+                                                        "type": "base"
+                                                    }
+                                                ]
+                                            },
+                                            "supplierName": "Standard Room with twin beds and sofa bed",
+                                            "supplierRoomID": "STANDARD_ROOM_WITH_TWIN_BEDS_AND_SOFA_BED"
+                                        }
+                                    ]
+                                },
+                                "saleAmount": 415.97,
+                                "saleCurrency": "EUR",
+                                "status": null,
+                                "stayDateRange": {
+                                    "end": "2025-12-08",
+                                    "start": "2025-12-06"
+                                },
+                                "supplierAccommodationID": "9999-19642969",
+                                "supplierReference": "1492#3258925|28973|9999-19642969|1502"
+                            }
+                        ]
+                    }
+                },
+                "internalUser": {
+                    "iD": "",
+                    "messagePassword": ""
+                }
+            }
+        ]
+    },
+    "transactionIdentifier": "GI147493845",
+    "version": null,
+    "xmlns": "http://www.opentravel.org/OTA/2003/05",
+    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+}
