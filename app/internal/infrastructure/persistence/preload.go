@@ -37,29 +37,6 @@ func saveRegimenDic(data map[string]interface{}, cacheService domain.CacheServic
 	cacheService.LoadDataToCache(cache.CacheNameRegimenDicSupplier, dataOutput)
 }
 
-// func saveRegimenTxDic(data map[string]interface{}, cacheService domain.CacheService) {
-// 	dataOutput := make(map[string]interface{})
-
-// 	for _, v := range data {
-// 		obj := orm.DBRegimenTraduccion{}
-
-// 		if err := mapstructure.Decode(v, &obj); err != nil {
-// 			fmt.Printf("error decoding key %s: %v\n", k, err)
-// 			continue
-// 		}
-
-// 		// Usamos el campo KEY como clave del mapa final
-// 		key := obj.Key
-// 		if key == "" {
-// 			fmt.Printf("registro sin clave: %+v\n", obj)
-// 			continue
-// 		}
-
-// 		dataOutput[key] = obj
-// 	}
-// 	cacheService.LoadDataToCache(cache.CacheNameRegimenTx, dataOutput)
-// }
-
 func saveTipoHabitacionDicPrv(data map[string]interface{}, cacheService domain.CacheService) {
 	dataOutput := make(map[string]interface{})
 
@@ -71,18 +48,9 @@ func saveTipoHabitacionDicPrv(data map[string]interface{}, cacheService domain.C
 		}
 
 		key := obj.PrvRoomCode + "|" + obj.IntegrationID
-		// log.Println("key", key)
-		// log.Printf("obj %+v", obj)
-
-		// if obj.GIRoomCode == "6298_[B@6a41eef3" {
-		// 	log.Println("EXISTEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE")
-		// 	log.Printf("obj %+v", obj)
-		// }
 
 		dataOutput[key] = obj
 	}
-
-	// log.Println("dataOutput", dataOutput)
 
 	cacheService.LoadDataToCache(cache.CacheNameTipoHabitacionDicPrvSupplier, dataOutput)
 }
@@ -181,10 +149,6 @@ func LoadAllCache(cacheService domain.CacheService, providerIds ...int) {
 			QueryFn: GetRegimenDicQuery,
 			SaveFn:  saveRegimenDic,
 		},
-		// {
-		// 	QueryFn: GetRegimenTxQuery,
-		// 	SaveFn:  saveRegimenTxDic,
-		// },
 		{
 			Name:    "TipoHabitacionDicPrv",
 			QueryFn: GetTipoHabitacionDicPrvQuery,
@@ -216,7 +180,6 @@ func LoadAllCache(cacheService domain.CacheService, providerIds ...int) {
 			log.Println("error on loadCache().", err)
 			continue
 		}
-		// log.Printf("La query es: %v", query)
 		log.Println("Se han registrado " + strconv.Itoa(len(data)) + " registros de " + c.Name)
 
 		c.SaveFn(data, cacheService)

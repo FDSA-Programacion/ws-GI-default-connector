@@ -104,39 +104,19 @@ func (r *repositoryServiceImpl) GetRoomFromExternalCode(prvRoomCode, prvRoomName
 	var room = &orm.DBRoomMapping{PrvRoomName: prvRoomName}
 
 	if len(prvRoomCode) <= 0 {
-		//Create room code if provider does not codify rooms
 		room.PrvRoomCode = strings.Replace(strings.ToUpper(prvRoomName), " ", "_", -1)
 	} else {
 		room.PrvRoomCode = prvRoomCode
 	}
-	// obj.PrvRoomCode + "|" + obj.IntegrationID
 	key := prvRoomCode + "|" + strconv.Itoa(supplierID)
 
 	obj, ok := r.cache.Get(cache.CacheNameTipoHabitacionDicPrvSupplier, key)
 
-	// description
-	// log.Println("obj", obj)
-	// log.Println("ok", ok)
-
-	// log.Println("key", key)
 	if ok {
-		// is in cache
 		th := obj.(orm.DBRoomMapping)
 
 		room.GIRoomID = th.GIRoomID
 		room.GIRoomCode = th.GIRoomCode
-		// room.IsDynamic = false
-
-		// key := th.GIRoomID + "|" + strings.ToUpper(primaryLangID)
-		// objTipoHabitacionTx, okTHTX := r.cache.Get(cache.CacheNameTipoHabitacionTx, key)
-		// if okTHTX {
-		// 	// tipoHabitacionTX := objTipoHabitacionTx.(*orm.DBRoomDescription)
-		// 	// room.GiRoomName = tipoHabitacionTX.Descripcion
-		// } else {
-		// 	// room.IsDynamic = true
-		// }
-	} else {
-		// room.IsDynamic = true
 	}
 	return room
 
@@ -150,7 +130,6 @@ func (r *repositoryServiceImpl) GetRoomFromCodHabitacion(roomCode string, Primar
 
 	items := cacheInstance.Items()
 	for _, v := range items {
-		// El objeto está guardado como valor, no como puntero
 		obj, ok := v.Object.(orm.DBRoomDescription)
 		if !ok {
 			continue

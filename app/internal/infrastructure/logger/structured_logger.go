@@ -173,9 +173,7 @@ func InitLog(level string, path string) {
 
 	logFile := filepath.Join(path, "ws-int-httr_"+Hostname+".log")
 	lumberjackLogger := &lumberjack.Logger{
-		Filename: logFile,
-		// MaxSize:    100,
-		// MaxBackups: 7,
+		Filename:  logFile,
 		MaxAge:    1,
 		Compress:  true,
 		LocalTime: true,
