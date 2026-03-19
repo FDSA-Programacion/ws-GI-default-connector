@@ -1,4 +1,4 @@
-package httr_client
+package provider_client
 
 import (
 	"context"
@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"ws-int-httr/internal/domain/log_domain"
-	"ws-int-httr/internal/infrastructure/mapping/hoteltrader"
+	"ws-int-httr/internal/infrastructure/mapping/provider"
 	"ws-int-httr/internal/infrastructure/serializer"
 	"ws-int-httr/internal/infrastructure/session"
 
@@ -29,18 +29,18 @@ func (f roundTripFunc) RoundTrip(r *http.Request) (*http.Response, error) {
 	return f(r)
 }
 
-func (f fakeProviderConfig) ProviderName() string                         { return "httr" }
-func (f fakeProviderConfig) ProviderCode() string                         { return "HTTR" }
-func (f fakeProviderConfig) ProviderSearchURL() string                    { return f.searchURL }
-func (f fakeProviderConfig) ProviderQuoteURL() string                     { return f.quoteURL }
-func (f fakeProviderConfig) ProviderBookURL() string                      { return f.bookURL }
-func (f fakeProviderConfig) ProviderCancelURL() string                    { return f.cancelURL }
-func (f fakeProviderConfig) ProviderAuthToken() string                    { return "" }
-func (f fakeProviderConfig) ProviderTimeoutMs() int                       { return 1000 }
-func (f fakeProviderConfig) ProviderIdList() []int                        { return nil }
-func (f fakeProviderConfig) ProviderMaxRoomsPerOccupancy() int            { return 0 }
-func (f fakeProviderConfig) DefaultEmail() string                         { return "" }
-func (f fakeProviderConfig) DefaultPhone() string                         { return "" }
+func (f fakeProviderConfig) ProviderName() string              { return "provider" }
+func (f fakeProviderConfig) ProviderCode() string              { return "PROVIDERCODE" }
+func (f fakeProviderConfig) ProviderSearchURL() string         { return f.searchURL }
+func (f fakeProviderConfig) ProviderQuoteURL() string          { return f.quoteURL }
+func (f fakeProviderConfig) ProviderBookURL() string           { return f.bookURL }
+func (f fakeProviderConfig) ProviderCancelURL() string         { return f.cancelURL }
+func (f fakeProviderConfig) ProviderAuthToken() string         { return "" }
+func (f fakeProviderConfig) ProviderTimeoutMs() int            { return 1000 }
+func (f fakeProviderConfig) ProviderIdList() []int             { return nil }
+func (f fakeProviderConfig) ProviderMaxRoomsPerOccupancy() int { return 0 }
+func (f fakeProviderConfig) DefaultEmail() string              { return "" }
+func (f fakeProviderConfig) DefaultPhone() string              { return "" }
 func (f fakeProviderConfig) ProviderAuthForChannel(channelCode string) string {
 	return f.authByCh[strings.TrimSpace(strings.ToUpper(channelCode))]
 }
@@ -59,17 +59,17 @@ func TestSetExternalRequestResponseInLog_UpdatesEndpointLog(t *testing.T) {
 	availLog := &log_domain.AvailLog{}
 	session.FromContext().Set("availLog", availLog)
 
-	// Sin debug: no debe guardar ninguno en avail
-	setExternalRequestResponseInLog("avail", `{"a":1}`, `{"ok":true}`)
+	// Sin debug: no debe guardar rqProvider en avail
+	setExternalRequestResponseInLog("avail", `<rq>a</rq>`, `<ok>true</ok>`)
 
 	require.Equal(t, "", availLog.RqProvider)
-	require.Equal(t, `{"ok":true}`, availLog.RsProvider)
+	require.Equal(t, `<ok>true</ok>`, availLog.RsProvider)
 
-	// Con debug: solo rqProvider, rsProvider nunca
+	// Con debug: debe guardar el request XML y mantener el response XML
 	session.FromContext().Set("debug", "g2018i")
-	setExternalRequestResponseInLog("avail", `{"a":2}`, `{"ok":false}`)
-	require.Equal(t, `{"a":2}`, availLog.RqProvider)
-	require.Equal(t, `{"ok":false}`, availLog.RsProvider)
+	setExternalRequestResponseInLog("avail", `<rq>b</rq>`, `<ok>false</ok>`)
+	require.Equal(t, `<rq>b</rq>`, availLog.RqProvider)
+	require.Equal(t, `<ok>false</ok>`, availLog.RsProvider)
 }
 
 func TestHttrClient_getProviderURL_SelectsEndpointAndFallback(t *testing.T) {
@@ -81,7 +81,7 @@ func TestHttrClient_getProviderURL_SelectsEndpointAndFallback(t *testing.T) {
 		bookURL:   "https://x/book",
 		cancelURL: "https://x/cancel",
 	}
-	c := &HttrClientImpl{config: cfg}
+	c := &ProviderClientImpl{config: cfg}
 
 	require.Equal(t, cfg.searchURL, c.getProviderURL("avail"))
 	require.Equal(t, cfg.quoteURL, c.getProviderURL("prebook"))
@@ -90,7 +90,7 @@ func TestHttrClient_getProviderURL_SelectsEndpointAndFallback(t *testing.T) {
 	require.Equal(t, cfg.searchURL, c.getProviderURL("unknown"))
 }
 
-func TestExecuteProviderCall_Success_DecodesJSONAndSetsAuthHeader(t *testing.T) {
+func TestExecuteProviderCall_Success_DecodesXMLAndSetsAuthHeader(t *testing.T) {
 	session.Clear()
 	t.Cleanup(session.Clear)
 	session.New(context.Background())
@@ -106,7 +106,7 @@ func TestExecuteProviderCall_Success_DecodesJSONAndSetsAuthHeader(t *testing.T) 
 		cancelURL: "http://provider.test/cancel",
 		authByCh:  map[string]string{"OPENB2B": "abc123"},
 	}
-	client := &HttrClientImpl{
+	client := &ProviderClientImpl{
 		httpClient: &http.Client{Transport: roundTripFunc(func(r *http.Request) (*http.Response, error) {
 			gotAuth = r.Header.Get("Authorization")
 			gotContentType = r.Header.Get("Content-Type")
@@ -114,27 +114,26 @@ func TestExecuteProviderCall_Success_DecodesJSONAndSetsAuthHeader(t *testing.T) 
 			gotBody = string(body)
 			return &http.Response{
 				StatusCode: http.StatusOK,
-				Header:     http.Header{"Content-Type": []string{"application/json"}},
-				Body:       io.NopCloser(strings.NewReader(`{"data":{"getPropertiesByIds":{"properties":[]}}}`)),
+				Header:     http.Header{"Content-Type": []string{"application/xml"}},
+				Body:       io.NopCloser(strings.NewReader(`<ProviderAvailResponse></ProviderAvailResponse>`)),
 			}, nil
 		})},
 		serializer: serializer.NewGoSerializer(),
 		config:     cfg,
 	}
 
-	var resp hoteltrader.ProviderAvailRS
-	err := client.executeProviderCall("prebook", []byte(`{"query":"x"}`), &resp, "openb2b")
+	var resp provider.ProviderAvailResponse
+	err := client.executeProviderCall("prebook", []byte(`<ProviderPrebookRequest></ProviderPrebookRequest>`), &resp, "openb2b")
 	require.NoError(t, err)
 	require.Equal(t, "Basic abc123", gotAuth)
-	require.Equal(t, "application/json", gotContentType)
-	require.JSONEq(t, `{"query":"x"}`, gotBody)
-	require.NotNil(t, resp.Data.GetPropertiesByIds.Properties)
-	require.Equal(t, `{"query":"x"}`, preBookLog.RqProvider)
-	require.Contains(t, preBookLog.RsProvider, `"data"`)
+	require.Equal(t, "application/xml", gotContentType)
+	require.Equal(t, `<ProviderPrebookRequest></ProviderPrebookRequest>`, gotBody)
+	require.Equal(t, `<ProviderPrebookRequest></ProviderPrebookRequest>`, preBookLog.RqProvider)
+	require.Contains(t, preBookLog.RsProvider, `<ProviderAvailResponse>`)
 }
 
 func TestExecuteProviderCall_ReturnsHTTPError(t *testing.T) {
-	client := &HttrClientImpl{
+	client := &ProviderClientImpl{
 		httpClient: &http.Client{Transport: roundTripFunc(func(r *http.Request) (*http.Response, error) {
 			return &http.Response{
 				StatusCode: http.StatusBadGateway,
@@ -150,21 +149,22 @@ func TestExecuteProviderCall_ReturnsHTTPError(t *testing.T) {
 		},
 	}
 
-	var resp hoteltrader.ProviderAvailRS
-	err := client.executeProviderCall("avail", []byte(`{}`), &resp, "")
+	var resp provider.ProviderAvailResponse
+	err := client.executeProviderCall("avail", []byte(`<ProviderAvailRequest></ProviderAvailRequest>`), &resp, "")
 	require.Error(t, err)
 	require.Contains(t, err.Error(), "estado HTTP 502")
 }
 
-func TestExecuteProviderCall_ReturnsGraphQLError(t *testing.T) {
-	client := &HttrClientImpl{
+func TestExecuteProviderCall_ReturnsXMLDeserializationError(t *testing.T) {
+	client := &ProviderClientImpl{
 		httpClient: &http.Client{Transport: roundTripFunc(func(r *http.Request) (*http.Response, error) {
 			return &http.Response{
 				StatusCode: http.StatusOK,
-				Header:     http.Header{"Content-Type": []string{"application/json"}},
-				Body:       io.NopCloser(strings.NewReader(`{"errors":[{"message":"boom"}],"data":{"getPropertiesByIds":{"properties":[]}}}`)),
+				Header:     http.Header{"Content-Type": []string{"application/xml"}},
+				Body:       io.NopCloser(strings.NewReader(`<ProviderAvailResponse>`)),
 			}, nil
 		})},
+		serializer: serializer.NewGoSerializer(),
 		config: fakeProviderConfig{
 			searchURL: "http://provider.test/search",
 			quoteURL:  "http://provider.test/quote",
@@ -173,11 +173,10 @@ func TestExecuteProviderCall_ReturnsGraphQLError(t *testing.T) {
 		},
 	}
 
-	var resp hoteltrader.ProviderAvailRS
-	err := client.executeProviderCall("avail", []byte(`{}`), &resp, "")
+	var resp provider.ProviderAvailResponse
+	err := client.executeProviderCall("avail", []byte(`<ProviderAvailRequest></ProviderAvailRequest>`), &resp, "")
 	require.Error(t, err)
-	require.Contains(t, err.Error(), "errores GraphQL")
-	require.Contains(t, err.Error(), "boom")
+	require.Contains(t, err.Error(), "error al deserializar XML")
 }
 
 func ioReadAll(r *http.Request) ([]byte, error) {

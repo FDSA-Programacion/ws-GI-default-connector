@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"ws-int-httr/internal/domain"
 	giresponsecommon "ws-int-httr/internal/domain/gi_response_common"
-	"ws-int-httr/internal/infrastructure/mapping/hoteltrader"
+	hoteltrader "ws-int-httr/internal/infrastructure/mapping/provider"
 
 	"github.com/gin-gonic/gin"
 )
