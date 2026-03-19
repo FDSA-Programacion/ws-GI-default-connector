@@ -42,7 +42,6 @@ func (s *Server) registerRoutes() {
 
 	// HealthChecks
 	wsGroup.GET("/health", healthCheckHandler)
-	// wsGroup.GET("/healthcheck", healthCheckHandler)
 
 	// Admin endpoints (con autenticación Basic Auth)
 	wsGroup.GET("/admin/cache/reload", handlers.ReloadCacheHandler)
