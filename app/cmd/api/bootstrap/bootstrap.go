@@ -9,10 +9,10 @@ import (
 	"ws-int-httr/internal/infrastructure/config"
 	httpserver "ws-int-httr/internal/infrastructure/http"
 	"ws-int-httr/internal/infrastructure/http/handlers"
-	"ws-int-httr/internal/infrastructure/httr_client"
 	"ws-int-httr/internal/infrastructure/logger"
 	"ws-int-httr/internal/infrastructure/persistence"
 	"ws-int-httr/internal/infrastructure/persistence/cache"
+	"ws-int-httr/internal/infrastructure/provider_client"
 	"ws-int-httr/internal/infrastructure/registry"
 	"ws-int-httr/internal/infrastructure/serializer"
 )
@@ -61,7 +61,7 @@ func Run() error {
 	serializerSer := serializer.NewGoSerializer()
 
 	// Initialize driven output adapters
-	otClient := httr_client.NewHttrClientImpl(cfg, serializerSer)
+	otClient := provider_client.NewProviderClientImpl(cfg, serializerSer)
 
 	// Initialize Application Logic (Service)
 	bookingService := application.NewBookingService(otClient)

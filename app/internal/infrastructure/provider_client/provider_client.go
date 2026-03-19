@@ -1,8 +1,7 @@
-package httr_client
+package provider_client
 
 import (
 	"bytes"
-	"encoding/json"
 	"fmt"
 	"io"
 	"net/http"
@@ -12,32 +11,32 @@ import (
 	"ws-int-httr/internal/domain/log_domain"
 	"ws-int-httr/internal/infrastructure"
 	"ws-int-httr/internal/infrastructure/config"
-	"ws-int-httr/internal/infrastructure/mapping/hoteltrader"
+	"ws-int-httr/internal/infrastructure/mapping/provider"
 
 	"ws-int-httr/internal/infrastructure/serializer"
 	"ws-int-httr/internal/infrastructure/session"
 )
 
-type HttrClientImpl struct {
+type ProviderClientImpl struct {
 	httpClient *http.Client
 	serializer serializer.Serializer
 	config     config.ProviderConfig
 }
 
-func NewHttrClientImpl(cfg config.ProviderConfig, ser serializer.Serializer) domain.BookingProvider {
+func NewProviderClientImpl(cfg config.ProviderConfig, ser serializer.Serializer) domain.BookingProvider {
 	client := &http.Client{Timeout: time.Duration(cfg.ProviderTimeoutMs()) * time.Millisecond}
 
-	return &HttrClientImpl{
+	return &ProviderClientImpl{
 		httpClient: client,
 		serializer: ser,
 		config:     cfg,
 	}
 }
 
-var _ domain.BookingProvider = (*HttrClientImpl)(nil)
+var _ domain.BookingProvider = (*ProviderClientImpl)(nil)
 
-// SendAvail gestiona el flujo de Disponibilidad (Avail) usando GraphQL.
-func (c *HttrClientImpl) SendAvail(req *domain.AvailRequest) (*domain.BaseJsonRS[*domain.AvailResponse], error) {
+// SendAvail gestiona el flujo de Disponibilidad (Avail) usando XML.
+func (c *ProviderClientImpl) SendAvail(req *domain.AvailRequest) (*domain.BaseJsonRS[*domain.AvailResponse], error) {
 	// Marcar que se va a enviar al proveedor
 	if sessionContext := session.FromContext(); sessionContext != nil {
 		if availLogVal, ok := sessionContext.Get("availLog"); ok {
@@ -47,11 +46,9 @@ func (c *HttrClientImpl) SendAvail(req *domain.AvailRequest) (*domain.BaseJsonRS
 		}
 	}
 
-	// Mapeo Canónico -> GraphQL Struct
-	graphqlReq := hoteltrader.GIAvailRequestToProvider(req, c.config)
-
-	// Serialización, Comunicación HTTP, y Deserialización
-	var graphqlResp hoteltrader.ProviderAvailRS
+	// Mapeo Canónico -> XML Struct
+	providerReq := provider.GIAvailRequestToProvider(req, c.config)
+	var providerResp provider.ProviderAvailResponse
 
 	// Extraer channel code para autenticación
 	channelCode := ""
@@ -59,22 +56,22 @@ func (c *HttrClientImpl) SendAvail(req *domain.AvailRequest) (*domain.BaseJsonRS
 		channelCode = req.InternalCondition.Channels.Channel[0].Code
 	}
 
-	// Serializar JSON antes de enviar para el log
-	jsonBytes, err := json.Marshal(graphqlReq)
+	// Serializar XML antes de enviar para el log
+	xmlBytes, err := c.serializer.ToXML(providerReq)
 	if err != nil {
-		return nil, fmt.Errorf("httr_client: error al serializar JSON para avail: %w", err)
+		return nil, fmt.Errorf("provider_client: error al serializar XML para avail: %w", err)
 	}
 
-	if err := c.executeProviderCall("avail", jsonBytes, &graphqlResp, channelCode); err != nil {
+	if err := c.executeProviderCall("avail", xmlBytes, &providerResp, channelCode); err != nil {
 		return nil, err
 	}
 
-	// Traducción GraphQL Struct -> Canónico (pasando el request original)
-	domainResp := hoteltrader.ProviderAvailResponseToGI(&graphqlResp, req)
-	return domainResp, nil
+	// Traducción XML Struct -> Canónico (pasando el request original)
+	domainResp := provider.ProviderAvailResponseToGI(&providerResp, req)
+	return &domainResp, nil
 }
 
-func (c *HttrClientImpl) SendPreBook(req *domain.PreBookRequest) (*domain.BaseJsonRS[*domain.PreBookResponse], error) {
+func (c *ProviderClientImpl) SendPreBook(req *domain.PreBookRequest) (*domain.BaseJsonRS[*domain.PreBookResponse], error) {
 	// Marcar que se va a enviar al proveedor
 	if sessionContext := session.FromContext(); sessionContext != nil {
 		if preBookLogVal, ok := sessionContext.Get("preBookLog"); ok {
@@ -84,9 +81,9 @@ func (c *HttrClientImpl) SendPreBook(req *domain.PreBookRequest) (*domain.BaseJs
 		}
 	}
 
-	// Mapeo Canónico -> GraphQL Struct
-	graphqlReq := hoteltrader.GIPrebookRequestToProvider(req, c.config)
-	var graphqlResp hoteltrader.ProviderPrebookRS
+	// Mapeo Canónico -> XML Struct
+	providerReq := provider.GIPrebookRequestToProvider(req, c.config)
+	var providerResp provider.ProviderPrebookResponse
 
 	// Extraer channel code para autenticación
 	channelCode := ""
@@ -94,22 +91,22 @@ func (c *HttrClientImpl) SendPreBook(req *domain.PreBookRequest) (*domain.BaseJs
 		channelCode = req.InternalCondition.Channels.Channel[0].Code
 	}
 
-	// Serializar JSON antes de enviar para el log
-	jsonBytes, err := json.Marshal(graphqlReq)
+	// Serializar XML antes de enviar para el log
+	xmlBytes, err := c.serializer.ToXML(providerReq)
 	if err != nil {
-		return nil, fmt.Errorf("httr_client: error al serializar JSON para prebook: %w", err)
+		return nil, fmt.Errorf("provider_client: error al serializar XML para prebook: %w", err)
 	}
 
-	if err := c.executeProviderCall("prebook", jsonBytes, &graphqlResp, channelCode); err != nil {
+	if err := c.executeProviderCall("prebook", xmlBytes, &providerResp, channelCode); err != nil {
 		return nil, err
 	}
 
-	// Traducción GraphQL Struct -> Canónico (pasando el request original)
-	domainResp := hoteltrader.ProviderPrebookResponseToGI(&graphqlResp, req)
-	return domainResp, nil
+	// Traducción XML Struct -> Canónico (pasando el request original)
+	domainResp := provider.ProviderPrebookResponseToGI(&providerResp, req)
+	return &domainResp, nil
 }
 
-func (c *HttrClientImpl) SendBook(req *domain.BookRequest) (*domain.BaseJsonRS[*domain.BookResponse], error) {
+func (c *ProviderClientImpl) SendBook(req *domain.BookRequest) (*domain.BaseJsonRS[*domain.BookResponse], error) {
 	// Marcar que se va a enviar al proveedor
 	if sessionContext := session.FromContext(); sessionContext != nil {
 		if bookLogVal, ok := sessionContext.Get("bookLog"); ok {
@@ -119,9 +116,9 @@ func (c *HttrClientImpl) SendBook(req *domain.BookRequest) (*domain.BaseJsonRS[*
 		}
 	}
 
-	// Mapeo Canónico -> GraphQL Struct
-	graphqlReq := hoteltrader.GIBookRequestToProvider(req, c.config)
-	var graphqlResp hoteltrader.ProviderBookRS
+	// Mapeo Canónico -> XML Struct
+	providerReq := provider.GIBookRequestToProvider(req, c.config)
+	var providerResp provider.ProviderBookResponse
 
 	// Extraer channel code para autenticación
 	channelCode := ""
@@ -129,22 +126,22 @@ func (c *HttrClientImpl) SendBook(req *domain.BookRequest) (*domain.BaseJsonRS[*
 		channelCode = req.InternalCondition.Channels.Channel[0].Code
 	}
 
-	// Serializar JSON antes de enviar para el log
-	jsonBytes, err := json.Marshal(graphqlReq)
+	// Serializar XML antes de enviar para el log
+	xmlBytes, err := c.serializer.ToXML(providerReq)
 	if err != nil {
-		return nil, fmt.Errorf("httr_client: error al serializar JSON para book: %w", err)
+		return nil, fmt.Errorf("provider_client: error al serializar XML para book: %w", err)
 	}
 
-	if err := c.executeProviderCall("book", jsonBytes, &graphqlResp, channelCode); err != nil {
+	if err := c.executeProviderCall("book", xmlBytes, &providerResp, channelCode); err != nil {
 		return nil, err
 	}
 
-	// Traducción GraphQL Struct -> Canónico (pasando el request original)
-	domainResp := hoteltrader.ProviderBookResponseToGI(&graphqlResp, req)
-	return domainResp, nil
+	// Traducción XML Struct -> Canónico (pasando el request original)
+	domainResp := provider.ProviderBookResponseToGI(&providerResp, req)
+	return &domainResp, nil
 }
 
-func (c *HttrClientImpl) SendCancel(req *domain.CancelRequest) (*domain.BaseJsonRS[*domain.CancelResponse], error) {
+func (c *ProviderClientImpl) SendCancel(req *domain.CancelRequest) (*domain.BaseJsonRS[*domain.CancelResponse], error) {
 	// Marcar que se va a enviar al proveedor
 	if sessionContext := session.FromContext(); sessionContext != nil {
 		if cancelLogVal, ok := sessionContext.Get("cancelLog"); ok {
@@ -154,9 +151,9 @@ func (c *HttrClientImpl) SendCancel(req *domain.CancelRequest) (*domain.BaseJson
 		}
 	}
 
-	// Mapeo Canónico -> GraphQL Struct
-	graphqlReq := hoteltrader.GICancelRequestToProvider(req, c.config)
-	var graphqlResp hoteltrader.ProviderCancelRS
+	// Mapeo Canónico -> XML Struct
+	providerReq := provider.GICancelRequestToProvider(req, c.config)
+	var providerResp provider.ProviderCancelResponse
 
 	// Extraer channel code para autenticación
 	channelCode := ""
@@ -164,19 +161,19 @@ func (c *HttrClientImpl) SendCancel(req *domain.CancelRequest) (*domain.BaseJson
 		channelCode = req.InternalCondition.Channels.Channel[0].Code
 	}
 
-	// Serializar JSON antes de enviar para el log
-	jsonBytes, err := json.Marshal(graphqlReq)
+	// Serializar XML antes de enviar para el log
+	xmlBytes, err := c.serializer.ToXML(providerReq)
 	if err != nil {
-		return nil, fmt.Errorf("httr_client: error al serializar JSON para cancel: %w", err)
+		return nil, fmt.Errorf("provider_client: error al serializar XML para cancel: %w", err)
 	}
 
-	if err := c.executeProviderCall("cancel", jsonBytes, &graphqlResp, channelCode); err != nil {
+	if err := c.executeProviderCall("cancel", xmlBytes, &providerResp, channelCode); err != nil {
 		return nil, err
 	}
 
-	// Traducción GraphQL Struct -> Canónico (pasando el request original)
-	domainResp := hoteltrader.ProviderCancelResponseToGI(&graphqlResp, req)
-	return domainResp, nil
+	// Traducción XML Struct -> Canónico (pasando el request original)
+	domainResp := provider.ProviderCancelResponseToGI(&providerResp, req)
+	return &domainResp, nil
 }
 
 // getSessionKeyPrefix normaliza el nombre del endpoint para las claves de sesión
@@ -189,7 +186,7 @@ func getSessionKeyPrefix(endpoint string) string {
 }
 
 // setExternalRequestResponseInLog establece el request y response externos en el log desde la sesión
-// Para Hotel Trader, guarda JSON (GraphQL), no XML
+// Para el proveedor, guarda XML externo en los logs
 // Solo establece los campos que no están vacíos, preservando los valores existentes
 func setExternalRequestResponseInLog(endpoint string, rqExternal string, rsExternal string) {
 	sessionContext := session.FromContext()
@@ -253,7 +250,7 @@ func setExternalRequestResponseInLog(endpoint string, rqExternal string, rsExter
 }
 
 // getProviderURL obtiene la URL correcta según el endpoint
-func (c *HttrClientImpl) getProviderURL(endpoint string) string {
+func (c *ProviderClientImpl) getProviderURL(endpoint string) string {
 	switch endpoint {
 	case "avail":
 		return c.config.ProviderSearchURL()
@@ -285,27 +282,20 @@ func saveSessionMetrics(supplierRsTime int64, supplierRsHttpStatusCode int, supp
 	})
 }
 
-// GraphQLResponse es una interfaz para las respuestas GraphQL que tienen errores
-type GraphQLResponse interface {
-	GetErrors() []hoteltrader.GraphQLError
-}
-
-// executeProviderCall realiza una llamada GraphQL genérica al proveedor
-func (c *HttrClientImpl) executeProviderCall(endpoint string, jsonBytes []byte, respData interface{}, channelCode string) error {
+// executeProviderCall realiza una llamada XML genérica al proveedor
+func (c *ProviderClientImpl) executeProviderCall(endpoint string, xmlBytes []byte, respData interface{}, channelCode string) error {
 	url := c.getProviderURL(endpoint)
 
-	// Establecer JSON request en el log antes de hacer la petición
-	setExternalRequestResponseInLog(endpoint, string(jsonBytes), "")
+	// Establecer XML request en el log antes de hacer la petición
+	setExternalRequestResponseInLog(endpoint, string(xmlBytes), "")
 
-	// Crear la petición HTTP con headers para GraphQL
-	req, err := http.NewRequest("POST", url, bytes.NewReader(jsonBytes))
+	req, err := http.NewRequest("POST", url, bytes.NewReader(xmlBytes))
 	if err != nil {
-		return fmt.Errorf("httr_client: error al crear petición HTTP para %s: %w", endpoint, err)
+		return fmt.Errorf("provider_client: error al crear petición HTTP para %s: %w", endpoint, err)
 	}
 
-	// Configurar headers GraphQL
-	req.Header.Set("Content-Type", "application/json")
-	req.Header.Set("Accept", "application/json")
+	req.Header.Set("Content-Type", "application/xml")
+	req.Header.Set("Accept", "application/xml")
 
 	// Autenticación con token para PreBook, Book, Cancel (Avail no lo necesita)
 	authToken := c.config.ProviderAuthForChannel(channelCode)
@@ -319,7 +309,7 @@ func (c *HttrClientImpl) executeProviderCall(endpoint string, jsonBytes []byte, 
 	supplierRsTime := time.Since(startTime).Milliseconds()
 
 	if err != nil {
-		return fmt.Errorf("httr_client: error de red al llamar a %s en %s: %w", endpoint, url, err)
+		return fmt.Errorf("provider_client: error de red al llamar a %s en %s: %w", endpoint, url, err)
 	}
 
 	defer resp.Body.Close()
@@ -327,10 +317,10 @@ func (c *HttrClientImpl) executeProviderCall(endpoint string, jsonBytes []byte, 
 	// Leer el cuerpo de la respuesta como []byte
 	bodyBytes, err := io.ReadAll(resp.Body)
 	if err != nil {
-		return fmt.Errorf("httr_client: error al leer respuesta de %s: %w", endpoint, err)
+		return fmt.Errorf("provider_client: error al leer respuesta de %s: %w", endpoint, err)
 	}
 
-	// Establecer JSON response en el log
+	// Establecer XML response en el log
 	setExternalRequestResponseInLog(endpoint, "", string(bodyBytes))
 
 	supplierRsHttpStatusCode := resp.StatusCode
@@ -343,29 +333,17 @@ func (c *HttrClientImpl) executeProviderCall(endpoint string, jsonBytes []byte, 
 		// Guardar error en sesión antes de retornar
 		saveSessionMetrics(supplierRsTime, supplierRsHttpStatusCode, supplierRsLength, supplierErrorMessage)
 
-		return fmt.Errorf("httr_client: proveedor %s devolvió estado HTTP %d. Body: %s", endpoint, resp.StatusCode, string(bodyBytes))
+		return fmt.Errorf("provider_client: proveedor %s devolvió estado HTTP %d. Body: %s", endpoint, resp.StatusCode, string(bodyBytes))
 	}
 
 	// Guardar datos del HTTP response en sesión para logging
 	saveSessionMetrics(supplierRsTime, supplierRsHttpStatusCode, supplierRsLength, supplierErrorMessage)
 
-	// Deserializar JSON a la estructura de respuesta GraphQL
-	if err := json.Unmarshal(bodyBytes, respData); err != nil {
-		return fmt.Errorf("httr_client: error al deserializar JSON de %s: %w", endpoint, err)
-	}
-
-	// Verificar si hay errores en la respuesta GraphQL usando type assertion
-	if graphqlResp, ok := respData.(GraphQLResponse); ok {
-		if errors := graphqlResp.GetErrors(); len(errors) > 0 {
-			errorMessages := ""
-			for _, gqlErr := range errors {
-				errorMessages += gqlErr.Message + "; "
-			}
-			return fmt.Errorf("httr_client: errores GraphQL en %s: %s", endpoint, errorMessages)
+	if respData != nil {
+		if err := c.serializer.FromXML(bodyBytes, respData); err != nil {
+			return fmt.Errorf("provider_client: error al deserializar XML de %s: %w", endpoint, err)
 		}
 	}
-
-	// log.Printf("respData: %+v", respData)
 
 	return nil
 }

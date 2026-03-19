@@ -1,4 +1,4 @@
-package hoteltrader
+package provider
 
 import (
 	"math"
