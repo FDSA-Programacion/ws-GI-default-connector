@@ -63,7 +63,7 @@ func getProviderInfo() (providerID string, providerCode string, integration stri
 		providerID = strconv.Itoa(cfg.ProviderIdList()[0])
 	}
 
-	providerCode = "HTTR"
+	providerCode = "PROVIDERCODE"
 	integration = "ws-int-httr"
 
 	return providerID, providerCode, integration

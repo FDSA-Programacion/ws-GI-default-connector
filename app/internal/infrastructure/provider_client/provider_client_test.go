@@ -30,7 +30,7 @@ func (f roundTripFunc) RoundTrip(r *http.Request) (*http.Response, error) {
 }
 
 func (f fakeProviderConfig) ProviderName() string              { return "provider" }
-func (f fakeProviderConfig) ProviderCode() string              { return "HTTR" }
+func (f fakeProviderConfig) ProviderCode() string              { return "PROVIDERCODE" }
 func (f fakeProviderConfig) ProviderSearchURL() string         { return f.searchURL }
 func (f fakeProviderConfig) ProviderQuoteURL() string          { return f.quoteURL }
 func (f fakeProviderConfig) ProviderBookURL() string           { return f.bookURL }
