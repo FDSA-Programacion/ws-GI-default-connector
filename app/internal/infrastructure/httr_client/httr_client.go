@@ -365,7 +365,5 @@ func (c *HttrClientImpl) executeProviderCall(endpoint string, jsonBytes []byte, 
 		}
 	}
 
-	// log.Printf("respData: %+v", respData)
-
 	return nil
 }

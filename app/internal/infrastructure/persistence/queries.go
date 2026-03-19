@@ -5,13 +5,6 @@ import (
 	"strings"
 )
 
-// GetRegimenDicQuery,
-// GetRegimenTxQuery,
-// GetTipoHabitacionDicPrvQuery,
-// GetTipoHabitacionTxQuery,
-// GetAlojamientoQuery,
-// GetIntegracionDicQuery,
-
 func trasnformIntArrToStringArr(providerIds ...int) []string {
 	idStrings := make([]string, len(providerIds))
 	for i, id := range providerIds {

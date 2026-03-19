@@ -35,13 +35,6 @@ type DBRoomDescription struct {
 	Descripcion   string `mapstructure:"DESCRIPCION"`
 }
 
-// type TipoHabitacionTXORM struct {
-// 	Identifier    string `json:"identifier"`
-// 	CodHabitacion string `json:"codHabitacion"`
-// 	Descripcion   string `json:"descripcion"`
-// 	CodIdioma     string `json:"codIdioma"`
-// }
-
 type DBAlojamiento struct {
 	AreaCode          string `mapstructure:"AREACODE"`
 	AreaName          string `mapstructure:"AREANAME"`
